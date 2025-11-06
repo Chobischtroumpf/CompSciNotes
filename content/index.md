@@ -1,5 +1,5 @@
 ---
-title: index
+title: Welcome to ULB.Notes
 authors: Mihai Bors, Alessandro Dorigo
 tags:
   - ULB
