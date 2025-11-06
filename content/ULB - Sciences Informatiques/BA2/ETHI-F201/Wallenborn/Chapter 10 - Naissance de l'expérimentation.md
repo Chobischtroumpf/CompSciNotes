@@ -1,0 +1,29 @@
+---
+title: Chapter 10 - Naissance de l'expérimentation
+authors: Alessandro Dorigo
+tags: []
+---
+
+**Instauration des dispositifs expérimentaux :** La "naissance de l'expérimentation" se caractérise par un intérêt pour les phénomènes singuliers (magnétisme, électricité, vide) et l'utilisation de nouveaux instruments et machines pour "contraindre la nature à révéler des propriétés non observables directement". Alors que Gilbert étudie le magnétisme par l'observation, Boyle transforme la pompe à air en instrument de recherche. Ces dispositifs créent des situations artificielles et des phénomènes entièrement nouveaux.
+
+**Nouvelles pratiques et instruments :** Le parc instrumental s'accroît (télescope, microscope, thermomètre, etc.). Les "sciences baconiennes" sont principalement pratiquées par des amateurs passionnés et fabricants d'instruments. Un nouveau rapport expérimental, précis et circonstancié, est introduit, bien que de nombreuses expériences n'aient pas de conséquence déterminante sur la théorie avant le XIXe siècle. La réalisation d'instruments scientifiques marque le début de la technologie, une compréhension scientifique des techniques.
+
+**Distinction des sciences :** Tandis que les sciences classiques sont regroupées avec les mathématiques, les sciences baconiennes correspondent à l'"experimental philosophy" en Angleterre et à la "physique expérimentale" en France. Elles sont peu institutionnalisées, à part la Royal Society, et n'entreront pas à l'université avant le milieu du XIXe siècle.
+
+**L'étude du vide :** De la spéculation (Aristote, scolastiques et leur "horreur du vide") à l'expérimentation. Galilée se réfère à l'"horreur du vide", mais c'est Torricelli (élève de Galilée) qui, en 1643, étudie le phénomène avec du mercure, suggérant que l'"horreur du vide" est due à la pression atmosphérique. Pascal et son beau-frère Pécier multiplient les expériences (Puy de Dôme, "vide dans le vide") pour démontrer l'effet de la pression atmosphérique.
+
+**La pompe à air :** Otto von Guericke (1602-1686) prolonge l'étude du vide avec sa pompe à air, démontrant l'élasticité de l'air et le rôle de la pression atmosphérique (expérience des hémisphères de Magdebourg, 1657). Il met également la pression atmosphérique "au travail" en 1664, démontrant une nouvelle source de puissance motrice. Robert Boyle (1627-1691) perfectionne la pompe à air de Guericke dès 1659 et en fait l'équipement central de son programme scientifique à la Royal Society, produisant des phénomènes nouveaux (suffocation des animaux, extinction des flammes, passage de la lumière mais pas du son dans le vide) et établissant une loi quantitative entre pression et volume.
+
+**L'approche "baconienne" de Boyle :** Elle se caractérise par le soin minutieux des conditions expérimentales, la description détaillée des protocoles, l'observation par des témoins fiables, et l'absence de spéculations métaphysiques sur le vide. Boyle ne se prononce pas sur la nature métaphysique du vide, considérant que la pompe à air ne peut trancher cette question, ce qui est une force de son approche.
+
+**Controverse Hobbes et Boyle :** Ils représentent deux visions de la connaissance. Hobbes (philosophe du Léviathan) cherche à organiser le monde déductivement à partir de principes sûrs, comme la géométrie. Boyle, au contraire, pense que les "lois de la nature" sont créées par Dieu et ne peuvent être découvertes que par l'expérimentation, nécessitant des "témoins fiables" autour de ses dispositifs. Cette divergence sur les fondements de la preuve est un enjeu social et politique pour Hobbes. Boyle invente le "témoignage virtuel" par des descriptions détaillées des expériences.
+
+**De la curiosité à la précision :** Les instruments inventés au XVIIe siècle passent progressivement du statut de curiosités à celui d'instruments de recherche, améliorant leur précision. Ils deviennent nécessaires pour suppléer les sens déficients et procurer des résultats fiables. La précision des instruments mathématiques et astronomiques est améliorée par des moyens mécaniques.
+
+**Institutions et régimes de preuve :** Les historiens des sciences accordent de plus en plus d'importance aux institutions. La Royal Society (initiative des savants anglais) et l'Académie Royale des Sciences (volonté de Colbert de mettre les savoirs au service de l'État) ont des structures et des manières de classer les sciences différentes, influençant les régimes de preuve.
+
+**Expérience et expérimentation :** Le terme "experimenta" apparaît vers 1630-1660. "Expérience" (experientia) est la connaissance acquise par la pratique, tandis qu'"expérimentation" (experimentum) est une épreuve, un essai. Pour Aristote, l'expérience est une accumulation de mémoire. Galilée et Pascal, influencés par la démonstration géométrique, évoluent vers des expériences plus précises (experimenta), les plaçant sur le même plan que le raisonnement.
+
+**Style français et style anglais :** La perspective française (catholique) est sceptique face aux "matters of fact" singuliers de la Royal Society, y voyant un mélange de nature et de buts humains, et préfère la démonstration géométrique. Les Anglais protestants peuvent accorder leur crédit scientifique à des événements singuliers s'ils sont certifiés par des témoins fiables. La philosophie expérimentale est d'emblée collective et ses expériences doivent être répétables, soit directement, soit par des récits qui placent le lecteur dans le rôle de "témoin virtuel".
+
+**Conclusion sur l'expérimentation :** L'invention de l'expérimentation exige un milieu purifié et contrôlé pour faire varier des paramètres et observer leurs effets. Son objectif est de produire de la nouveauté et de nouvelles connaissances, en étant un processus d'apprentissage pratique. La question de la réalité de ces phénomènes artificiels et de la continuité entre laboratoire et monde reste posée.

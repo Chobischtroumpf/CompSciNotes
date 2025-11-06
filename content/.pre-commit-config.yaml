@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: mixed-line-ending
+        args: ['--fix=lf']
+  - repo: local
+    hooks:
+      - id: header-includer
+        name: Add headers to markdown files
+        entry: ./.scripts/run_header_includer.sh
+        language: system
+        files: \.md$
+        pass_filenames: true
