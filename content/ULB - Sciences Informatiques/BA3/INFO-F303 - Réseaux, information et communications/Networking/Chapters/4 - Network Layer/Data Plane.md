@@ -1,16 +1,11 @@
 ---
 title: Data Plane
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-> [!info]+ Définition **Data plane:**
->
-> - _local_, per-router function
-> - determines how packet arriving on router input port is forwarded to router output port
->
-
+> [!info]+ Definition
+> The data plane is a *local*, per-router function which determines how packets arriving at a router's input port are forwarded to the router's output port.
 
 > [!info]+ [[Forwarding table]]
 > Routers maintain a forwarding table, that is used to determine which output port to use, depending on the header values of received packets

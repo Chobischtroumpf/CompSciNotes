@@ -1,35 +1,30 @@
 ---
 title: Router Architecture
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
+> [!info]+ Definition
+> The [[Switch#^97dbe2|router]] architecture consists of two main planes: the control plane and the data plane.
 
-> [!info]+ What's a Router
->
-> A router is a network device that forwards data packets between computer networks. The router architecture consists of two main planes: the control plane and the data plane.
-
-> [!abstract]+ High-Level View of Generic Router Architecture
+> [!abstract]+ High-Level View
+> ![[Pasted image 20251106141435.png]]
 >
 > **Routing processor (control plane):**
->
 > - Software-based component
 > - Handles routing, management
 > - Operates in millisecond time frame
 >
 > **[[Switching Fabric|High-speed switching fabric]] (data plane):**
->
 > - Hardware-based component
 > - Handles forwarding
 > - Operates in nanosecond time frame
 >
-> **[[Router input ports]]:**
->
+> **[[Router Input Ports]]:**
 > - Receive incoming packets
 > - Connected to switching fabric
 >
 > **[[Router output ports]]:**
->
 > - Send outgoing packets
 > - Connected to switching fabric
 

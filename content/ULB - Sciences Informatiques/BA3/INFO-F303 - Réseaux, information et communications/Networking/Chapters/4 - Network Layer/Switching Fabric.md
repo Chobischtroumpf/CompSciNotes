@@ -1,18 +1,14 @@
 ---
 title: Switching Fabric
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
 > [!info]+ Definition
->
-> A switching fabric is the component of a router that transfers packets from input links to appropriate output links.
+> A **switching fabric** is the component of a [[Switch#^97dbe2|router]] that transfers [[Packet#^150f99|packets]] from input links to appropriate output links.
 
 > [!abstract]+ Switching Rate
->
 > **Switching rate:** Rate at which packets can be transferred from inputs to outputs
->
 > - Often measured as multiple of input/output line rate
 > - $N$ inputs: switching rate $N$ times line rate desirable
 >
@@ -22,22 +18,20 @@ tags:
 >
 > The high-speed switching fabric connects $N$ input ports (labeled R) to $N$ output ports (labeled R).
 
-> [!info]+ Major Types of Switching Fabrics
->
+> [!info]+ Types of Switching Fabrics
 > There are three main architectures for implementing switching fabrics:
-> ![[Pasted image 20251102152236.png]]
-> **1. [[Memory-based switching]]:**
 >
+> ![[Pasted image 20251102152236.png]]
+>
+> **1. [[Memory-based Switching]]:**
 > - Uses shared memory for packet switching
 > - Packets are written to and read from memory
 >
-> **2. [[Bus-based switching]]:**
->
+> **2. [[Bus-based Switching]]:**
 > - Uses a shared bus for packet transfer
 > - All ports share the same communication bus
 >
-> **3. [[Interconnection network]] (crossbar):**
->
+> **3. [[Interconnection Network]] (crossbar):**
 > - Uses a crossbar switch or interconnection network
 > - Provides direct paths between input and output ports
 > - Most scalable architecture

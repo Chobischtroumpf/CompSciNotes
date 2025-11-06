@@ -122,11 +122,11 @@ tags:
 	- [[Hierarchical IPv6 Addressing]]
 	- [[Transition from IPv4 to IPv6]]
 - [[Router Architecture]]
-	- [[Router input ports]]
+	- [[Router Input Ports]]
 	- [[Switching Fabric]]
-		- [[Memory-based switching]]
-		- [[Bus-based switching]]
-		- [[Interconnection network]]
+		- [[Memory-based Switching]]
+		- [[Bus-based Switching]]
+		- [[Interconnection Network]]
 	- [[Port Queuing]]
 
-## Chapter 5
+## Chapter 5: Network Layer Control Plane

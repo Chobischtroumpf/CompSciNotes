@@ -1,13 +1,11 @@
 ---
-title: Memory-based switching
-authors: Alessandro Dorigo
+title: Memory-based Switching
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-> [!info]+
->
-> Switching via memory is a technique used in first generation routers where packets are switched through the router's main memory under CPU control.
+> [!info]+ Definition
+> Switching via memory is a technique used in first generation [[Switch#^97dbe2|routers]] where [[Packet#^150f99|packets]] are switched through the router's main memory under CPU control.
 
 > [!abstract]+ First Generation Routers
 > ![[Pasted image 20251102152414.png]]
