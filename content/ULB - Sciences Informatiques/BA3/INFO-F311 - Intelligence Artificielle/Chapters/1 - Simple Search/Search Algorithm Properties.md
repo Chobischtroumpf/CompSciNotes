@@ -1,11 +1,9 @@
 ---
 title: Search Algorithm Properties
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!question]+ Key Questions
 > - Is it complete (guaranteed to find a solution if one exists)?
 > - Is it optimal (guaranteed to find the least cost path)?

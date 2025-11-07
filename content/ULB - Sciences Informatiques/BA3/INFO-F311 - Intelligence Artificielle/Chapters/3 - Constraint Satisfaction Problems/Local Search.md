@@ -4,33 +4,61 @@ authors: Mihai Bors
 tags:
   - AI
 ---
+> [!info]+ Definition
+> **Local Search** is a search strategy that improves a single solution by making local changes, contrary to tree search which keeps unexplored alternatives on the fringe.
 
+## Core Concept
 
-Idea is to improve a single option until we can't make it better contrary to tree search where we keep unexplored alternatives on the fringe
+> [!abstract]+ Key Idea
+> Improve a single option until we can't make it better, rather than maintaining multiple alternatives.
+>
+> **New successor function:** Local changes only
+>
+> ![[Pasted image 20251106133000.png]]
 
-New successor function: local changes
+## Properties
 
-![[Pasted image 20251106133000.png]]
+> [!success]+ Advantages
+> - Much faster than tree search
+> - More memory efficient (only stores current state)
+>
+> ![[Pasted image 20251106133000.png]]
 
-- Much faster and more memory efficient (but incomplete and suboptimal)
+> [!fail]+ Disadvantages
+> - Incomplete (may not find solution if one exists)
+> - Suboptimal (may find poor quality solutions)
 
 ## Hill Climbing
 
-1. Start wherever
-2. Move to the best neighboring state
-3. If no neighbors better, quit
+> [!abstract]+ Basic Hill Climbing Algorithm
+> **Strategy:**
+> 1. Start wherever
+> 2. Move to the best neighboring state
+> 3. If no neighbors better, quit
+>
+> ```
+> function Hill-Climbing(problem) returns a state
+>     current <- make-node(problem.initial-state)
+>     loop do
+>         neighbor <- a highest-valued successor of current
+>         if neighbor.value <= current.value then
+>             return current.state
+>         current <- neighbor
+> ```
+>
+> **Analogy:** "Like climbing Everest in thick fog with amnesia"
 
-```
-function Hill-Climbing(problem) returns a state
-	current <- make-node(problem.initial-state)
-	loop do
-		neighbor <- a highest-valued successor of current
-		if neighbor.value <= current.value then
-			return current.state
-		current <- neighbor
-```
+## Visualization
 
-"Like climbing Everest in thick fog with amnesia"
+> [!example]+ Hill Climbing Behavior
+> ![[Pasted image 20251106133306.png]]
+>
+> **Challenges:**
+> - **Local maxima:** Peak that isn't the highest but has no better neighbors
+> - **Plateaus:** Flat regions where all neighbors have the same value
+> - **Ridges:** Sequences of local maxima that are difficult to navigate
 
-![[Pasted image 20251106133306.png]]
-Hill Climbing Diagram
+> [!note]+ Related Concepts
+> - **[[Simulated Annealing]]**: Escape local optima with random moves
+> - **[[Local Beam Search]]**: Parallel version of local search
+> - **[[Iterative Improvement]]**: Local search for CSPs

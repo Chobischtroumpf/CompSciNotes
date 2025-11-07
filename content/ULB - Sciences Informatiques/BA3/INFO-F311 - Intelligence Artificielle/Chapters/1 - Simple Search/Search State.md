@@ -1,11 +1,9 @@
 ---
 title: Search State
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **search state** is an abstracted representation keeping only the details relevant for planning.
 

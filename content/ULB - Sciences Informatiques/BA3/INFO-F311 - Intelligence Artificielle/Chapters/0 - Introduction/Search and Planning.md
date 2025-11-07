@@ -1,11 +1,9 @@
 ---
 title: Search and Planning
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Search and planning** involves finding sequences of actions that lead from a current state to a desired goal state, often by exploring possible future scenarios.
 

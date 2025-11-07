@@ -1,11 +1,9 @@
 ---
 title: Search Tree
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **search tree** is a [[Arbre (théorie des graphes)#^dcd789|tree]] structure that represents the exploration of possible action sequences from an initial state to find a goal.
 >

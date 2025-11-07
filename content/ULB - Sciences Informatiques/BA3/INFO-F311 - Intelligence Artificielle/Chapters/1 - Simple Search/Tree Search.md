@@ -1,11 +1,9 @@
 ---
 title: Tree Search
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Tree search** is a fundamental algorithm for exploring a search space by systematically expanding nodes in a tree structure to find a solution.
 

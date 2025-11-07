@@ -1,11 +1,9 @@
 ---
 title: Constraint Graph
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **constraint graph** is a visual representation of a [[CSP]] where nodes are variables and arcs show [[ULB - Sciences Informatiques/BA3/INFO-F311 - Intelligence Artificielle/Chapters/3 - Constraint Satisfaction Problems/Constraint|constraints]] between them.
 

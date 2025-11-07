@@ -1,11 +1,9 @@
 ---
 title: Probability & Inference
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **[[Probabilités|Probability]] & inference** involves using [[Probabilités|probabilistic]] reasoning to handle uncertainty and make decisions when information is incomplete or noisy.
 

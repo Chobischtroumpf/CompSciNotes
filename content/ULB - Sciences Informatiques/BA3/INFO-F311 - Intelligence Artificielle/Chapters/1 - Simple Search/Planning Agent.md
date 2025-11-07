@@ -1,11 +1,9 @@
 ---
 title: Planning Agent
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **planning agent** is an [[agent]] that makes decisions based on (hypothesized) consequences of actions, using a model of how the world responds to actions.
 

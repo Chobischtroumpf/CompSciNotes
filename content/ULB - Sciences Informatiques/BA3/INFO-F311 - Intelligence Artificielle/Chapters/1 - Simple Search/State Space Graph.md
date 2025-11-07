@@ -1,13 +1,11 @@
 ---
 title: State Space Graph
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
-> A **state space [[Graphe simple|graph]]** is a mathematical representation of a [[search problem]] where nodes are [[Search State|search states]] and arcs are action transitions between states.
+> A **state space [[Graphe simple|graph]]** is a mathematical representation of a [[Search Problem]] where nodes are [[Search State|search states]] and arcs are action transitions between states.
 
 ^e3fa58
 

@@ -1,11 +1,9 @@
 ---
 title: Supervised Learning
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Supervised learning** is learning to predict outputs from inputs by training on labeled examples that show correct input-output pairs.
 

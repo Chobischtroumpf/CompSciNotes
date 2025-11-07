@@ -1,11 +1,9 @@
 ---
 title: Agent
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > An **agent** is an entity that perceives its environment through sensors and acts upon that environment through actuators to achieve its goals.
 

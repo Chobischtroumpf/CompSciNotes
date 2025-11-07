@@ -1,11 +1,9 @@
 ---
 title: Sensor
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **sensor** is a component that allows an agent to perceive and gather information from its environment.
 

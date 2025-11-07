@@ -1,11 +1,9 @@
 ---
 title: Ordering
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Ordering** refers to heuristics for choosing which variable to assign next and which value to try first in backtracking search.
 

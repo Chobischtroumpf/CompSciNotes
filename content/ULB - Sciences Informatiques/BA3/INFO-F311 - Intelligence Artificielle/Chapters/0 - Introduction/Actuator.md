@@ -1,11 +1,9 @@
 ---
 title: Actuator
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > An **actuator** is a component that allows an agent to act and make changes in its environment.
 

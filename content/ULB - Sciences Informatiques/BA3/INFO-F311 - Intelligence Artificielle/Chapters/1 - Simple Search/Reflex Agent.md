@@ -1,11 +1,9 @@
 ---
 title: Reflex Agent
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **reflex agent** is an [[agent]] that chooses actions based on its perception and memory (potentially containing a model of the world's current [[World State|state]]) without considering the future consequences of its actions.
 

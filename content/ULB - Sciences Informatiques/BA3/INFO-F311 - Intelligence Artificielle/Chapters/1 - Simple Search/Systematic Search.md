@@ -1,11 +1,9 @@
 ---
 title: Systematic Search
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Systematic search** is a structured approach to exploring a search space using a frontier to separate expanded from unexplored regions.
 

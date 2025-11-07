@@ -6,10 +6,7 @@ tags:
   - BA3
   - AI
 ---
-
-
 ## References
-
 1. [Vidéo du cours CS188 de berkeley](https://inst.eecs.berkeley.edu/~cs188/sp25/ "https://inst.eecs.berkeley.edu/~cs188/sp25/") (identical course)
 2. [Notes de cours CS188](https://hackmd.io/@matthewtang/188-mt) (markdown notes)
 
@@ -41,16 +38,24 @@ tags:
 - [[Uniform Cost Search]]
 - [[Greedy Search]]
 	- [[Search Heuristic]]
+- [[Graph Search]]
 - [[A*]]
 - [[Admissibility]]
-- [[Creating admissible Heuristics]]
 - [[8 Puzzle Problem]]
-- [[Graph Search]]
+
 ## Chapter 3: Constraint Satisfaction Problems
 - [[CSP]]
 - [[ULB - Sciences Informatiques/BA3/INFO-F311 - Intelligence Artificielle/Chapters/3 - Constraint Satisfaction Problems/Constraint|Constraint]]
 	- [[Constraint Graph]]
 		- [[Arc Consistency]]
+		- [[K-Consistency]]
 - [[Backtracking Search]]
 	- [[Filtering]]
 	- [[Ordering]]
+	- [[Tree-Structured CSP]]
+- [[Iterative Improvement]]
+- [[Local Search]]
+	- [[Local Beam Search]]
+	- [[Simulated Annealing]]
+
+## Chapter 4: Games and Adversarial Search

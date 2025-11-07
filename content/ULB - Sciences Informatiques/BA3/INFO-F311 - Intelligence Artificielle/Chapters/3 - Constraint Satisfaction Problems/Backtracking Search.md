@@ -1,11 +1,9 @@
 ---
 title: Backtracking Search
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Backtracking search** is an uninformed algorithm for solving [[CSP|CSPs]] that combines depth-first search with intelligent variable ordering and constraint checking.
 

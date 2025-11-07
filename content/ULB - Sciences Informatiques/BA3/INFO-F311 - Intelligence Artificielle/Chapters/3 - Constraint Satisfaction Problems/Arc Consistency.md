@@ -1,11 +1,9 @@
 ---
 title: Arc Consistency
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Arc Consistency**: An arc $X \rightarrow Y$ is consistent iff for every $x$ in the tail there is some $y$ in the head which could be assigned without violating a constraint.
 

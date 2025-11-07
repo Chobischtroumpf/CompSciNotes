@@ -1,11 +1,9 @@
 ---
 title: CSP
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Constraint Satisfaction Problem (CSP)** is a special subset of search problems with a structured representation.
 

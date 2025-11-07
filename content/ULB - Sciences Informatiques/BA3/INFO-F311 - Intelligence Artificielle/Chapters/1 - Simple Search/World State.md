@@ -1,11 +1,9 @@
 ---
 title: World State
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **world state** is a complete description of the environment with every detail.
 

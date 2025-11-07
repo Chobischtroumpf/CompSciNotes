@@ -1,14 +1,12 @@
 ---
 title: Search Problem
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > A **search problem** consists of:
-> - A [[state space]] $\mathcal{S}$
+> - A [[State Space]] $\mathcal{S}$
 > - An initial state $s_0$
 > - Actions $\mathcal{A}(s)$ in each state
 > - A transition model $\text{Result}(s,a)$

@@ -1,11 +1,9 @@
 ---
 title: Admissibility
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Admissibility** is a property of heuristics that ensures [[A*]] optimality.
 

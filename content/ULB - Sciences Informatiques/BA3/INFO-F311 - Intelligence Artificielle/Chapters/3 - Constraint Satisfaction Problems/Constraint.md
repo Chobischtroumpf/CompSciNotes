@@ -1,11 +1,9 @@
 ---
 title: Constraint
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Constraints** are restrictions that specify allowable combinations of values for variables in a CSP.
 

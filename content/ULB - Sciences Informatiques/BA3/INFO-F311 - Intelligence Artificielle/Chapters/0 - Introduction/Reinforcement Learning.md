@@ -1,11 +1,9 @@
 ---
 title: Reinforcement Learning
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Reinforcement learning** involves learning optimal policies (decision rules) through trial-and-error interaction with an environment to maximize cumulative reward.
 

@@ -1,11 +1,9 @@
 ---
 title: Filtering
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Filtering** involves keeping track of domains for unassigned variables and crossing off bad options to improve backtracking search efficiency.
 

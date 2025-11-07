@@ -1,11 +1,9 @@
 ---
 title: Greedy Search
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Greedy search** is a search algorithm that expands the node that seems closest to the goal, using a heuristic function to estimate distance to the nearest goal for each state.
 

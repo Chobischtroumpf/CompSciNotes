@@ -1,11 +1,9 @@
 ---
 title: Uniform Cost Search
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
 ---
-
-
 > [!info]+ Definition
 > **Uniform Cost Search (UCS)** is a search algorithm that explores increasing cost contours.
 

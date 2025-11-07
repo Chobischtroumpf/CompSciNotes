@@ -1,11 +1,10 @@
 ---
 title: A*
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - AI
+  - Algo
 ---
-
-
 > [!info]+ Definition
 > **A\* search** is an optimal search algorithm that expands nodes most likely to be on an optimal path by combining actual path cost with estimated remaining cost.
 
