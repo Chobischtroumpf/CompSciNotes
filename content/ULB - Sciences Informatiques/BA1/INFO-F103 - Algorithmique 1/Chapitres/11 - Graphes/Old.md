@@ -11,7 +11,7 @@ Un graphe $G=(S,A)$ est défini comme une structure composée de deux ensembles:
 - Un ensemble $S$ de sommets (non vide);
 - Un ensemble $A$ de paires de sommets $(i,j), \text{ où } i,j \in S$.
 
-|         ![[b91f222dc2f7d98ce03fcb6cea0b516a.png]]          | --------------------------------------------------------------------------------------------------------------------------- |
+|         ![[Pasted image 20240424151953.png]]          | --------------------------------------------------------------------------------------------------------------------------- |
 | :---------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------- |
 | $S=\{a,b,c,d\} \ \ A =\{(a,b), (b,c), (c,b), (d,d)\}$ |                                                                                                                             |
 |                                                       |                                                                                                                             |
@@ -28,13 +28,13 @@ Un graphe $G=(S,A)$ est défini comme une structure composée de deux ensembles:
 - **Fils (Successeur):** Sommet vers lequel un arc ou une arête est dirigé.
 - **Frère:** Deux sommets $i$ et $j$ qui sont des fils d’un même sommet $k$.
 
-![[Pasted image 20240426110354.png]]
+![[d17583203e5891a2f29169c1dd5509f0.png]]
 ## Types de Graphes
 - **Orienté/Dirigé:** Les arcs ont une direction.
 - **Non-orienté/Non-dirigé:** Les arêtes ne possèdent pas de direction spécifique.
-- ![[499bba34bfa322662585eb88d3ce5f2d.png]]
+- ![[Pasted image 20240424152422.png]]
 - **Pondéré:** $G=(S, A, \omega)$ avec $\omega(i, j)$ étant le poids de l'arc ou de l'arête $(i, j)$.
-- ![[2f26cc486cd0189c3923d1180cb3c2e2.png]]
+- ![[Pasted image 20240424152841.png]]
 - **Simple:** Pas de boucles ou d'arêtes multiples entre deux sommets.
 - **Multiples:** Multiples arêtes entre deux sommets.
 	- **$m$-graph**: Multi-graphe avec au plus $m$ arcs ou arêtes entre deux sommets.
@@ -53,7 +53,7 @@ $$m_{max}=n^2$$
 - **Ordre $|S|$:** Nombre de sommets.
 - **Taille $|A|$:** Nombre d'arcs ou d'arêtes.
 
-![[13c7099b61e1bb529b7e36069477740a.png]]
+![[Pasted image 20240426105807.png]]
 ## Adjacence
 - Deux sommets $i$ et $j$ sont adjacents si une arête ou un arc $(i, j)$ existe entre eux.
 	- **Adjacence entre arcs/arêtes**: Deux arcs ou arêtes sont adjacents s'ils sont distincts et partagent au moins une extrémité commune.

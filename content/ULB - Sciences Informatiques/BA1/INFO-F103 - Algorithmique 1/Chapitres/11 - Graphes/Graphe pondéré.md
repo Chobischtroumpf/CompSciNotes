@@ -6,4 +6,4 @@ tags:
 ---
 
 Graphe tel que $G=(S, A, \omega)$ avec $\omega(i, j)$ étant le poids de l'arc ou de l'arête $(i, j)$.**
-![[Pasted image 20240424152841.png]]
+![[2f26cc486cd0189c3923d1180cb3c2e2.png]]

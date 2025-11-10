@@ -20,7 +20,7 @@ tags:
 > 5. New byte arrives (40 bytes header + 1 byte data)
 > 6. Receiver buffer is full again
 >
-> ![[78e3fd689ab115b08a21a1b4ae865f42.png]]
+> ![[ce002a351dc0ec85a1946f6212a7af36.png]]
 >
 > **Impact**:
 > - Massive overhead: 40 bytes header for 1 byte payload

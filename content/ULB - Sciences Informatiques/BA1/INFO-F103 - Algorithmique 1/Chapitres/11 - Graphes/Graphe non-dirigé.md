@@ -6,7 +6,7 @@ tags:
 ---
 
 Un graphe ou les arêtes ne possèdent pas de direction spécifique.
-![[Pasted image 20240424152422.png]]
+![[499bba34bfa322662585eb88d3ce5f2d.png]]
 # ## Nombre Maximum d'Arêtes
 Pour un graphe non-orienté de $n$ sommets:
 $$m_{max}=\frac{n(n+1)}{2}$$

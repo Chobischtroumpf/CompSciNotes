@@ -84,7 +84,7 @@ tags:
 # More aggregation is possible in forwarding table
 
 > [!example]+ Exemple
-> ![[ce002a351dc0ec85a1946f6212a7af36.png]]
+> ![[ULB - Sciences Informatiques/BA3/INFO-F303 - Réseaux, information et communications/Networking/Chapters/4 - Network Layer/Images/Pasted image 20251102135526.png]]
 > Multiple organizations can be aggregated:
 >
 > - Organization 0: $200.23.16.0/23$

@@ -6,8 +6,8 @@ tags:
   - BA3
   - Maths
 ---
-1. [[Modélisation et Simulation]]
-2. [[Systèmes dynamiques]]
+1. [[1 - Introduction à la modélisation et à la simulation]]
+2. [[Introduction aux systèmes dynamiques]]
 3. [[Les automates]]
 4. [[Les systèmes continus]]
 5. [[Les systèmes linéaires continus]]

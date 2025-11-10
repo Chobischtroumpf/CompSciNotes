@@ -9,7 +9,7 @@ tags:
 ---
 ## 1 - Introduction
 En partant d'un énoncé/problème donné, on va:
-1) Modéliser le problème (spécifier les alternatives, restrictions, fonctions à optimiser (min/max))
+1) Modéliser ce problème (spécifier les alternatives, restrictions, fonction a optimiser (min/max))
 2) Formuler ce modèle en un programme mathématique (définir formellement les variables, contraintes et la fonction objectif)
 3) A partir de la formulation, chercher (utiliser une méthode de résolution)
 

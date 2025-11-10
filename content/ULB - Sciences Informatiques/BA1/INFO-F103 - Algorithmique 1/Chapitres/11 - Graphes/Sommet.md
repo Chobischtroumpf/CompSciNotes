@@ -10,4 +10,4 @@ Les relations entre sommets sont :
 - **Fils (Successeur):** Sommet vers lequel un arc ou une arête est dirigé.
 - **Frère:** Deux sommets $i$ et $j$ qui sont des fils d’un même sommet $k$.
 
-![[d17583203e5891a2f29169c1dd5509f0.png]]
+![[Pasted image 20240426110354.png]]

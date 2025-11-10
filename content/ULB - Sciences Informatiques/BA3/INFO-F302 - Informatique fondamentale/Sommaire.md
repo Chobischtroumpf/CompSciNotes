@@ -42,14 +42,14 @@ tags:
 # Chap 2 : problème SAT
 
 ## littéraux et clauses
-- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - Problèmes SAT/Littéraux et Clauses/Définitions|Définitions]]
-	- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - Problèmes SAT/Littéraux et Clauses/Définitions#clause|clause]]
-	- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - Problèmes SAT/Littéraux et Clauses/Définitions#satisfaction d'ensemble de clauses|satisfaction d'ensemble de clauses]]
-- [[Formes normales]]
-	- [[Formes normales#forme normale conjonctive (FNC)|forme normale conjonctive]]
-	- [[Formes normales#forme normale conjonctive (FND)|forme normale conjonctive]]
-	- [[Formes normales#mise sous FNC et FND|mise sous FNC et FND]]
-- [[Lien avec SAT]]
+- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - problème SAT/littéraux et clauses/définitions|définitions]]
+	- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - problème SAT/littéraux et clauses/définitions#clause|clause]]
+	- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - problème SAT/littéraux et clauses/définitions#satisfaction d'ensemble de clauses|satisfaction d'ensemble de clauses]]
+- [[formes normales]]
+	- [[formes normales#forme normale conjonctive (FNC)|forme normale conjonctive]]
+	- [[formes normales#forme normale conjonctive (FND)|forme normale conjonctive]]
+	- [[formes normales#mise sous FNC et FND|mise sous FNC et FND]]
+- [[lien avec SAT]]
 ## problème SAT
 - [[Problème SAT#définition prb SAT|définition problème SAT]]
 	- [[Problème SAT#complexité du prb SAT|complexité du prb SAT]]
@@ -60,23 +60,23 @@ tags:
 ## modélisation
 - [[Coloriage des cartes]]
 - [[Problème des 8 reines]]
-- [[Jeu Sudoku]]
+- [[jeu Sudoku]]
 - [[Problème de pavage]]
 
 ## algo DPLL
 - definitions
 	- [[interprétation partielle]]
 		- [[interprétation partielle#simplification sous une interprétation partielle|simplification sous interprétation partielle]]
-- [[Algorithme DPLL]]
-	- [[Algorithme DPLL#proposition pivot|proposition pivot]]
-		- [[Algorithme DPLL#premier critère de choix clauses unitaires|clauses unitaires]]
-		- [[Algorithme DPLL#deuxième critère de choix proposition à polarité unique|proposition à la polarité unique]]
-	- [[Algorithme DPLL#pseudo code|pseudocode]]
+- [[Algo DPLL]]
+	- [[Algo DPLL#proposition pivot|proposition pivot]]
+		- [[Algo DPLL#premier critère de choix clauses unitaires|clauses unitaires]]
+		- [[Algo DPLL#deuxième critère de choix proposition à polarité unique|proposition à la polarité unique]]
+	- [[Algo DPLL#pseudo code|pseudocode]]
 
 ## transformation de tseitin
--  [[Transformation de Tseitin]]
-- [[Variantes SAT]]
-	- [[Variantes SAT#2SAT|2-SAT]]
-	- [[Variantes SAT#QSAT|QSAT]]
-	- [[Variantes SAT#WEIGHTED-MAX-SAT|WEIGHTED-MAX-SAT]]
-		- [[Variantes SAT#MAX-SAT|MAX-SAT]]
+-  [[transformation de Tseitin]]
+- [[variantes SAT]]
+	- [[variantes SAT#2SAT|2-SAT]]
+	- [[variantes SAT#QSAT|QSAT]]
+	- [[variantes SAT#WEIGHTED-MAX-SAT|WEIGHTED-MAX-SAT]]
+		- [[variantes SAT#MAX-SAT|MAX-SAT]]
