@@ -23,7 +23,7 @@ tags:
 > - Fragments are reassembled at the destination
 
 > [!example]+ Example
-> ![[Pasted image 20251102145008.png]]
+> ![[aa425c15ac42736dd7c0b101cbce5027.png]]
 > **Given:**
 >
 > - 4000 byte packet

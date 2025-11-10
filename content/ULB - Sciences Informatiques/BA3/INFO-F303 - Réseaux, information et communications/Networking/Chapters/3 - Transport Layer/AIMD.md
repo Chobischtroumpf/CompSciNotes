@@ -38,7 +38,7 @@ tags:
 > - Fast backoff to relieve congestion
 > - Preserves network stability
 
-![[Pasted image 20251102154355.png]]
+![[42cb92b99c00f243659d4de064606035.png]]
 
 ## TCP Implementation Details
 

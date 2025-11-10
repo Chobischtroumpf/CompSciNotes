@@ -7,7 +7,7 @@ tags:
 
 
 
-![[Pasted image 20251106184440.png]]
+![[d1a28c7ec60ad4ace0cf675bdc416a14.png]]
 
 Minimax search: A state-space search tree, where players alternate turns and compute each node’s minimax value: the best achievable utility against a rational (optimal) adversary
 
@@ -58,8 +58,8 @@ def min_value(state):
 	return v
 ```
 
-![[Pasted image 20251106185612.png]]
-![[Pasted image 20251106185931.png]]
+![[ad4ecee9d50e40892830f12ebe4216f5.png]]
+![[3db8cb4b216892f4f476423f4e7fce1a.png]]
 Minimax example (to explain)
 
 ## Generalized Minimax
@@ -72,7 +72,7 @@ Generalization of minimax:
 - Each player maximizes its own component
 - Can give rise to cooperation and competition dynamically…
 
-![[Pasted image 20251106185818.png]]
+![[f16aeb2cb269be3df52eb193924ff05c.png]]
 Generalized Pacman Minimax with 3 agents (red ghost, cyan ghost and pacman)
 
 ## Efficiency

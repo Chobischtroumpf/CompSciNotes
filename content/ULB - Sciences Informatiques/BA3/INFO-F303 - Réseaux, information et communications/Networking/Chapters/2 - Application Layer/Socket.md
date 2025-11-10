@@ -22,7 +22,7 @@ tags:
 > - The application has control on the application-layer side
 > - The transport layer handles delivery on the other side
 >
-> ![[Pasted image 20250919152626.png]]
+> ![[252da51f298964b17d4639fc7db80048.png]]
 
 > [!note]+ Socket Identification
 > To receive messages, a process must have an identifier that includes:

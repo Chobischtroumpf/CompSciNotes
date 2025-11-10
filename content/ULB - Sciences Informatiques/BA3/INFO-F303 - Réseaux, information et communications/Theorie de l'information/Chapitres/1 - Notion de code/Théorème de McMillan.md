@@ -23,5 +23,5 @@ Le théorème de McMillan s'applique à **tous** les codes univoques, y compris:
 ## Démonstration
 - Soit $c = \sum_{i=1}^q r^{-\ell_i}$. On va montrer $\lim_{n \rightarrow \infty} \frac{c^n}{n} < \infty$:
 
-![[Pasted image 20250917123837.png]]
-![[Pasted image 20250917123924.png]]
+![[f42aa4cd94f23f562fd895e3c8b0dd40.png]]
+![[79ee53c17c6ff3e0925a8f67561cfde3.png]]

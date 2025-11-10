@@ -20,7 +20,7 @@ tags:
 > - Unlike $K$ independent searches, beam search shares information
 > - The $K$ states "communicate" by competing for spots in the next generation
 >
-> ![[Pasted image 20251106164533.png]]
+> ![[a5b5debe0b8d99e3dc128645c3f9dccc.png]]
 
 ## Genetic Algorithms
 
@@ -29,7 +29,7 @@ tags:
 > - Keep best $N$ hypotheses at each step (selection) based on a fitness function
 > - Also have pairwise crossover operators, with optional mutation to give variety
 >
-> ![[Pasted image 20251106171558.png]]
+> ![[30c9fa78facdde879773fe84e6ac6884.png]]
 
 > [!abstract]+ Genetic Algorithm Pseudocode
 > ```

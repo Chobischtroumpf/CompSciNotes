@@ -11,7 +11,7 @@ tags:
 
 ^d88595
 
-![[Pasted image 20251020123729.png]]
+![[b8788fa0fdee1813b07a0563b4ede41a.png]]
 > [!note]+ HTTP and TCP
 > HTTP uses [[TCP]] as its transport protocol:
 > **Connection Process**:

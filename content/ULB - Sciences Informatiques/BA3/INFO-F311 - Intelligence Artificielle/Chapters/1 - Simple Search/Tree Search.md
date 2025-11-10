@@ -30,12 +30,12 @@ tags:
 ## Example: Traveling in Romania
 
 > [!example]+ Search Process
-> ![[Pasted image 20250925115827.png]]
+> ![[06fc6d68d2ce5bcd9331ec019572d20f.png]]
 >
-> | ![[Pasted image 20250925115835.png]] |
+> | ![[10ee6b64272d56e3fb4b2ad795b67627.png]] |
 > | :--------------------------------------- |
-> | ![[Pasted image 20250925115843.png]] |
-> | ![[Pasted image 20250925115850.png]] |
+> | ![[ed9be9c73168b735744f63aff46f425e.png]] |
+> | ![[5740fb518bb6b74e55d12693528f2657.png]] |
 
 > [!note]+ Related Concepts
 > - **[[Search Tree]]**: Tree structure representing action sequences

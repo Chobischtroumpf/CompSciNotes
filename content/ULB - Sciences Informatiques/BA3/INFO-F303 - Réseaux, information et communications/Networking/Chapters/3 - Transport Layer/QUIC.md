@@ -35,7 +35,7 @@ tags:
 ## Protocol Comparison
 
 > [!abstract]+ HTTP/2 over TCP vs QUIC
-> ![[Pasted image 20251103105201.png]]
+> ![[86cc76f5cf87b46daf8ce0a6c6dccbd9.png]]
 >
 > **HTTP/2 over TCP (with TLS)**:
 > - Application layer comprised of HTTP/2 + TLS
@@ -48,7 +48,7 @@ tags:
 ## Connection Establishment
 
 > [!success]+ One RTT Handshake
-> ![[Pasted image 20251103105359.png]]
+> ![[6104363b1dc74565edde1db94a49b10d.png]]
 >
 > **TCP + TLS approach**:
 > - TCP 3-way handshake (1 RTT)
@@ -63,7 +63,7 @@ tags:
 ## Protocol Stack
 
 > [!abstract]+ HTTP/3 Architecture
-> ![[Pasted image 20251103105425.png]]
+> ![[9d8192cb27b6082ee1e21c2273d7de61.png]]
 >
 > **Traditional stack (HTTP/1.1, HTTP/2)**:
 > - HTTP over TCP with TLS

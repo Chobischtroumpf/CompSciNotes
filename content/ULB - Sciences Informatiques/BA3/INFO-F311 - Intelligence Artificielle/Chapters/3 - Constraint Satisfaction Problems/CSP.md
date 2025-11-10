@@ -17,7 +17,7 @@ tags:
 ## Examples
 
 > [!example]+ Map Coloring
-> ![[Pasted image 20250923165107.png]]
+> ![[84613ad94fe19935b9112d3effae17d0.png]]
 >
 > **Variables**: $\{WA, NT, Q, NSW, V, SA, T\}$ (Australia's states)
 >
@@ -68,6 +68,6 @@ tags:
 
 > [!note]+ Related Concepts
 > - **[[Search Problem]]**: More general problem formulation
-> - **[[Constraint]]**: Restrictions on variable assignments
+> - **[[ULB - Sciences Informatiques/BA3/INFO-F311 - Intelligence Artificielle/Chapters/3 - Constraint Satisfaction Problems/Constraint]]**: Restrictions on variable assignments
 > - **[[Constraint Graph]]**: Graph representation of CSP
 > - **[[Backtracking Search]]**: Algorithm for solving CSPs

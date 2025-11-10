@@ -33,7 +33,7 @@ tags:
 > **Incoming packets:** replace (NAT IP address, new port #) in destination fields of every incoming packet with corresponding (source IP address, port #) stored in NAT table
 
 > [!example]+ Example
-> ![[Pasted image 20251102142303.png]]
+> ![[c2fdd32a619581ef58ff163644cb7e4d.png]]
 > 1. Host $10.0.0.1$ sends packet to $128.119.40.186$, port $80$
 > 2. NAT router changes packet source address from $10.0.0.1$, $3345$ to $138.76.29.7$, $5001$, updates table
 > 3. Reply arrives, destination address: $138.76.29.7$, $5001$

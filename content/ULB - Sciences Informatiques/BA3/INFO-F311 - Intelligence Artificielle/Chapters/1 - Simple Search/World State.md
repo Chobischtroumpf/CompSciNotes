@@ -9,12 +9,12 @@ tags:
 
 ^407bb2
 
-![[Pasted image 20250925102817.png]]
+![[0f7147a53bfcb6d59091a21999d51aab.png]]
 
 ## Example: Pacman
 
 > [!example]+ World State Complexity
-> ![[Pasted image 20250925102837.png]]
+> ![[6673bdd881996a91139d012663da98b5.png]]
 >
 > **Components**:
 > - **Agent positions**: 120

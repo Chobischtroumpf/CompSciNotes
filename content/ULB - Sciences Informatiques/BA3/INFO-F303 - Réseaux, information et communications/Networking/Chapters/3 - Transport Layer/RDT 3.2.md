@@ -23,7 +23,7 @@ tags:
 > - Breaks the deadlock from [[RDT 3.1]]
 
 ## Fixing the Race Condition
-![[Pasted image 20251030110303.png]]
+![[f7ebf54c84c214119d187692ea60ac93.png]]
 
 > [!example]+ Recovered Scenario
 > **Same situation as [[RDT 3.1]] problem**, but fixed:
@@ -38,7 +38,7 @@ tags:
 > 7. Receiver gets pkt(1), sends ACK(1)
 
 ## Sender FSM
-![[Pasted image 20251030110427.png]]
+![[e4e2282240161ca6155a98420212e29d.png]]
 
 > [!note]+ Sender States and Logic
 > **States** (still 4, like [[RDT 2.1]]):
@@ -63,7 +63,7 @@ tags:
 > - Foundation for more complex protocols
 
 ## Example Scenarios
-| ![[Pasted image 20251030111511.png]] | ![[Pasted image 20251030111527.png]] |
+| ![[11cb1ae75adafb45e410057e48a712ac.png]] | ![[e1e4798225d86052b133ab938e1de846.png]] |
 | :----------------------------------: | :----------------------------------: |
 |        No loss / Packet loss         |     ACK loss / Premature timeout     |
 

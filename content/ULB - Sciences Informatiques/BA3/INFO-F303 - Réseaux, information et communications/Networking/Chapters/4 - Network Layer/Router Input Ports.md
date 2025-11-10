@@ -10,7 +10,7 @@ tags:
 > [!abstract]+ Architecture
 > **Input port processing pipeline:**
 >
-> ![[Pasted image 20251102151712.png]]
+> ![[ec8c2d996dc5b0f4a8cb47316c0701f3.png]]
 >
 > **Physical layer:** bit-level reception
 > **Link layer:** e.g., Ethernet

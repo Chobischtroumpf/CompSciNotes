@@ -14,7 +14,7 @@ tags:
 >
 > **New successor function:** Local changes only
 >
-> ![[Pasted image 20251106133000.png]]
+> ![[fab5f5561c66c558f84199b3fb534f7e.png]]
 
 ## Properties
 
@@ -51,7 +51,7 @@ tags:
 ## Visualization
 
 > [!example]+ Hill Climbing Behavior
-> ![[Pasted image 20251106133306.png]]
+> ![[85243b59352616f52ab2ce7800096acb.png]]
 >
 > **Challenges:**
 > - **Local maxima:** Peak that isn't the highest but has no better neighbors

@@ -24,7 +24,7 @@ tags:
 > Full IPv6 address: 2001:0000:130F:0000:0000:09C0:876A:130B
 
 > [!abstract]- Header Fields
-> ![[Pasted image 20251102145604.png]]
+> ![[81451e381bb2a88b667acc8a7b80ae41.png]]
 > **ver:** Version number (32 bits wide format)
 >
 > **pri:** Priority - identifies priority among packets in flow

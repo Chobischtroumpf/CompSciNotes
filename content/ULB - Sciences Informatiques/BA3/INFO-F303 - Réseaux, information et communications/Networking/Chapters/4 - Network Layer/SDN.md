@@ -39,4 +39,4 @@ tags:
 
 > [!example]+ Example
 > When a packet arrives with header value $0111$ at a router, the router uses the forwarding table previously installed by the remote controller to determine the appropriate output port for that packet.
-![[Pasted image 20251102112026.png]]
+![[2aec46174dc9743e7b8a2e2ebb55eafc.png]]

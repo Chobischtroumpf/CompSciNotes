@@ -23,7 +23,7 @@ tags:
 ## Sender and Receiver Windows
 
 > [!note]+ Window Structure
-> ![[Pasted image 20251102103332.png]]
+> ![[bf3b5a2f9e6864aae23d2580a76cda6b.png]]
 >
 > **Sender window**:
 > - $N$ consecutive sequence numbers
@@ -109,7 +109,7 @@ tags:
 ## Window Positions
 
 > [!info]+ Relative Window Positions
-> ![[Pasted image 20251102104117.png]]
+> ![[2b789820b21d3e08847119fdcc298fe7.png]]
 >
 > **Scenario shown**: Receiver window ahead of sender window
 >
@@ -122,7 +122,7 @@ tags:
 > **Note**: Receiver can be ahead by at most $N$ packets
 
 > [!warning]+ Invalid Positions
-> ![[Pasted image 20251102104211.png]]
+> ![[caa1ebb4e99f159cf11da9dc06850970.png]]
 >
 > **Analysis of three scenarios**:
 >
@@ -142,7 +142,7 @@ tags:
 ## Selective Repeat in Action
 
 > [!example]+ Protocol Operation
-> ![[Pasted image 20251102105859.png]]
+> ![[3abf2700b87fe142135f93451ef71266.png]]
 >
 > **Scenario walkthrough**:
 >
@@ -175,7 +175,7 @@ tags:
 ### Why $N \leq K/2$
 
 > [!example]+ Example: $K = 4, N = 3$ (Too Large)
-> ![[Pasted image 20251102110216.png]]
+> ![[c04a68b589641ccce2b29e2c5fe76fa7.png]]
 >
 > **Scenario that causes failure**:
 > 1. Sender sends pkt0, pkt1, pkt2 ($N = 3$)
@@ -191,7 +191,7 @@ tags:
 ### Correct Window Size
 
 > [!example]+ Example: $K = 4, N = 2$ (Correct)
-> ![[Pasted image 20251102110728.png]]
+> ![[315986d8e067dfd52e336beb46c0acb5.png]]
 >
 > **Diagrams a/b: $K = 4, N = 3$ (incorrect)**
 > - a) Initial situation with a window of size $N = 3$

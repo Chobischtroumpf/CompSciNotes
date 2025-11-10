@@ -38,7 +38,7 @@ tags:
 ## Examples
 
 > [!example]+ Admissible Heuristics
-> ![[Pasted image 20251103143057.png]]
+> ![[dc9fe9dcd40a5e4c9740d90068596bd2.png]]
 >
 > **Maze pathfinding:**
 > - Manhattan distance (15 in the image)

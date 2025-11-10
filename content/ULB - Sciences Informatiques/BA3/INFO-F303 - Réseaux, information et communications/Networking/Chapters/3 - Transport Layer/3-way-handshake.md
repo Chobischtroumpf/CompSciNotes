@@ -12,7 +12,7 @@ tags:
 ## Protocol Operation
 
 > [!success]+ Three-Step Process
-> ![[Pasted image 20251102141937.png]]
+> ![[59b2010c984cdb18252bda10a382592a.png]]
 >
 > **Step 1: `SYN` (Client -> Server)**
 > - Client chooses initial sequence number `x`
@@ -40,7 +40,7 @@ tags:
 ## Robustness: Lost `SYNACK` Scenario
 
 > [!example]+ Handling Lost SYNACK
-> ![[Pasted image 20251102145427.png]]
+> ![[4c8698e1067bc0ead3577b6f9345c1f1.png]]
 >
 > **What happens**:
 > 1. **Normal start**: Client sends `SYN(x)`
@@ -72,7 +72,7 @@ tags:
 ## Choosing Initial Sequence Numbers
 
 > [!abstract]+ Sequence Number Selection
-> ![[Pasted image 20251102145555.png]]
+> ![[1909dc97cdf35e57739f82a8a4c82220.png]]
 >
 > **Constraints for choosing x and y**:
 > - `x` and `y` must not have been used recently in former connection between:
@@ -89,7 +89,7 @@ tags:
 ## Client/Server State Machines
 
 > [!note]+ Connection State Transitions
-> ![[Pasted image 20251102145746.png]]
+> ![[bbc5c40081621cc5a35299449098e26f.png]]
 >
 > **Five connection states**:
 > - `CLOSED`: No connection

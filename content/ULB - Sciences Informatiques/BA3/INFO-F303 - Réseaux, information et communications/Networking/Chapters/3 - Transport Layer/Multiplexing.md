@@ -19,7 +19,7 @@ tags:
 > 4. Header contains source and destination information
 > 5. Segments passed down to network layer
 >
-> ![[Pasted image 20251002143322.png]]
+> ![[d4bdab9b68ea6210fc14dc69e3bfe31e.png]]
 
 ## Multiplexing in Action
 

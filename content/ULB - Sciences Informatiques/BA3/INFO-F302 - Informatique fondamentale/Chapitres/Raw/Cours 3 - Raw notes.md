@@ -20,12 +20,12 @@ tags:
 > - **totale** si tout élément de $A$ possède une image pour $f$
 
 >[!example]+ Exemple
->![[Pasted image 20250922083239.png]]
+>![[925177098c90ffa1dc4c5266398b9612.png]]
 
 > [!abstract]- **Lemme des tiroirs/pigeons**
 > Soient $A$, $B$ deux ensembles finis tels que #$A$ $>$ #$B$ (#A cardinalité, nbr d'éléments).  Alors il n'existe pas de fonction **totale** injective de $A$ dans $B$.
 > Autrement dit, toute fonction **totale** devra envoyer au moins deux éléments de A vers le même élément de $B$.
-> ![[Pasted image 20250922084340.png]]
+> ![[b1b902b225e8aa5dea92d2eefb67bead.png]]
 
 
 > [!definition] Définition **Ensemble (IN)DÉNOMBRABLE**
@@ -33,7 +33,7 @@ tags:
 > - Autrement dit il n'y a pas "plus" d'éléments dans $X$ que dans $\mathbb{N}$.
 
 > [!example]+ Exemple les ensembles $\mathbb{Z}$ et $\mathbb{N}²$
-> ![[Pasted image 20250922084823.png]]
+> ![[9c4451a99d3e34d6599f08f16b0b598d.png]]
 > - $\mathbb{Q}$ l'ensemble des rationnels est **dénombrable** (car $\mathbb{Z}²$ est dénombrable)
 
 > [!example]+ Indénombrable
@@ -42,7 +42,7 @@ tags:
 L'ensemble des parties de $\mathbb{N}$ est **indénombrable**: **Preuve**: On doit démontrer qu'il n'existe aucune fonction injective de $2^{\mathbb{N}}$ dans $\mathbb{N}$
 Preuve par l'absurde:
 On suppose l'existence d'une fonction **totale injective** $f: 2^{\mathbb{N}} \rightarrow \mathbb{N}$
-![[Pasted image 20250922091507.png]]
+![[1109f9bf4bfab2ee96cccd3e3171baff.png]]
 
 
 ---

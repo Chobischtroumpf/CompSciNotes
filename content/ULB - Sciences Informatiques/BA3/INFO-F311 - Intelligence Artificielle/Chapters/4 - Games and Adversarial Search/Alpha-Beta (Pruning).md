@@ -8,7 +8,7 @@ tags:
 
 $\alpha$ = best option so far from any max node on this path
 
-![[Pasted image 20251106190230.png]]
+![[09f77ac33d0fc3c01a73b483f5f91064.png]]
 Example
 
 The order of generation matters: more pruning is possible if good moves come first
@@ -26,7 +26,7 @@ General case (pruning children of MIN node)
 Pruning children of MAX node is symmetric
 - Let $\beta$ be the best value that MIN can get so far at any choice point along the current path from the root
 
-![[Pasted image 20251106190659.png]]
+![[27759291558b4df3e3cc0be5eac3f7e5.png]]
 
 ## Implementation
 

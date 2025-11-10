@@ -31,7 +31,7 @@ tags:
 > - Browser sends cookie ID in HTTP request
 > - Site uses ID to identify Susan and retrieve her data
 >
-> ![[Pasted image 20251020134337.png]]
+> ![[c3d97eb2db8e386af41a18d06c777256.png]]
 ## Cookie Headers
 > [!note]+ HTTP Headers
 > **Server sets cookie** (in response):

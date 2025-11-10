@@ -9,7 +9,7 @@ tags:
 > [!info]+ Definition
 > **Packet-switching** is a method where hosts break application-layer messages into [[Packet|packets]], which are forwarded from one router to the next across links on the path from source to destination. Each packet is transmitted at full link capacity.
 
-![[Pasted image 20250918145731.png]]
+![[ce865f8c9715c2507b01be6644a36c8f.png]]
 
 > [!abstract]- Store-and-Forward Mechanism
 > - **Transmission delay**: Takes $L/R$ seconds to transmit an $L$-bit packet into link at $R$ bits/s
@@ -29,8 +29,8 @@ tags:
 > - **[[Packet#^150f99|Packets]] queue**: Wait to be transmitted on output link
 > - **[[Packet#^150f99|Packet]] loss**: [[Packet#^150f99|Packets]] can be dropped (lost) if memory (buffer) in router fills up
 >
-> ![[Pasted image 20250918150451.png]]
-> ![[Pasted image 20250918152547.png]]
+> ![[233044cffab385ee77ecbc5f1309d8e5.png]]
+> ![[9446b1b72a0e5b15425116f5c445069f.png]]
 > - Check [[Network delay]]
 
 Statistical multiplexing on link:

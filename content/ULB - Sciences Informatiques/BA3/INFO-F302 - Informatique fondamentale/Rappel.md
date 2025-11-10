@@ -4,7 +4,6 @@ authors: Alessandro Dorigo
 tags:
   -
 ---
-
 ## Relations:
 soit E un ensemble
 - un n-uplet d'elements de E est une suite de n elements notés ($o_1, ... , o_n$)

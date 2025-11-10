@@ -44,7 +44,7 @@ tags:
 > - **Header**: 20 bytes minimum (up to 60 bytes with options)
 > - **Data**: Variable length payload
 >
-> ![[Pasted image 20251102112345.png]]
+> ![[8484e72e2a76e93eafa1e184dc5f6850.png]]
 >
 > See [[TCP Structure]] for complete header field details.
 
@@ -59,7 +59,7 @@ tags:
 > - Segment's sequence number = number of first data byte
 > - Initial sequence number (ISN) chosen randomly during handshake
 >
-> ![[Pasted image 20251102113344.png]]
+> ![[15c0a489bb54e4507db760f1a367daf6.png]]
 
 > [!info]+ Acknowledgment Numbers
 > **Sequence number of next byte expected from other side**
@@ -69,7 +69,7 @@ tags:
 > - Requesting byte $n$ next
 
 > [!example]+ Simple Telnet Scenario
-> ![[Pasted image 20251102113449.png]]
+> ![[8c0e4e1460009693037a0133f1abab7a.png]]
 >
 > **Sequence**:
 > 1. Client sends "C" (seq=42, 1 byte)
@@ -97,7 +97,7 @@ tags:
 >   - Start timer if there are still unACKed segments
 
 > [!abstract]+ Sender FSM
-> ![[Pasted image 20251102114308.png]]
+> ![[2b2203fef59c6ba01497a795d41dbadc.png]]
 >
 > **States**:
 > - Single state with three events
@@ -106,7 +106,7 @@ tags:
 ## Retransmission Scenarios
 
 > [!example]+ Lost ACK Scenario
-> ![[Pasted image 20251102113900.png]]
+> ![[714c7e603978cf7e80359942074d9de6.png]]
 >
 > **What happens**:
 > 1. Segment sent with seq=92, 8 bytes
@@ -116,7 +116,7 @@ tags:
 > 5. Receiver discards duplicate, resends ACK=100
 
 > [!example]+ Premature Timeout
-> ![[Pasted image 20251102113909.png]]
+> ![[60f93ad211b551de5aab082833c49948.png]]
 >
 > **What happens**:
 > 1. Sender transmits seq=92, 8 bytes
@@ -131,7 +131,7 @@ tags:
 > 10. Receiver sends cumulative ACK=120 (already has all data)
 
 > [!example]+ Cumulative ACK
-> ![[Pasted image 20251102113944.png]]
+> ![[c49ea22235b40ab25e8f4a6d8440db4f.png]]
 >
 > **What happens**:
 > 1. Sender transmits seq=92, 8 bytes
@@ -171,7 +171,7 @@ tags:
 > - Lost segment is likely
 > - Don't wait for timeout - retransmit immediately
 >
-> ![[Pasted image 20251102114715.png]]
+> ![[665c2a8e4db23c3fbc55415404016ea4.png]]
 >
 > **Advantages**:
 > - Faster recovery than waiting for timeout

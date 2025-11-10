@@ -19,7 +19,7 @@ tags:
 ## Algorithm
 
 > [!abstract]+ Tree CSP Solution Algorithm
-> ![[Pasted image 20251106130616.png]]
+> ![[d389835e34ad4d4940f6c960c4ba8576.png]]
 >
 > **Three phases:**
 > 1. **Order:** Choose a root variable, order variables so that parents precede children
@@ -41,7 +41,7 @@ tags:
 ## Nearly Tree-Structured CSPs
 
 > [!abstract]+ Handling Near-Tree Structures
-> ![[Pasted image 20251106131529.png]]
+> ![[e62dad15b29b123ce01d07e006cf5356.png]]
 >
 > **Two approaches:**
 > - **Conditioning:** Instantiate a variable, prune its neighbors' domains
@@ -56,7 +56,7 @@ tags:
 > 3. Compute residual CSP for each assignment
 > 4. Solve the residual CSPs (tree structured)
 >
-> ![[Pasted image 20251106131638.png]]
+> ![[8532ed2a406715c4633238f64dd9696b.png]]
 >
 > **Complexity:**
 > - Cutset size $c$ gives runtime $\mathcal{O}(d^c \cdot (n - c) \cdot d^2)$
@@ -69,7 +69,7 @@ tags:
 > - Each mega-variable encodes part of the original CSP
 > - Subproblems overlap to ensure consistent solutions
 >
-> ![[Pasted image 20251106131750.png]]
+> ![[ca36de0d0c07c92c114c06929de19941.png]]
 
 > [!note]+ Related Concepts
 > - **[[CSP]]**: Problem type being solved

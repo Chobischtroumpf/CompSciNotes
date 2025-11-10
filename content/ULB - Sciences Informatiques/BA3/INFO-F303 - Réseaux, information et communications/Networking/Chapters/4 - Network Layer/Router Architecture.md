@@ -8,7 +8,7 @@ tags:
 > The [[Switch#^97dbe2|router]] architecture consists of two main planes: the control plane and the data plane.
 
 > [!abstract]+ High-Level View
-> ![[Pasted image 20251106141435.png]]
+> ![[001c5c38d94e16fee83abac4a864291b.png]]
 >
 > **Routing processor (control plane):**
 > - Software-based component

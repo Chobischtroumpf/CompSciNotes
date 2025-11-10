@@ -31,4 +31,4 @@ tags:
 
 > [!example]+ Example
 > In the subnet notation 223.1.1.x, the first three octets (223.1.1) represent the subnet prefix, while the remaining bits identify individual hosts within that subnet.
-> ![[Pasted image 20251102114900.png]]
+> ![[9a6fa82268cb12ca1fe30bc060c4c9a3.png]]

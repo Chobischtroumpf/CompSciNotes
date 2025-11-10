@@ -15,7 +15,7 @@ tags:
 >
 > $$f(n) = g(n) + h(n)$$
 >
-> ![[Pasted image 20251103105917.png]]
+> ![[aed59e32f5ad06956a2ce8e0842f1154.png]]
 >
 > Where:
 > - $g(n)$ = cost from start to node $n$
@@ -30,7 +30,7 @@ tags:
 ## Example
 
 > [!example]+ Route-Finding in Romania
-> ![[Pasted image 20251103105125.png]]
+> ![[7958b9c23ab8a9e4bce7739c27f5bfba.png]]
 >
 > **Goal:** Find optimal path to Bucharest
 >

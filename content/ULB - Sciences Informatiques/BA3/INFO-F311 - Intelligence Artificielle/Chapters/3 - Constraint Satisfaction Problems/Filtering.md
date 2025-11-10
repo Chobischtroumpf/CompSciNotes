@@ -12,14 +12,14 @@ tags:
 > [!abstract]+ Strategy
 > Cross off values that violate a constraint when added to the existing assignment.
 >
-> ![[Pasted image 20251103140258.png]]
+> ![[acdb787d97c91e232494a496a795d25f.png]]
 
 ## Constraint Propagation
 
 > [!abstract]+ Limitation of Forward Checking
 > Forward checking propagates information from assigned to unassigned variables, but doesn't provide early detection for all failures.
 >
-> ![[Pasted image 20251103140344.png]]
+> ![[6131d5231a72f83a78241c0c990dab0d.png]]
 
 > [!note]+ Related Concepts
 > - **[[Backtracking Search]]**: Uses filtering

@@ -36,7 +36,7 @@ tags:
 ## Receive Buffer
 
 > [!note]+ Receiver-Side Buffering
-> ![[Pasted image 20251102115312.png]]
+> ![[c3b635ddfd7fb8f3b88bf3e099983931.png]]
 >
 > **Buffer components**:
 > - **Occupied space**: Data received but not yet read by application
@@ -49,7 +49,7 @@ tags:
 > ```
 
 > [!abstract]+ Receiver Protocol Stack
-> ![[Pasted image 20251102115139.png]]
+> ![[9aaf3f2af72100838622e88f94c306f2.png]]
 
 ## Related Concepts
 

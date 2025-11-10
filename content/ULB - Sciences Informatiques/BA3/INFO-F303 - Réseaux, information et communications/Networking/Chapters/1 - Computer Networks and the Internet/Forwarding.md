@@ -17,7 +17,7 @@ tags:
 > - **Output link**: Which interface to forward matching packets
 > - **Next hop information**: Where to send the packet next
 >
-> ![[Pasted image 20250918151042.png]]
+> ![[1a1db336fbfa96c00d3e461a30e5d972.png]]
 
 > [!abstract]- Forwarding vs [[Routing#^02e221|Routing]]
 >

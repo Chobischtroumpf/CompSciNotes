@@ -24,7 +24,7 @@ tags:
 > Socket clientSocket = new Socket("hostname", "port number");
 > ```
 >
-> ![[Pasted image 20251102141241.png]]
+> ![[2b29a09e5b7b97c55cfdec0ebd2357ab.png]]
 >
 > **Process**:
 > - Client creates socket and specifies server hostname and port
@@ -39,7 +39,7 @@ tags:
 > Socket connectionSocket = welcomeSocket.accept();
 > ```
 >
-> ![[Pasted image 20251102141303.png]]
+> ![[0ed9d88c83359cd3e036a6aa5cc72068.png]]
 >
 > **Process**:
 > - Server listens on welcome socket
@@ -65,7 +65,7 @@ tags:
 > - On receiving FIN, ACK can be combined with own FIN
 > - Simultaneous FIN exchanges can be handled
 >
-> ![[Pasted image 20251102152134.png]]
+> ![[c99e4546bc669ad74a5ad3e5d46c34aa.png]]
 
 ### Four-Way Close Sequence
 
@@ -113,7 +113,7 @@ tags:
 
 ## Connection State Machine
 
-![[Pasted image 20251102152149.png]]
+![[b5c1652f6c2bb4b80a76b91f46594916.png]]
 
 ### Active Close Path (Initiator)
 

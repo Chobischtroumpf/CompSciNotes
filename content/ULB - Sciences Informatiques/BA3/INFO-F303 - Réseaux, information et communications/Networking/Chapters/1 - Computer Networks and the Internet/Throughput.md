@@ -25,7 +25,7 @@ tags:
 > - If $R_s > R_c$: throughput = $R_c$ (receiver link is bottleneck)
 > - **General rule**: throughput = $\min(R_s, R_c)$
 >
-> ![[Pasted image 20250918154926.png]]
+> ![[15b738a3440a5754bbb53ea7d7281f2b.png]]
 
 > [!tip]+ Fluid Analogy
 > Think of throughput like water flowing through pipes:
@@ -34,4 +34,4 @@ tags:
 > - **Narrowest pipe** determines overall flow rate
 > - Multiple flows can share the same pipe capacity
 >
-> ![[Pasted image 20250918154543.png]]
+> ![[5ef96901408e46dc7cfbf306d8c8bc4c.png]]

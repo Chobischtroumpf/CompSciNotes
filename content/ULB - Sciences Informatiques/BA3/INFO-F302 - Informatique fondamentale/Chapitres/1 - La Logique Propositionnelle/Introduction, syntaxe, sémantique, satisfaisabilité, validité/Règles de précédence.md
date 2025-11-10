@@ -16,7 +16,7 @@ tags:
 > - $x \lor y \rightarrow z$ se lit $(x \lor y) \rightarrow z$
 > - $\neg x \land y$ se lit $(\neg x) \land y$
 > - $x \rightarrow y \land z \rightarrow t$ se lit $x \rightarrow ((y \land z) \rightarrow t)$
-> 	- ![[Pasted image 20251001115823.png]]
+> 	- ![[e3efb3e1539ec235761d5385f5f44332.png]]
 
 > [!tip] Remarque
 > Les parenthèses permettent de contrecarrer ces règles, si elles ne conviennent pas. Elles permettent aussi de rendre une formule plus lisible, ou de ne pas devoir retenir les règles de précédence.

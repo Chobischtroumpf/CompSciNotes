@@ -26,8 +26,8 @@ tags:
 > User enters URL: `www.someSchool.edu/someDepartment/home.index`
 >
 > **Process**:
-> ![[Pasted image 20251020125308.png]]
-> ![[Pasted image 20251020125359.png]]
+> ![[46a5e169727067ca251ef2295d50bb17.png]]
+> ![[afc85888338c4c8bda94fa81cd990b23.png]]
 >
 > **Timing Breakdown**:
 > 1. **First [[RTT]]**: TCP connection setup (SYN/SYN-ACK)

@@ -19,7 +19,7 @@ tags:
 > - Packet loss due to input buffer overflow
 
 > [!example]+
-> ![[Pasted image 20251102153054.png]]
+> ![[db110b18d02a2eba279f877fbfaf9fad.png]]
 >
 > **Initial situation:**
 > - Output port contention: only one red packet can be transferred, lower red packet is *blocked*
@@ -35,7 +35,7 @@ tags:
 > Output port queueing occurs when packets arrive at the output port via the switch fabric faster than they can be transmitted on the output link.
 
 > [!example]+
-> ![[Pasted image 20251102153346.png]]
+> ![[d5351ee753d1c526422877d821439f6e.png]]
 >
 > **At time $t$:** Packets move from input to output through switch fabric
 > **One packet time later:** Packets queue at output port waiting for transmission
@@ -50,7 +50,7 @@ tags:
 > [!info]+ Buffering
 > **Buffering** is required when packets arrive from fabric faster than link transmission rate. The question is: which packet to drop if no free buffers?
 >
-> ![[Pasted image 20251106144414.png]]
+> ![[fc4f3c8ca86f7f63391d14a32a218cef.png]]
 
 > [!info]+ Scheduling Discipline
 > **Scheduling discipline** chooses among queued packets for transmission.

@@ -10,7 +10,7 @@ tags:
 > [!abstract]+ Strategy
 > **Orders by goal proximity (forward cost) $h(n)$**
 >
-> ![[Pasted image 20251103105724.png]]
+> ![[49dba0c2d32897c8ea059e18f054415f.png]]
 >
 > - Expands nodes that appear closest to goal
 > - Aggressively pursues the goal
@@ -20,7 +20,7 @@ tags:
 ## Example
 
 > [!example]+ Traveling in Romania
-> ![[Pasted image 20251103104813.png]]
+> ![[43c87f1b1fd2e09d3f6c8714012572ee.png]]
 >
 > Starting from Arad, the algorithm expands nodes based on which appears closest to Bucharest:
 > - Arad (366) → Sibiu (253) → Fagaras (178) → Bucharest (0)

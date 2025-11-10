@@ -24,7 +24,7 @@ tags:
 > - More problems to handle = more complex protocol
 > - Sender and receiver don't know each other's state unless communicated
 
-| ![[Pasted image 20251002153526.png]] | ![[Pasted image 20251002153536.png]] |
+| ![[9a52e4e4d19ea679d963451ed1aecaf7.png]] | ![[8a22229cf82c4ca473aedb39491dced9.png]] |
 | :----------------------------------: | :----------------------------------: |
 ## Key Interfaces
 
@@ -37,7 +37,7 @@ tags:
 > - `rdt_rcv()`: Called when packet arrives from channel
 > - `deliver_data()`: Called by RDT to deliver data to upper layer (application)
 >
-> ![[Pasted image 20251002153927.png]]
+> ![[df88e4155ac6d9119a4762ea93eb8670.png]]
 
 > [!tip]+ Simplifications
 > For learning purposes:
@@ -45,7 +45,7 @@ tags:
 > - Control information (ACKs, etc.) flows both ways
 > - We use **finite state machines (FSMs)** to specify sender/receiver behavior
 >
-> ![[Pasted image 20251030095329.png]]
+> ![[6de3b37231b63e46192be3bfc0f25ef2.png]]
 
 ## Evolution of RDT Protocols
 

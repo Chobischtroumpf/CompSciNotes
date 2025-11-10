@@ -18,7 +18,7 @@ tags:
 > - $m$ is the maximum depth
 > - Solutions at various depths
 >
-> ![[Pasted image 20250925122839.png]]
+> ![[9ee25e353d9cc0b75a8bdd844cc0f72d.png]]
 >
 > $1 + b + b^2 + \dots + b^m = \mathcal{O}(b^m)$ nodes in the tree
 
@@ -38,7 +38,7 @@ tags:
 > **Optimal**: No
 > - Finds the "leftmost" solution, regardless of depth or cost
 
-![[Pasted image 20250925123620.png]]
+![[7635db075346da2a39b5c3b8bbe15295.png]]
 
 ## BFS Properties
 
@@ -54,10 +54,10 @@ tags:
 >
 > **Optimal**: Only if costs are equal
 
-![[Pasted image 20250925124422.png]]
+![[369e554d5a7fd2e1e659530c1a1664ae.png]]
 
 ## Comparison
-![[Pasted image 20251022154436.png]]
+![[5cacbdc39672fee2f9c865d004ccf958.png]]
 
 > [!note]+ Related Concepts
 > - **[[Tree Search]]**: Algorithm with these properties

@@ -10,7 +10,7 @@ tags:
 > [!info]+ Énoncé
 > Cinq sites on étés retenus pour construire des émetteurs de télévision destines a desservir 10 localités. Le tableau ci-dessous donne, pour chaque site, le coût de construction d'un émetteur sur ce site et les localités desservies par cet émetteur:
 >
-> ![[Pasted image 20251019150303.png]]
+> ![[d186d4685bb87525c0d3c5ff3416cef0.png]]
 >
 > Comment couvrir toutes les localités avec le nombre minimum d’émetteurs?
 

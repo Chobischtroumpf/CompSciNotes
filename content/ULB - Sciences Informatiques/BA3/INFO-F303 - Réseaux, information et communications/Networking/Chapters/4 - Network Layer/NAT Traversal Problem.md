@@ -22,7 +22,7 @@ tags:
 > [!abstract]+ Solution 2
 >
 > **Solution 2: Universal Plug and Play (UPnP)**
-> ![[Pasted image 20251102143719.png]]
+> ![[5b4ef4f4464009b4ae63610520c0e9f4.png]]
 > Universal Plug and Play (UPnP) Internet Gateway Device (IGD) Protocol allows NATed host to:
 >
 > - Learn public IP address (138.76.29.7)
@@ -33,7 +33,7 @@ tags:
 > [!abstract]+ Solution 3
 >
 > **Solution 3: Relaying (used in Skype)**
-> ![[Pasted image 20251102143737.png]]
+> ![[bfe4fd0b845ee26e4ba603113884b16e.png]]
 > Process:
 >
 > 1. NATed server establishes connection to relay

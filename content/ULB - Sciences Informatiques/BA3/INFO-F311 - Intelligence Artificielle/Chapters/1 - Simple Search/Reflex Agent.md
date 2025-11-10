@@ -10,7 +10,7 @@ tags:
 > [!tip]+ Key Characteristic
 > Reflex agents only consider the world as it is in the present, not future states.
 
-![[Pasted image 20250924162549.png]]
+![[ace661fa0f8cb66624fcb8ce650cef90.png]]
 
 > [!note]+ Related Concepts
 > - **[[Agent]]**: General agent concept

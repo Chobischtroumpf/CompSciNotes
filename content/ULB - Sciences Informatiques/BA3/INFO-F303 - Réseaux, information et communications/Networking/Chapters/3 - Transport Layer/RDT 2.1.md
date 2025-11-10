@@ -41,7 +41,7 @@ tags:
 > - If packet corrupt -> send NAK
 
 ## Sender FSM
-![[Pasted image 20251030101026.png]]
+![[92640ee014b2679423ac6d5eb5617704.png]]
 
 > [!note]+ Sender States
 > **Four states** (doubled from [[RDT 2.0]]):
@@ -59,7 +59,7 @@ tags:
 > - Valid ACK received -> move to next sequence number
 
 ## Receiver FSM
-![[Pasted image 20251030101050.png]]
+![[caf15a4792c46b42a3f16d5ca3559bfe.png]]
 
 > [!note]+ Receiver States
 > **Two states**:

@@ -20,7 +20,7 @@ tags:
 
 > [!example]+
 > Consider a network topology with the following subnets:
->  ![[Pasted image 20251102115817.png]]
+>  ![[08ba38cbbb3b14a0da55bd8b74a838d9.png]]
 >
 > **Subnet $223.1.1.0/24$:**
 >
@@ -43,4 +43,4 @@ tags:
 > The notation $/24$ (CIDR notation) indicates that the first 24 bits of the IP address are the subnet prefix, leaving 8 bits for host addresses within each subnet. This allows for $2^8 - 2 = 254$ usable host addresses per subnet.
 
 > [!example] Another Example:
-> ![[Pasted image 20251102115926.png]]
+> ![[86c7cef6a07957871ea24f827afb5d3c.png]]

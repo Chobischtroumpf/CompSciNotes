@@ -20,7 +20,7 @@ tags:
 > - Sender detects congestion symptoms
 > - Adjusts sending rate accordingly
 >
-> ![[Pasted image 20251102154106.png]]
+> ![[837440469eb79d16d60c95d2a5a7e86a.png]]
 
 ### Network-Assisted Congestion Control
 
@@ -31,7 +31,7 @@ tags:
 > - May explicitly set sending rate
 > - Examples: TCP ECN, ATM, DECbit protocols
 >
-> ![[Pasted image 20251102154210.png]]
+> ![[655b9764e9ce7df359cfe50364e360be.png]]
 
 ## TCP Congestion Window (cwnd)
 
@@ -54,7 +54,7 @@ tags:
 > - Increases when network seems uncongested
 > - Decreases when congestion detected
 >
-> ![[Pasted image 20251102154907.png]]
+> ![[9f9a9d330af6e0ec92755345883adaa6.png]]
 
 ## TCP Slow Start
 
@@ -65,7 +65,7 @@ tags:
 > - Achieved by incrementing `cwnd` for every ACK received
 > - Continue until first loss event
 >
-> ![[Pasted image 20251103102802.png]]
+> ![[3d2f0837daaac8265a43d16bd8cbaf48.png]]
 
 ### Transition to Linear Growth
 
@@ -80,12 +80,12 @@ tags:
 > cwnd = cwnd + (MSS/cwnd) × MSS for each ACK received
 > ```
 >
-> ![[Pasted image 20251103103148.png]]
+> ![[5168bdee827b9bbd503ca214b113b768.png]]
 
 ## TCP State Machine
 
 > [!abstract]+ Three Main States
-> ![[Pasted image 20251103103331.png]]
+> ![[d797b7db4170c0da804df500c3145e2f.png]]
 
 ### 1. Slow Start
 
@@ -182,7 +182,7 @@ tags:
 > - Just after loss: throughput = $0.5W/\text{RTT}$
 > - Average throughput: $0.75W/\text{RTT}$
 >
-> ![[Pasted image 20251103103942.png]]
+> ![[ec30967af6a087492eab55f1123e2294.png]]
 
 ### Mathematical Derivation
 
@@ -217,7 +217,7 @@ tags:
 > [!abstract]+ Fairness Goal
 > **Objective**: If $K$ TCP sessions share bottleneck link of capacity $R$, each should have average rate of $R/K$
 >
-> ![[Pasted image 20251103104620.png]]
+> ![[f3f82f5f26ae79d1da41f41961f6694e.png]]
 
 ### Is TCP Fair?
 
@@ -233,7 +233,7 @@ tags:
 > - Multiplicative decrease: proportional reduction
 > - Converges toward equal bandwidth sharing
 >
-> ![[Pasted image 20251103104703.png]]
+> ![[e3e2e20de2d73fc7fd8b7c634d6fbcfb.png]]
 
 ### Impact of Different RTTs
 
@@ -247,7 +247,7 @@ tags:
 > - Connection 1 ramps up twice as quickly
 > - Gets approximately twice the bandwidth
 >
-> ![[Pasted image 20251103104850.png]]
+> ![[8b0891548e982ea69c7034ac41295b27.png]]
 
 ## Related Concepts
 

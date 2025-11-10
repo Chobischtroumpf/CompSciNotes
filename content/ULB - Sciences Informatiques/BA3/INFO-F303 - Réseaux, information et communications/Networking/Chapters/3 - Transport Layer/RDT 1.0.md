@@ -34,7 +34,7 @@ tags:
 > - No acknowledgment sent
 
 ## Finite State Machines
-| ![[Pasted image 20251030095525.png]] | ![[Pasted image 20251030095531.png]] |
+| ![[b3b48c888ca126e5637352c8e1c261ae.png]] | ![[ff448f064ca13d8dbfc66ee559b0440f.png]] |
 | :----------------------------------: | :----------------------------------: |
 |             Sender FSM              |            Receiver FSM             |
 

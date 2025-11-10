@@ -10,7 +10,7 @@ tags:
 > [!abstract]+ Strategy
 > **Orders by path cost (backward cost) $g(n)$**
 >
-> ![[Pasted image 20251103105659.png]]
+> ![[2b4ca2dd7b49462a76ab37a0ce049361.png]]
 >
 > - Explores nodes in order of total path cost from start
 > - Finds cheapest path first, regardless of direction toward goal

@@ -23,6 +23,6 @@ tags:
 > 32 Gbps bus, Cisco 5600: sufficient speed for access routers
 
 > [!tip]+
-> ![[Pasted image 20251102152458.png]]
+> ![[cf5ac4787de7beec68afe4955dd7e87b.png]]
 >
 > The shared bus connects multiple input ports to multiple output ports. All packets must traverse the same bus, which can create a bottleneck.

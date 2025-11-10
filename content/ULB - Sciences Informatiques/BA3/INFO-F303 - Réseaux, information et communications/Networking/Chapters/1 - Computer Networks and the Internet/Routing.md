@@ -11,4 +11,4 @@ tags:
 
 ^02e221
 
-![[Pasted image 20250918151226.png]]
+![[715d3c35da7ce126f4a5366f16874c0f.png]]

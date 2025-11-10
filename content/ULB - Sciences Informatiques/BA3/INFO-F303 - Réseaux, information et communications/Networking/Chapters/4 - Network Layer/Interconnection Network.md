@@ -8,7 +8,7 @@ tags:
 > Switching via an interconnection network uses advanced network topologies (Crossbar, Clos networks, etc.) initially developed to connect processors in multiprocessor systems.
 
 > [!abstract]- Multistage Switch
-> ![[Pasted image 20251106143506.png]]
+> ![[c4970ac0a3c617527587a0e011feda24.png]]
 >
 > **Multistage switch:** $n \times n$ switch from multiple stages of smaller switches
 >
@@ -39,7 +39,7 @@ tags:
 > $$ \text{Total capacity} = \text{number of planes} \times \text{capacity per plane} $$
 
 > [!example]+
-> ![[Pasted image 20251102152717.png]]
+> ![[2f0833eb1e761ea6db04d79568219278.png]]
 >
 > The Cisco CRS router uses multiple fabric planes operating in parallel to achieve speedup and scaleup via parallelism.
 >

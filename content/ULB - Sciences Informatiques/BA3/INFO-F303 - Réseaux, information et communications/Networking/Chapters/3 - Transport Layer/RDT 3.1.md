@@ -24,7 +24,7 @@ tags:
 > - Simpler protocol with one fewer message type
 
 > [!note]+ [[RDT 3.0]] vs RDT 3.1 Comparison
-> ![[Pasted image 20251030103716.png]]
+> ![[b7a8aebb41fbe3a792561df43279b7e1.png]]
 >
 > **[[RDT 3.0]]**:
 > - Uses ACK and NAK
@@ -39,7 +39,7 @@ tags:
 
 ## The Problem: Race Conditions
 **Race conditions** can occur between received ACK and retransmitted packet:
-![[Pasted image 20251030104725.png]]
+![[11268a720cdac0489b4531707fc6616c.png]]
 
 > [!example]+ Race Condition Scenario
 > **Sequence of events**:

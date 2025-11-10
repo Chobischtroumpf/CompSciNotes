@@ -36,7 +36,7 @@ tags:
 
 ## Protocol Operation
 
-![[Pasted image 20251030102507.png]]
+![[4e7defd97757ae171edce4fe96e72696.png]]
 
 
 > [!example]+ Delayed ACK Scenario (No Loss)

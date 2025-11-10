@@ -9,7 +9,7 @@ tags:
 > [!info]+ Definition
 > End systems that run [[Network#^89dac9|network]] applications at Internet's "edge".
 >
-> ![[Pasted image 20250918143247.png]]
+> ![[ec4fcfbb019fa30e45478e9cb809807b.png]]
 
 ^019621
 

@@ -20,7 +20,7 @@ tags:
 > 5. New byte arrives (40 bytes header + 1 byte data)
 > 6. Receiver buffer is full again
 >
-> ![[ULB - Sciences Informatiques/BA3/INFO-F303 - Réseaux, information et communications/Networking/Chapters/3 - Transport Layer/Images/Pasted image 20251102135526.png]]
+> ![[78e3fd689ab115b08a21a1b4ae865f42.png]]
 >
 > **Impact**:
 > - Massive overhead: 40 bytes header for 1 byte payload

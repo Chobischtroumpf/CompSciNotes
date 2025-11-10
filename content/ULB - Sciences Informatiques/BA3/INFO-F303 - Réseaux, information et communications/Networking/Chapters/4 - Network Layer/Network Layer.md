@@ -41,7 +41,7 @@ tags:
 > - Move packets from input ports to output ports to transfer packets along their end-to-end path
 
 > [!tip]+ Remarque
-> ![[Pasted image 20251102104933.png]]
+> ![[977921fb2d431f5451c1210887311019.png]]
 > The diagram illustrates a typical network topology showing:
 >
 > - Mobile networks connecting to national or global ISPs

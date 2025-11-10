@@ -12,7 +12,7 @@ tags:
 
 - **Interprétation géométrique**: un ensemble $C$ est convexe si toutes paires de points appartenant à $C$ peut être jointe par un segment de droite dont tous les points appartiennent à $C$.
 
-![[Pasted image 20250923112802.png]]
+![[55a4d64e3a396d348cbeb2c7e2dc6e3e.png]]
 
 - Un sous-ensemble de $\mathbb{R}$ est convexe si et seulement si ce sous-ensemble est un intervalle.
 
