@@ -1,5 +1,5 @@
 ---
-title: Minimax
+title: Minimax Search
 authors: Mihai Bors
 tags:
   - AI

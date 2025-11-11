@@ -28,37 +28,27 @@ En partant d'un énoncé/problème donné, on va:
 - [[Localisation d’émetteurs de télévision]]
 ## 2 - Programmes Linéaires
 - rappel mathématique
-	- théorie des ensembles convexes
-		- combinaison convexe
-		- ensemble convexe
-		- enveloppe convexe
-		- point extrême
+	- [[théorie des ensembles convexes]]
+		- [[théorie des ensembles convexes#combinaison convexe|combinaison convexe]]
+		- [[théorie des ensembles convexes#ensemble convexe|ensemble convexe]]
+		- [[théorie des ensembles convexes#enveloppe convexe|enveloppe convexe]]
+		- [[théorie des ensembles convexes#point extrême|point extreme]]
 - définitions
 	- [[Programme linéaire]]
 	- [[forme standard]]
-	-  [[forme canonique]]
+	- [[forme canonique]]
 	- [[solution de base]]
-		- [[solution de base#solution de base réalisable|solution de base réalisable]]
-		- [[solution de base#solution de base dégénérée|solution de base dégénérée]]
-		- [[solution de base#solution de base réalisable dégénérée|solution de base réalisable dégénérée]]
-		-  [[solution de base#solution réalisable optimale|solution réalisable optimale]]
-		-  [[solution de base#solution réalisable|solution réalisable]]
+		- [[solution de base#^503980|solution de base réalisable]]
+		- [[solution de base#^2d600c|solution de base dégénérée]]
+		- [[solution de base#^199e43|solution de base réalisable dégénérée]]
+		-  [[solution de base#^50a468|solution réalisable optimale]]
+		-  [[solution de base#^af92a8|solution réalisable]]
 - théorèmes
 	-  [[théorème d'équivalence]]
 	-  [[théorème fondamental de programmation linéaire]]
-		- [[théorème fondamental de programmation linéaire#énoncé|énoncé]]
-		- [[théorème fondamental de programmation linéaire#interprétation|interprétation]]
-			- [[théorème fondamental de programmation linéaire#interprétation géométrique|géométrique]]
 	-  [[théorème de Minkowski]]
-		-  [[théorème de Minkowski#corollaire|corollaire]]
-		- [[théorème de Minkowski#conséquences|conséquences]]
 	- [[théorème d'équivalence V2]]
-		-  [[théorème d'équivalence V2#preuve|preuve]]
 	- [[corollaires]]
-		- [[corollaires#Corollaire 1|frr jsp comment l'appeler]]
-		-  [[corollaires#Corollaire 2 (théorème)|askip c'est un théorème]]
-			- [[corollaires#analyse|analyse]]
-		- [[corollaires#corollaire (finitude)|finitude (car je suis finito)]]
 - exemples
 	- [[Problème de production de peinture]]
 	- [[problème diététique]]

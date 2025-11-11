@@ -5,44 +5,70 @@ tags:
   - Maths
   - Algo
 ---
+# Théorème fondamental
 
-# théorème fondamental
-- PL (program lin) sous forme standard
-	- minimize $c^Tx$
-	- subject to $Ax = b, x \geq 0$
-		- var x : vect col de dim $n$
-		- coef $c^T$ : fonction obj, vect ligne de dim $n$
-		- coef A : contraintes, mat dim $m \times n$
-		- coef b : contraintes, vec col de dim $m$
-## énoncé
-Soit un programme linéaire, sous forme standard, ou matrice A est de dim $m \times n, m \lt n$ de rang $m$
-- si l'ensemble des sol réalisables pas vide → il existe une sol de base réalisable dans cet ensemble (**Théorème de Carathéodory**)
-- s'il existe une sol réalisable optimable → il existe une sol de base réalisable optimale (**recherche de solutions de base réalisables**)
-	- lors de la résolution du programme, restreindre notre attention au sous-ensemble des solutions de base réalisable de l'ensemble
-		- $\set{x | Ax = b, x \geq 0}$
-	- Pour programme P avec $n$ variables et $m$ contraintes, au plus
-		- $\binom{n}{m}$ solution de base (nb de façons de séléctionner $m$ parmi $n$ colonnes) → nb fini de possibilités
-- → technique de recherche finie évidente mais terriblement inefficace
+> [!info]+ Définition
+>
+> Soit un programme linéaire sous forme standard :
+>
+> $$ \begin{align} &\text{minimize} \quad c^T x \\ &\text{subject to} \quad Ax = b, \quad x \geq 0 \end{align} $$
+>
+> où :
+>
+> - la variable $x$ est un vecteur colonne de dimension $n$
+> - les coefficients $c^T$ représentent la fonction objectif, un vecteur ligne de dimension $n$
+> - les coefficients $A$ représentent les contraintes, une matrice de dimension $m \times n$
+> - les coefficients $b$ représentent les contraintes, un vecteur colonne de dimension $m$
 
-- en gros
-	- s'il y a des solutions réalisables dans un tel ensemble → alors il y a une solution de base réalisable dans cet ensemble (surprise mf)
-	- si y a une solution réalisable optimale → alors il existe une solution de base réalisable
-		- résolution
-			- avec n var et m contraintes = $\binom{n}{m}$ solution de base
-			- horriblement pas efficace
+> [!abstract]- Théorème "Théorème fondamental de la programmation linéaire"
+>
+> Soit un programme linéaire sous forme standard, où la matrice $A$ est de dimension $m \times n$ avec $m < n$ et de rang $m$.
+>
+> 1. Si l'ensemble des solutions réalisables n'est pas vide, alors il existe une solution de base réalisable dans cet ensemble (**Théorème de Carathéodory**).
+>
+> 2. S'il existe une solution réalisable optimale, alors il existe une solution de base réalisable optimale (**recherche de solutions de base réalisables**).
+>
+>
+> Lors de la résolution du programme, on peut restreindre notre attention au sous-ensemble des solutions de base réalisables de l'ensemble :
+>
+> $$ {x \mid Ax = b, x \geq 0} $$
+>
+> Pour un programme avec $n$ variables et $m$ contraintes, il y a au plus :
+>
+> $$ \binom{n}{m} $$
+>
+> solutions de base (nombre de façons de sélectionner $m$ parmi $n$ colonnes), soit un nombre fini de possibilités.
 
-## interprétation
-- considérer uniquement les sol de base réalisables lors de la recherche d'une sol réalisable optimale (la val optimale est toujours atteinte pour une telle solution)
-- si cette sol = sol de base → c'est une sol de base réalisable optimale
+> [!tip]+ Remarque
+>
+> Ce théorème suggère une technique de recherche finie évidente mais terriblement inefficace.
+>
+> En résumé :
+>
+> - S'il existe des solutions réalisables dans un tel ensemble, alors il existe une solution de base réalisable dans cet ensemble.
+> - S'il existe une solution réalisable optimale, alors il existe une solution de base réalisable optimale.
+> - Pour la résolution avec $n$ variables et $m$ contraintes, il y a $\binom{n}{m}$ solutions de base à examiner, ce qui est horriblement inefficace.
+## Interprétation
 
-### interprétation géométrique
-- lien entre interprétation algébrique et géométrique : relation formelle entre solutions de base réalisable et points extrêmes des polyèdres
-	- polyèdre : intersection d'un nb fini de demi-espaces fermés
-		- $\set{x | a^T x \leq b}$
-	- polyèdre convexe
-		- demi-espace fermé $\set{x | a^T x \leq b}$ = convexe
-		- intersection d'une famille quelconque d'ensembles convexes forme un ensemble convexe
-- en gros
-	- si tu représentes graphiquement toutes tes contraintes
-	- → tu te retrouves avec un polyèdre
-	- et selon le sommet que tu prends, tu auras une solution de base réalisable (ou pas, car why not)
+> [!tip]+ Remarque
+>
+> Il suffit de considérer uniquement les solutions de base réalisables lors de la recherche d'une solution réalisable optimale (la valeur optimale est toujours atteinte pour une telle solution).
+>
+> Si cette solution est une solution de base, alors c'est une solution de base réalisable optimale.
+
+### Interprétation géométrique
+
+> [!tip]+ Remarque
+>
+> Il existe un lien entre interprétation algébrique et géométrique : une relation formelle entre solutions de base réalisables et points extrêmes des polyèdres.
+>
+> Un **polyèdre** est l'intersection d'un nombre fini de demi-espaces fermés :
+>
+> $$ {x \mid a^T x \leq b} $$
+>
+> Un polyèdre est convexe car :
+>
+> - Un demi-espace fermé ${x \mid a^T x \leq b}$ est convexe
+> - L'intersection d'une famille quelconque d'ensembles convexes forme un ensemble convexe
+>
+> **Interprétation :** Si l'on représente graphiquement toutes les contraintes, on obtient un polyèdre. Selon le sommet choisi, on aura une solution de base réalisable (ou pas).

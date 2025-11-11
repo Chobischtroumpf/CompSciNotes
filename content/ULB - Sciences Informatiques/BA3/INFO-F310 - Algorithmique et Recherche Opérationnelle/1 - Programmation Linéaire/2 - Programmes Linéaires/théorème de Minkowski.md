@@ -5,25 +5,35 @@ tags:
   - Maths
   - Algo
 ---
+# Théorème de Minkowski
 
-# théorème de Minkowski
-- polytope $\equiv$ polyèdre borné
+> [!abstract]+ Théorème "Théorème de Minkowski"
+>
+> Un **polytope** est un polyèdre borné.
+>
+> Un ensemble $P$ définit un polytope si et seulement si cet ensemble est l'enveloppe convexe d'un ensemble (nombre fini) de points.
+>
+> Autrement dit, tout polytope est une enveloppe convexe d'une famille finie de points, et réciproquement.
 
-- un ensemble P défini un polytope $\leftrightarrow$ l'ensemble = enveloppe convexe d'un ensemble/nb fini de points
-	- $\leftrightarrow$ tout polytope est une enveloppe convexe d'une famille finie de points et réciproquement
+## Corollaire
 
-- et fermez vos gueules avec vos maths
-## corollaire
-- corollaire : un polytope est déf par l'enveloppe convexe de ces points (= points extrêmes)
+> [!abstract]+ Corollaire
+>
+> Un polytope est défini par l'enveloppe convexe de ses points extrêmes.
 
-- en gros tu fais une forme de merde sur un plan 2D
-	- ben cette forme s'appelle un polytope
-	- et tu le def par les sommets de cette forme de merde
+> [!tip]+ Remarque
+>
+> Si l'on trace une forme sur un plan 2D, cette forme s'appelle un polytope, et on le définit par les sommets de cette forme.
 
-## conséquences
-- → le polyèdre convexe (associé au prb) correspondant à l'ensemble des contraintes peut être décrit soit comme
-	- intersection (bornée) d'un nb fini de demi-espaces fermés
-	- envelope convexe fermée d'un nb fini de points, ses points extrêmes
-- prop : un ensemble $X$ de $\mathbb{R}^n$ convexe, borné et fermé  est égal à l'enveloppe convexe fermée de ces points extrêmes
+## Conséquences
 
-- merde j'ai déjà dit cette merde dans le théorème fondamental
+> [!tip]+ Remarque
+>
+> Le polyèdre convexe (associé au problème) correspondant à l'ensemble des contraintes peut être décrit soit comme :
+>
+> - l'intersection (bornée) d'un nombre fini de demi-espaces fermés
+> - l'enveloppe convexe fermée d'un nombre fini de points, ses points extrêmes
+
+> [!abstract]- Propriété
+>
+> Un ensemble $X$ de $\mathbb{R}^n$ convexe, borné et fermé est égal à l'enveloppe convexe fermée de ses points extrêmes.
