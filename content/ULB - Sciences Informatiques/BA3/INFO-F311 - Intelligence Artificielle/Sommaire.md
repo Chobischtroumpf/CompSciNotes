@@ -59,3 +59,10 @@ tags:
 	- [[Simulated Annealing]]
 
 ## Chapter 4: Games and Adversarial Search
+- [[Game]]
+- [[Adversarial Search]]
+- [[Minimax Search]]
+	- [[Alpha-Beta Pruning]]
+- [[Expectimax Search]]
+	- [[Evaluation Function]]
+- [[Monte Carlo Tree Search]]

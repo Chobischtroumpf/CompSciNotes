@@ -4,6 +4,4 @@ authors: Mihai Bors
 tags:
   - AI
 ---
-
-
 MCTS
