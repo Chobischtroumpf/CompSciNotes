@@ -1,3 +1,11 @@
+---
+title: théorème de Minkowski
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 # théorème de Minkowski
 - polytope $\equiv$ polyèdre borné
 

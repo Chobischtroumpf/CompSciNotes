@@ -1,3 +1,11 @@
+---
+title: théorème d'équivalence
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 # théorème d'équivalence
 - tout programme linéaire peut s'écrire sous forme standard **et** canonique
 

@@ -1,3 +1,11 @@
+---
+title: corollaires
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 ## Corollaire 1
  - Si l'ensemble convexe $P$ correspondant à l'ensemble de contraintes $\set{Ax = b, | x \geq 0}$ est non vide
 	 - → alors cet ensemble possède au moins un point extrème

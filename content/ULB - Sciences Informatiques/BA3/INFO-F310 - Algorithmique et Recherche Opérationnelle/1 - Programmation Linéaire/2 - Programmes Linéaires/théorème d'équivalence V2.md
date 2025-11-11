@@ -1,3 +1,11 @@
+---
+title: théorème d'équivalence V2
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 # théorème équivalence entre points extrêmes et solutions de base réalisable
 - Soit
 	- A, matrice réelle de dimension $m \times n$ et de rang $m$, et un vecteur réel $b$ de dimension $m$

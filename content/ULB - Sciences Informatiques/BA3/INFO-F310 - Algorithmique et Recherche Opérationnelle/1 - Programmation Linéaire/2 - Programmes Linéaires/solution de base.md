@@ -1,3 +1,11 @@
+---
+title: solution de base
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 # solution de base
 solution de base d'un programme linéaire : solution unique du sys de m équation à m inconnues obtenu en fixant (n-m) var à zéro
 - pourvu que mat $A_B \in R^{m \times m}$ du sys soit inv

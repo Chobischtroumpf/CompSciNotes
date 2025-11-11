@@ -1,3 +1,11 @@
+---
+title: exemple théorème d'équivalence
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 - forme standard
 	- var d'écart $s_1, s_2, s_3, s_4 \geq 0$
 	- $\max z = 5x_1 + 4x_2$

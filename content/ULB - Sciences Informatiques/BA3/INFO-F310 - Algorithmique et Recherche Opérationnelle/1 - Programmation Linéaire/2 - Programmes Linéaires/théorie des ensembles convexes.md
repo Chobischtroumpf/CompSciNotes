@@ -1,3 +1,11 @@
+---
+title: théorie des ensembles convexes
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 ### combinaison convexe
 - Pour un ensemble fini de points $x_1,...,x_n \in \mathbb{R}^d$ et toute famille de réels positifs $\alpha_i \geq 0, i = 1...,n$
 	- telles que : $\sum_{i=1}^n \alpha_i = \alpha_1 + ... + \alpha_n = 1$

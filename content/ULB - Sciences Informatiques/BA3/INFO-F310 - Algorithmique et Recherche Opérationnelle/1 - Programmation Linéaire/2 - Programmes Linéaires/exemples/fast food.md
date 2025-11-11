@@ -1,3 +1,11 @@
+---
+title: fast food
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 ## énoncé
 - fast food vend des hamburgers et des cheeseburgeurs
 	- hamburger = 125g de viande

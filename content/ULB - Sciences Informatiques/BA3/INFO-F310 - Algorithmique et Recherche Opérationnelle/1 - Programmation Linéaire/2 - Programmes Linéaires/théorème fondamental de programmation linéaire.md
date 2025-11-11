@@ -1,3 +1,11 @@
+---
+title: théorème fondamental de programmation linéaire
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 # théorème fondamental
 - PL (program lin) sous forme standard
 	- minimize $c^Tx$

@@ -1,3 +1,11 @@
+---
+title: problème diététique
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 ## énoncé
 déterminer la compo, à coùut minimal, d'un aliment pour bétail qui est obtenu en mélangeant au plus deux prod (orge et arachide)
 - quantité nécessaire par portion = 400g

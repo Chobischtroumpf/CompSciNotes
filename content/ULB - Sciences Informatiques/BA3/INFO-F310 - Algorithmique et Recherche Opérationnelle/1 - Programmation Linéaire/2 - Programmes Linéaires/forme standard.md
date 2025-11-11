@@ -1,3 +1,11 @@
+---
+title: forme standard
+authors: iamscrambledeggs
+tags:
+  - Maths
+  - Algo
+---
+
 - prb à $n$ var ($x \in R^n$) sujet à $m$ contraintes ($b \in R^m$) et $A \in R^{m \times n}$
 	- rep matricielle
 		- maximize (or minimize) $c^T x$

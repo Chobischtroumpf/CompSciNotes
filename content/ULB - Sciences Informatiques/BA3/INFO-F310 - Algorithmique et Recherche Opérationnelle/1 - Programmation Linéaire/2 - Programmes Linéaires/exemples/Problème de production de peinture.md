@@ -1,6 +1,6 @@
 ---
 title: Problème de production de peinture
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, iamscrambledeggs
 tags:
   - Algo
   - Maths
