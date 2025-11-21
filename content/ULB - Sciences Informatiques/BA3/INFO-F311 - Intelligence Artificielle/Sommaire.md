@@ -85,6 +85,7 @@ tags:
 - [[Discount Factor]]
 - [[Value Iteration]]
 	- [[Time-Limited Values]]
+- [[Q-Value Iteration]]
 - [[Policy Extraction]]
 
 ## Chapter 11: Reinforcement Learning

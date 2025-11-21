@@ -1,6 +1,6 @@
 ---
 title: Task Counters
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags: []
 ---
 
@@ -8,7 +8,7 @@ tags: []
 
 Tasks with progress counters:
 
-- [ ] AI: Theory [339/847]
+- [ ] AI: Theory [428/847]
 - [ ] AI: TP [0/78]
 - [ ] Info Fond: Theory [254/580]
 - [ ] Info Fond: TP [13/41]
@@ -18,6 +18,8 @@ Tasks with progress counters:
 - [ ] Networking: Exams [0/6]
 - [ ] Algo Ro: Theory [79/461]
 - [ ] Algo Ro: TP [6/43]
+- [ ] Mod Sim: Theory [0/545]
+- [ ] Mod Sim: TP [0/7]
 
 ---
-*Last updated: 11/18/2025, 1:26:52 PM*
+*Last updated: 11/21/2025, 5:08:38 PM*
