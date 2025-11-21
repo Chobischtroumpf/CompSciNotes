@@ -4,70 +4,115 @@ authors: Mihai Bors
 tags:
   - AI
 ---
+> [!info]+ Definition
+> **Expectimax Search** is an extension of [[Minimax Search]] for handling uncertain outcomes controlled by chance rather than an adversary, computing average-case outcomes instead of worst-case.
 
+## Motivation
 
-- Uncertain outcomes controlled by chance, not an adversary
+> [!abstract]+ When to Use Expectimax
+> **Uncertainty sources:**
+> - Randomness in the environment
+> - Unpredictable opponents
+> - Action failures (actions fail with some probability)
+> - Imperfect world models
+>
+> **Key difference from minimax:**
+> - Values reflect **average-case** outcomes, not worst-case
+> - Compute average score under optimal play
 
-We can't know the results of actions, due to things such as randomness, unpredictable opponents or simply due to failures (actions fail due to a certain error or model of the world)
+## Node Types
 
-The values should reflect average-case outcomes, not worst-case ones ([[Minimax Search|minimax]])
-
-- Compute average score under optimal play
-	- Max nodes are the same
-	- Chance nodes are like min nodes but the outcome is uncertain
-	- Calculate their expected utilities
-
-![[Pasted image 20251111135158.png]]
-Here for example, we have a max node followed by two chance nodes with 10 / 10 and 9 / 100. We don't know the probabilities, so we can just do 10 + 10 / 2 for the left utility and 9 + 100 / 2 for the right one. The max node will obviously pick the second one
+> [!abstract]+ Expectimax Tree Structure
+> **Max nodes:** Same as minimax - agent chooses action that maximizes value
+>
+> **Chance nodes:** Like min nodes but outcome is uncertain
+> - Calculate expected utilities based on probabilities
+> - Not adversarial - governed by probability distribution
+>
+> ![[Pasted image 20251111135158.png]]
+> *Example: Max node with two chance nodes. Left node: (10 + 10)/2 = 10. Right node: (9 + 100)/2 = 54.5. Max chooses right.*
 
 ## Implementation
 
-```python
-def value(state):
-	if state.terminal: return state.utility
-	if agent.max: return max_value(state)
-	if agent.exp: return exp_value(state)
-```
+> [!abstract]+ Expectimax Algorithm
+> **Main dispatch:**
+> ```python
+> def value(state):
+>     if state.terminal: return state.utility
+>     if agent.max: return max_value(state)
+>     if agent.exp: return exp_value(state)
+> ```
+>
+> **Max-value function:**
+> ```python
+> def max_value(state):
+>     v = -infty
+>     for s in state.successors:
+>         v = max(v, exp_value(s))
+>     return v
+> ```
+>
+> **Expected-value function:**
+> ```python
+> def exp_value(state):
+>     v = 0
+>     for s in state.successors:
+>         p = probability(s)
+>         v += p * s.value
+>     return v
+> ```
 
-```python
-def max_value(state):
-	v = -infty
-	for s in state.successors:
-		v = max(v, min_value(s))
-	return v
-```
+## Example
 
-```python
-def exp_value(state):
-	v = 0
-	for s in state.successors:
-		p = probability(s)
-		v += p * s.value
-	return v
-```
+> [!example]+ Expected Value Calculation
+> ![[Pasted image 20251111135715.png]]
+>
+> **Calculation:**
+> $$v = \frac{1}{2}(8) + \frac{1}{3}(24) + \frac{1}{6}(-12) = 10$$
 
-![[Pasted image 20251111135715.png]]
-$$v = (1/2) (8) + (1/3) (24) + (1/6) (-12) = 10$$
+## Limitations
 
-- We can't do expectimax pruning. What if the next value is 5 million?
+> [!warning]+ Expectimax Constraints
+> **Cannot prune:**
+> - Unlike alpha-beta pruning, expectimax cannot prune branches
+> - Must evaluate all successors (next value could be 5 million!)
+>
+> **Depth limiting:**
+> - Usually depth-limited in practice
+> - Use evaluation functions to estimate true expectimax value
+> - Necessary to avoid computational explosion
 
-- Expectimax is usually depth-limited, we use a function to estimate the true expectimax value of utilities to avoid big computational costs
+## Probabilistic Modeling
 
-## Model
+> [!abstract]+ Opponent/Environment Model
+> In expectimax, we have a probabilistic model of how the opponent (or environment) behaves at any state.
+>
+> **Models can be:**
+> - Simple uniform distribution (equal probabilities)
+> - Sophisticated learned models
+>
+> **Example scenario:**
+> If you know your opponent runs depth-2 minimax 80% of the time and moves randomly 20% of the time:
+> - **Solution:** Use expectimax!
+> - Model each chance node with appropriate probabilities
+> - Simulate opponent behavior (depth-limited to avoid slowness)
 
-In expectimax, we have a probabilistic model of how the opponent (or environment) will behave at any state
-- Could be a simple uniform distribution
-- Could be sophisticated
+## Comparison: Minimax vs Expectimax
 
-Let’s say you know that your opponent is actually running a depth 2 minimax, using the result 80% of the time, and moving randomly otherwise
+> [!abstract]+ Trade-offs
+> **Minimax:**
+> - Dangerous pessimism
+> - Assumes worst case when it's not likely
+>
+> **Expectimax:**
+> - Dangerous optimism
+> - Assumes chance when the world is adversarial
+>
+> ![[Pasted image 20251111140622.png]]
+> *Results from 5 Pacman games with different agent/ghost combinations*
 
-- Question: What tree search should you use?
-- Expectimax! We need to figure out each chance node's probabilities, which means running a simulation of the opponent (depth-limited to avoid slowness)
-
-## Comparison
-
-**Minimax:** Dangerous pessimism - assuming the worst case when it's not likely
-**Expectimax:** Dangerous optimism - assuming chance when the world is adversarial
-
-![[Pasted image 20251111140622.png]]
-Results from playing 5 pacman games with pacman being either minimax or expectimax and the ghost being adversarial or random
+> [!note]+ Related Concepts
+> - **[[Minimax Search]]**: Deterministic adversarial version
+> - **[[Adversarial Search]]**: General framework
+> - **[[Evaluation Function]]**: Used for depth-limited expectimax
+> - **[[Game]]**: Environment being modeled

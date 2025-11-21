@@ -80,3 +80,33 @@ tags:
 	- [[variantes SAT#QSAT|QSAT]]
 	- [[variantes SAT#WEIGHTED-MAX-SAT|WEIGHTED-MAX-SAT]]
 		- [[variantes SAT#MAX-SAT|MAX-SAT]]
+
+# Chap 3 : classes P et NP 
+- [[introduction]]
+- problème 
+	- [[problème de décision]]
+	-  [[problème d'optimisation]]
+	- [[problème indécidable]]
+		-  [[problème indécidable#exemple problème de l'arrêt|problème de l'arrêt]]
+			-  [[problème indécidable#problème de la correspondance de Post|problème de la correspondance de Post]]
+		- [[problème indécidable#autres problèmes indécidables|autres exemples]]
+- algorithmes
+	-  [[algorithme de décision]]
+	-  [[algorithme de vérification]]
+- classes
+	- [[classe P]]
+	-  [[classe NP]]
+		-  [[classe NP#$NP subseteq$ ExpTime|$NP \subseteq Exptime$]]
+		-  [[classe NP#$NP$- dur ou $NP$-difficiles|NP-dur]]
+	- [[autres classes]]
+- preuves
+	- [[conjecture]]
+	- démontrer qu'un prb est NP-complet 
+		-  [[composition de réduction]]
+		-  [[théorème de la réduction]]
+		-  [[conséquence de la complétude]]
+- exercices
+	- [[bin packing est np-complet]]
+	-  [[graphcolor est np-complet]]
+		- [[graphcolor est np-complet#réduction de 3SATvers GRAPHCOLOR|réduction 3SAT vers GRAPHCOLOR]]
+	-  [[démonstration problème indécidable]]

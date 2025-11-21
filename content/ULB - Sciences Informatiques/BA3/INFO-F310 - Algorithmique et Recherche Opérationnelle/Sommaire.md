@@ -55,3 +55,24 @@ En partant d'un énoncé/problème donné, on va:
 	- théorème d'équivalence
 		-  [[exemple théorème d'équivalence|jsp frr, il le sort de son cul]]
 		- [[fast food]]
+
+# 3 - Résolution 
+- résolution 
+	- [[méthode graphique]]
+		- [[production de peinture#méthode graphique avec programme linéaire|exemple]]
+	- [[méthode du simplexe]]
+		- [[production de peinture#méthode du simplexe|exemple]]
+	- [[méthode des deux phases]]
+- à savoir 
+	- [[règles de standardization]]
+		- [[exemples règles de standardization]]
+	- cas particuliers
+		- [[base dégénérée]]
+			- [[exemple base dégénérée]]
+		- [[solutions optimales multiples]]
+			- [[exemple solutions optimales multiples]]
+		- [[problèmes non-bornés]]
+			- [[exemples problème de non-borné]]
+		- [[problèmes impossibles]]
+- ahahahahahah c'est trop marrant
+	- [[interprétation économique]]

@@ -4,79 +4,97 @@ authors: Mihai Bors
 tags:
   - AI
 ---
+> [!info]+ Definition
+> **Minimax Search** is a state-space search tree algorithm where players alternate turns and compute each node's minimax value: the best achievable utility against a rational (optimal) adversary.
 
+## Algorithm Overview
 
-
-![[d1a28c7ec60ad4ace0cf675bdc416a14.png]]
-
-Minimax search: A state-space search tree, where players alternate turns and compute each node’s minimax value: the best achievable utility against a rational (optimal) adversary
+> [!abstract]+ Core Concept
+> ![[d1a28c7ec60ad4ace0cf675bdc416a14.png]]
+>
+> Minimax computes the value of each state by assuming:
+> - **Max nodes:** Agent chooses action that maximizes value
+> - **Min nodes:** Opponent chooses action that minimizes value
 
 ## Implementation
 
-```python
-def max_value(state):
-	v = -infty
-	for s in state.successors:
-		v = max(v, min_value(s))
-	return v
-```
+> [!abstract]+ Basic Implementation
+> **Max-value function:**
+> ```python
+> def max_value(state):
+>     v = -infty
+>     for s in state.successors:
+>         v = max(v, min_value(s))
+>     return v
+> ```
+> $$V(s) = \max_{s' \in \text{successors}(s)} V(s')$$
+>
+> **Min-value function:**
+> ```python
+> def min_value(state):
+>     v = +infty
+>     for s in state.successors:
+>         v = min(v, max_value(s))
+>     return v
+> ```
+> $$V(s) = \min_{s' \in \text{successors}(s)} V(s')$$
 
-$V(s) = \underset{s' \in \text{ successors}(s)}{\max V(s')}$
+> [!abstract]+ Dispatch Implementation
+> **Main dispatch:**
+> ```python
+> def value(state):
+>     if state.terminal: return state.utility
+>     if agent.max: return max_value(state)
+>     if agent.min: return min_value(state)
+> ```
+>
+> **Max-value (simplified):**
+> ```python
+> def max_value(state):
+>     v = -infty
+>     for s in state.successors:
+>         v = max(v, s.value)
+>     return v
+> ```
+>
+> **Min-value (simplified):**
+> ```python
+> def min_value(state):
+>     v = +infty
+>     for s in state.successors:
+>         v = min(v, s.value)
+>     return v
+> ```
 
-```python
-def min_value(state):
-	v = +infty
-	for s in state.successors:
-		v = min(v, max_value(s))
-	return v
-```
+## Example
 
-$V(s) = \underset{s' \in \text{ successors}(s)}{\min V(s')}$
-
-### Dispatch Implementation
-
-```python
-def value(state):
-	if state.terminal: return state.utility
-	if agent.max: return max_value(state)
-	if agent.min: return min_value(state)
-```
-
-```python
-def max_value(state):
-	v = -infty
-	for s in state.successors:
-		v = max(v, s.value)
-	return v
-```
-
-```python
-def min_value(state):
-	v = +infty
-	for s in state.successors:
-		v = min(v, s.value)
-	return v
-```
-
-![[ad4ecee9d50e40892830f12ebe4216f5.png]]
-![[3db8cb4b216892f4f476423f4e7fce1a.png]]
-Minimax example (to explain)
+> [!example]+ Minimax Computation
+> ![[ad4ecee9d50e40892830f12ebe4216f5.png]]
+> ![[3db8cb4b216892f4f476423f4e7fce1a.png]]
 
 ## Generalized Minimax
 
-What if the game is not zero-sum, or has multiple players?
-
-Generalization of minimax:
-- Terminals have utility tuples
-- Node values are also utility tuples
-- Each player maximizes its own component
-- Can give rise to cooperation and competition dynamically…
-
-![[f16aeb2cb269be3df52eb193924ff05c.png]]
-Generalized Pacman Minimax with 3 agents (red ghost, cyan ghost and pacman)
+> [!abstract]+ Multi-Player Extension
+> **For non-zero-sum or multi-player games:**
+> - Terminals have utility tuples
+> - Node values are also utility tuples
+> - Each player maximizes its own component
+> - Can give rise to cooperation and competition dynamically
+>
+> ![[f16aeb2cb269be3df52eb193924ff05c.png]]
+> *Example: Generalized Pacman Minimax with 3 agents (red ghost, cyan ghost, and pacman)*
 
 ## Efficiency
 
-Just like (exhaustive) DFS
-- Time: $\mathcal{O}(b^m)$
-- Space: $\mathcal{O}(bm)$
+> [!abstract]+ Complexity Analysis
+> Similar to exhaustive DFS:
+> - **Time complexity:** $\mathcal{O}(b^m)$
+> - **Space complexity:** $\mathcal{O}(bm)$
+>
+> where $b$ is the branching factor and $m$ is the maximum depth
+
+> [!note]+ Related Concepts
+> - **[[Adversarial Search]]**: Framework for competitive games
+> - **[[Alpha-Beta Pruning]]**: Optimization technique for minimax
+> - **[[Game]]**: Environment being solved
+> - **[[Expectimax Search]]**: Extension to stochastic environments

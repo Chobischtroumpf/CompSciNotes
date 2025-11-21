@@ -4,33 +4,46 @@ authors: Mihai Bors
 tags:
   - AI
 ---
+> [!info]+ Definition
+> **Adversarial Search** is search in competitive environments where one player maximizes the result while another player minimizes it (for deterministic, zero-sum games).
 
+## Comparison to Single-Agent Search
 
-One player maximizes result, one player minimizes it (for deterministic, zero-sum games)
+> [!abstract]+ Single-Agent vs Adversarial Trees
+> | Single-Agent Tree | Adversarial Game Tree |
+> |:-----------------:|:---------------------:|
+> | ![[97e43d0d0a27ec42fc480215bf815edf.png]] | ![[fa89adef29bdfbaf2a06cd9973de4294.png]] |
 
-| ![[97e43d0d0a27ec42fc480215bf815edf.png]] | ![[fa89adef29bdfbaf2a06cd9973de4294.png]] |
-| :----------------------------------: | :----------------------------------: |
-|          Single-Agent Tree           |        Adversarial Game Tree         |
 ## Value of a State
 
-### Single-Agent
+> [!abstract]+ Single-Agent Value
+> **Definition:** The best achievable outcome (utility) from that state
+>
+> **Non-terminal state:**
+> $$V(s) = \max_{s' \in \text{successors}(s)} V(s')$$
+>
+> **Terminal state:** $V(s)$ is known
 
-The best achievable outcome (utility) from that state
+> [!abstract]+ Adversarial Value
+> **Max nodes** (under agent's control):
+> $$V(s) = \max_{s' \in \text{successors}(s)} V(s')$$
+>
+> ![[00fab96c30beec80d7c51c497ee65303.png]]
+>
+> **Min nodes** (under opponent's control):
+> $$V(s) = \min_{s' \in \text{successors}(s)} V(s')$$
+>
+> ![[0f7cb941f06d4710dee2bbc582b43bd0.png]]
 
-Non-terminal state: $V(s) = \underset{s' \in \text{ successors}(s)}{\max V(s')}$
-Terminal state: $V(s)$ is known
+## Complete Example
 
-### Adversarial
+> [!example]+ Full Adversarial Tree
+> ![[590967387d97b84693d287d56ec71a97.png]]
+>
+> **Terminal states:** $V(s)$ is known and propagates up the tree
 
-Max nodes are under the [[Agent]]'s control: $V(s) = \underset{s' \in \text{ successors}(s)}{\max V(s')}$
-
-![[00fab96c30beec80d7c51c497ee65303.png]]
-
-Min nodes are under the Opponent's control: $V(s) = \underset{s' \in \text{ successors}(s)}{\min V(s')}$
-
-![[0f7cb941f06d4710dee2bbc582b43bd0.png]]
-
-![[590967387d97b84693d287d56ec71a97.png]]
-Entire tree
-
-Terminal states: $V(s)$ is known
+> [!note]+ Related Concepts
+> - **[[Game]]**: Environment being searched
+> - **[[Minimax Search]]**: Complete algorithm for adversarial search
+> - **[[Alpha-Beta Pruning]]**: Optimization for minimax
+> - **[[Expectimax Search]]**: Extension to stochastic games
