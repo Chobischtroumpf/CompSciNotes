@@ -18,7 +18,7 @@ tags:
 ## Q-Value Function
 
 > [!abstract]+ Optimal Q-Value Function
-> ![[Pasted image 20251121144738.png]]
+> ![[338131fd9dece5f37d2b5a1b03c5d990.png]]
 >
 > The optimal Q-value is defined as:
 >

@@ -21,7 +21,7 @@ tags:
 ## Basic MCTS (Version 1.0)
 
 > [!example]+ Simple Rollout Approach
-> ![[Pasted image 20251121134803.png]]
+> ![[74cd4785c8b993ffe58a6505ed9978c5.png]]
 >
 > **Strategy:**
 > - Consider three actions (left, middle, right)
@@ -40,7 +40,7 @@ tags:
 > [!abstract]+ Smart Simulation Distribution
 > **Insight:** Don't waste simulations on clearly bad actions
 >
-> ![[Pasted image 20251121135310.png]]
+> ![[8c874bd89ac9d9e2f6f48b15bce21825.png]]
 >
 > **Strategy:**
 > - Start with few simulations per action
@@ -53,7 +53,7 @@ tags:
 > [!abstract]+ Variance Consideration
 > **Problem:** Similar win percentages with different simulation counts
 >
-> ![[Pasted image 20251121135348.png]]
+> ![[34d4b9cc271fcf7577a5cb89fbcf7764.png]]
 >
 > **Key insight:**
 > - Action with fewer simulations has higher variance

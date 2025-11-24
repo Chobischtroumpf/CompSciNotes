@@ -34,7 +34,7 @@ tags:
 ## Convergence
 
 > [!abstract]+ Convergence Guarantee
-> ![[Pasted image 20251121155049.png]]
+> ![[524d2edd139d60d58568460c0642977d.png]]
 >
 > **Question:** How do we know the $V_k$ vectors converge (assuming $0 < \gamma < 1$)?
 >

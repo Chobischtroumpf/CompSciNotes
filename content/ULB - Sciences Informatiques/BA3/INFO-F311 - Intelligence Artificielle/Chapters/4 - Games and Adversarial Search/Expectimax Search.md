@@ -29,7 +29,7 @@ tags:
 > - Calculate expected utilities based on probabilities
 > - Not adversarial - governed by probability distribution
 >
-> ![[Pasted image 20251111135158.png]]
+> ![[0808f898cf50fffc7dd2d30ef7dd4443.png]]
 > *Example: Max node with two chance nodes. Left node: (10 + 10)/2 = 10. Right node: (9 + 100)/2 = 54.5. Max chooses right.*
 
 ## Implementation
@@ -65,7 +65,7 @@ tags:
 ## Example
 
 > [!example]+ Expected Value Calculation
-> ![[Pasted image 20251111135715.png]]
+> ![[ccb24e64b6842bb426575870b7980152.png]]
 >
 > **Calculation:**
 > $$v = \frac{1}{2}(8) + \frac{1}{3}(24) + \frac{1}{6}(-12) = 10$$
@@ -108,7 +108,7 @@ tags:
 > - Dangerous optimism
 > - Assumes chance when the world is adversarial
 >
-> ![[Pasted image 20251111140622.png]]
+> ![[4440140467a8a38e138863159bc69758.png]]
 > *Results from 5 Pacman games with different agent/ghost combinations*
 
 > [!note]+ Related Concepts

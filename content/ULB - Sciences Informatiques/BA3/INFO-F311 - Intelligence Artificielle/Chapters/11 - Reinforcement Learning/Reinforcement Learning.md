@@ -15,7 +15,7 @@ tags:
 > - Must act so as to maximize expected rewards
 > - All learning is based on observed samples of outcomes
 >
-> ![[Pasted image 20251124120112.png]]
+> ![[1754aa2a9ec8879ce979cd9643c39f89.png]]
 > *Main RL loop*
 
 ## MDP Framework

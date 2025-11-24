@@ -17,7 +17,7 @@ tags:
 ## Value Function
 
 > [!abstract]+ Optimal Value Function
-> ![[Pasted image 20251121144655.png]]
+> ![[e4632cea8304a3e732a44b059fb41cbc.png]]
 >
 > The optimal value of state $s$ can be expressed in multiple equivalent ways:
 >

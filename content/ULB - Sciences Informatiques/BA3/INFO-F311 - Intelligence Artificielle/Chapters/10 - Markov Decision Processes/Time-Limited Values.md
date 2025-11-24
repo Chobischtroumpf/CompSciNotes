@@ -27,7 +27,7 @@ tags:
 > 4. $V_3(s)$: Three timesteps remaining
 > 5. Continue until convergence to $V^*(s)$
 >
-> ![[Pasted image 20251121153420.png]]
+> ![[4ae8026cba4da605c2e4e79f326ebc51.png]]
 >
 > **Example computation order:**
 > - Start at root: $V_4(s)$

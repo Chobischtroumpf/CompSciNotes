@@ -35,8 +35,8 @@ tags: []
 > - Ceci nécessite de permuter des sommets du même bloc entre eux (ainsi que leurs sous-arbres)
 
 > [!tip]+ Exemple
-> ![[Pasted image 20251124102752.png]]
-> ![[Pasted image 20251124102803.png]]
-> ![[Pasted image 20251124103046.png]]
-> ![[Pasted image 20251124103100.png]]
-> ![[Pasted image 20251124103117.png]]
+> ![[b061c195c778d9faaaa9fc80fc6e6faf.png]]
+> ![[432852f353ad0d1e868eb472172ffa84.png]]
+> ![[0e85655f628351ce14c4d8b59954280f.png]]
+> ![[89a36f1e69fef9a6b3aa499207e3eac0.png]]
+> ![[d6299f49138c9ee8a920fadf7ab1a0fa.png]]

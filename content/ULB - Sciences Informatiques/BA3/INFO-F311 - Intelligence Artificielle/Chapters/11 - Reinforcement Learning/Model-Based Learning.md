@@ -27,11 +27,11 @@ tags:
 > [!example]+ Model-Based Learning Walkthrough
 > Consider the following [[Markov Decision Process|MDP]] with states $S = \{ A, B, C, D, E, x \}$, where $x$ is the terminal state, and discount factor $\gamma = 1$:
 >
-> ![[Pasted image 20251124121932.png]]
+> ![[e92dd5f5216d15711f8f97f6ca45ea24.png]]
 >
 > Agent explores for four episodes under policy $\pi_{\text{explore}}$ (directional triangle = motion direction, blue square = `exit` action):
 >
-> ![[Pasted image 20251124122024.png]]
+> ![[d16c3a60a127618a6d0159bfddd2c519.png]]
 >
 > **Collected samples:** 12 total (3 per episode)
 >

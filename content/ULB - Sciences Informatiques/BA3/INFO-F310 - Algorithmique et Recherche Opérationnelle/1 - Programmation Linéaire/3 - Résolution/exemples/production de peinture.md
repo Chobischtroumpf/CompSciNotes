@@ -1,3 +1,9 @@
+---
+title: production de peinture
+authors: Mihai Bors
+tags: []
+---
+
 # production de peinture
 ## méthode graphique avec programme linéaire
 $\max z = 5x_1 + 4x_2$
@@ -7,7 +13,7 @@ $\max z = 5x_1 + 4x_2$
 4. $x_1 + x_2 \leq 1$
 5. $x_1 \geq 0$
 6. $x_2 \geq 0$
-![[Pasted image 20251104163049.png]]
+![[6d9878ead273d7f1f9e76ddea82a4e60.png]]
 ### géométrie des solutions
 - ensemble des solutions admissibles = polyèdre convexe ABCDEF non-vide
 - sommets du polyèdre ABCDEF = points candidates à solution(s) optimale(s)
@@ -25,7 +31,7 @@ $\max z = 5x_1 + 4x_2$
 → solution optimale est le sommet E du polyèdre
 
 ## courbe de niveau
-![[Pasted image 20251104163823.png]]
+![[84d3fb400821e559169191dc5b4aa8bd.png]]
 
 ## méthode du simplexe
 $\max z = 5x_1 + 4x_2$

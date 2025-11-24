@@ -24,7 +24,7 @@ tags:
 ## Example: Racing
 
 > [!example]+ Racecar MDP
-> ![[Pasted image 20251121143246.png]]
+> ![[94616116b675e69a40116105970a2057.png]]
 >
 > **States**: $S = \{\text{cool}, \text{warm}, \text{overheated}\}$
 >
@@ -78,12 +78,12 @@ tags:
 > - Represented as tuple $(s, a)$ for action $a$ taken from state $s$
 > - Agents spend zero timesteps in Q-states
 >
-> ![[Pasted image 20251121143858.png]]
+> ![[b96c7f0f18fdad5e6c7561d0ede5a1d7.png]]
 > *Green nodes represent Q-states where action has been taken but not yet resolved*
 
 ## States, Q-States, and Transitions
 
-![[Pasted image 20251121152532.png]]
+![[613d27c416073bf5240add07b5007527.png]]
 
 > [!note]+ Related Concepts
 > - **[[Policy]]**: Mapping from states to actions

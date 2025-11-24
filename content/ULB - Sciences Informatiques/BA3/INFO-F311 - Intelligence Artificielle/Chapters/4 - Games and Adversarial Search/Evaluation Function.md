@@ -38,7 +38,7 @@ tags:
 ## Example Application
 
 > [!example]+ Chess Evaluation
-> ![[Pasted image 20251111134038.png]]
+> ![[8bbfc007b554774e8ab143ee0b314d6a.png]]
 > *Chess positions evaluated in minimax tree with depth limit*
 >
 > **Typical chess features:**
