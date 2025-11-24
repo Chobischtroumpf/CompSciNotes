@@ -91,3 +91,8 @@ tags:
 - [[Reinforcement Learning]]
 - [[Model-Free Learning]]
 - [[Model-Based Learning]]
+- [[Passive Reinforcement Learning]]
+	- [[Direct Evaluation]]
+	- [[Temporal Difference Learning]]
+- [[Active Reinforcement Learning]]
+	- [[Q-Learning]]
