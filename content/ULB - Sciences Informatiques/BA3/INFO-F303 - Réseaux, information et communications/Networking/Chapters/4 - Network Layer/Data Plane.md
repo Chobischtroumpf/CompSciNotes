@@ -21,4 +21,4 @@ tags:
 >
 > When a packet arrives with header value $0111$, the router forwards it to output port $2$ based on this table.
 >
-> ![[Pasted image 20251102110051.png]]
+> ![[45fbf03b50166f5434f0e0d7ca40b8e4.png]]

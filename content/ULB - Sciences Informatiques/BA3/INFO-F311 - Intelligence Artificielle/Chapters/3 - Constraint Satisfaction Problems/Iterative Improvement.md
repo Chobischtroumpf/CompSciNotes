@@ -38,7 +38,7 @@ tags:
 >
 > $$R = \frac{\text{number of constraints}}{\text{number of variables}}$$
 >
-> ![[Pasted image 20251106132558.png]]
+> ![[469d6a1203f30f15e894a76e09724793.png]]
 
 > [!note]+ Related Concepts
 > - **[[Local Search]]**: General framework for iterative improvement

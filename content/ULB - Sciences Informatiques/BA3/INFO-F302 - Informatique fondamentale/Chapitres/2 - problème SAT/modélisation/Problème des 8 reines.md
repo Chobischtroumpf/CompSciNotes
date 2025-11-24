@@ -5,7 +5,7 @@ tags:
   -
 ---
 
-![[Pasted image 20251007165146.png]]
+![[4542c0b6be9644ca0806a5a9aaeb06cd.png]]
 ## codage en PySAT
 - variable booléenne
 	- entier positif
@@ -78,7 +78,7 @@ for i in range(nb) :
 			if i + k + 1 < nb and j - k - 1 >= 0 :
 				cnf.append([-vppol.id((i,j)), -vpool.id((i+k+1, j-k-1))])
 ```
-![[Pasted image 20251007170942.png]]
+![[ece06cf131f12fe7bc4eee7926dd2993.png]]
 #### lancement d'un solveur
 ```python
 # phase résolution

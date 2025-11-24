@@ -30,7 +30,7 @@ tags:
 >     - Proxy caches the received object
 >     - Proxy returns object to client
 
-![[Pasted image 20251027150541.png]]
+![[5defd22b40547e426cb5619181616680.png]]
 
 > [!tip]+ Dual Role
 > The proxy server acts as:
@@ -54,7 +54,7 @@ tags:
 >     - = 2 sec + **minutes** (due to queueing) + microseconds
 >     - **Total**: Several minutes (unacceptable!)
 >
-> ![[Pasted image 20251027152504.png]]
+> ![[1b4aff587d75cdfcf59a09c8ed51fef1.png]]
 
 > [!warning]+ The Bottleneck Problem
 > Even if we multiply the access link speed by 100:
@@ -76,7 +76,7 @@ tags:
 > - = 0.6 × (2.01 sec) + 0.4 × (milliseconds)
 > - ≈ **1.2 seconds** ✓ Dramatic improvement!
 >
-> ![[Pasted image 20251027153615.png]]
+> ![[9d6b80108a2150dda74713b935575eef.png]]
 
 > [!success]+ Benefits
 > - **Response time**: Reduced from minutes to ~1.2 seconds

@@ -20,7 +20,7 @@ tags:
 > **Tunneling:** IPv6 packet carried as _payload_ in IPv4 packet among IPv4 routers ("packet within a packet")
 >
 > Tunneling is used extensively in other contexts as well.
-> ![[Pasted image 20251102150530.png]]
+> ![[66ed8eb5f9ac3176670d29d29e39223b.png]]
 > IPv4 packet structure with tunneling:
 >
 > $$ \text{IPv4 packet} = \text{IPv4 header fields} + \text{IPv6 packet (as payload)} $$
@@ -33,19 +33,19 @@ tags:
 ## Tunneling Scenarios
 
 > [!example]+ **Scenario 1: Ethernet connecting two IPv6 routers**
-> ![[Pasted image 20251102150545.png]]
+> ![[4bfff9d7650e05aa4943b4681e2f8cab.png]]
 > Network: A (IPv6) — B (IPv6) — _Ethernet connects two IPv6 routers_ — E (IPv6) — F (IPv6)
 >
 > Link-layer frame contains: The usual packet as payload in link-layer frame
 
 > [!example]+ **Scenario 2: IPv4 network connecting two IPv6 routers**
-> ![[Pasted image 20251102150604.png]]
+> ![[eb0fe4d7393bb1312923956833b7789c.png]]
 > Network: A (IPv6) — B (IPv6/v4) — _IPv4 network_ — E (IPv6/v4) — F (IPv6)
 >
 > IPv6 packets are tunneled through the IPv4 network.
 
 > [!example]+ **Scenario 3: IPv4 tunnel connecting two IPv6 routers**
-> ![[Pasted image 20251102150616.png]]
+> ![[031c95f3150fa652edbc7fefda2ba549.png]]
 > Network: A (IPv6) — B (IPv6/v4) — _IPv4 tunnel connecting IPv6 routers_ — E (IPv6/v4) — F (IPv6)
 >
 > IPv4 packet structure: IPv4 packet contains tunneling (IPv6 packet as payload in a IPv4 packet)
@@ -53,11 +53,11 @@ tags:
 > [!example]+ Logical vs Physical View
 >
 > **Logical view:**
-> ![[Pasted image 20251102150634.png]]
+> ![[a0d4ffd3fe79012a1000e1d533433807.png]]
 > A (IPv6) — B (IPv6/v4) — _IPv4 tunnel connecting IPv6 routers_ — E (IPv6/v4) — F (IPv6)
 >
 > **Physical view:**
-> ![[Pasted image 20251102150656.png]]
+> ![[e1344040e7829a73100c0e2beca59282.png]]
 > A (IPv6) — B (IPv6/v4) — C (IPv4) — D (IPv4) — E (IPv6/v4) — F (IPv6)
 >
 > Flow details:

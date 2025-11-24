@@ -16,7 +16,7 @@ tags:
 	- le choix de la proposition choisie peut fortement influencer le résultat
 
 **exemple**
-![[Pasted image 20251014145706.png]]
+![[eb1be294fbf4b2b6f1b453d6991e0bd2.png]]
 
 ### premier critère de choix : clauses unitaires
 - une clause unitaire = clause qui ne contient qu'un seul littéral

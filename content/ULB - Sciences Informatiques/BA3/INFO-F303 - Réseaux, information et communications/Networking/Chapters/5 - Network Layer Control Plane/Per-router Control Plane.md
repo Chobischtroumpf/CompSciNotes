@@ -6,7 +6,7 @@ tags:
 ---
 Individual routing algorithm components in each and every router interact in the control plane
 
-![[Pasted image 20251106151914.png]]
+![[8623dcf78f5d5a2f88fee86ce1c3dea5.png]]
 
 ## Routing Algorithm Classification
 

@@ -12,4 +12,4 @@ tags:
 > [!tip] Satisfaisabilite
 > Un ensemble $S$ de [[Tableau sémantique#^7b1f83|littéraux]] est satisfaisable ssi il ne contient pas une paire de littéraux complémentaires $\{ x, \neg x \}$.
 
-![[Pasted image 20251004114445.png]]
+![[787e4f3ab2cfbe709b732419dd8f51df.png]]

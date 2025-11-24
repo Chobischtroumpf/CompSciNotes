@@ -24,11 +24,11 @@ tags:
 
 > [!tip] Règles de simplification
 >
-| ![[Pasted image 20251004123231.png]] | ![[Pasted image 20251004123237.png]] |
+| ![[d697d180188f31027657045fcbb4416c.png]] | ![[8b8903efd411fd36fda6b9577aa5dfc4.png]] |
 | :----------------------------------: | :----------------------------------: |
 |            $\land$-règles            |            $\lor$-règles             |
 
 
 > [!example] Exemples
-> ![[Pasted image 20251004122636.png]]
-> ![[Pasted image 20251004122806.png]]
+> ![[ad2deb914f3dc58543d764cf2a478cce.png]]
+> ![[b1d1fa5852ef24fc1dc5a4ab3f895dd6.png]]

@@ -19,7 +19,7 @@ tags:
 > - **Error handling**: How to respond to unexpected events
 
 >[!example]+
->![[Pasted image 20250918145118.png]]
+>![[e99c9a6f6d206c92f3380e6793ca1fb2.png]]
 
 > [!example]+ Common Internet Protocols
 > - **HTTP** (Web)

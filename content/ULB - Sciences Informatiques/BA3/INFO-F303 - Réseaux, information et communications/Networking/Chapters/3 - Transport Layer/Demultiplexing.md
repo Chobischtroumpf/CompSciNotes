@@ -37,7 +37,7 @@ tags:
 > - Determines which socket should receive the data
 > - Different protocols use different combinations
 >
-> ![[Pasted image 20251002143553.png]]
+> ![[4855448d50173b699eb08c2e7f9e8e44.png]]
 
 ## UDP Demultiplexing
 
@@ -60,7 +60,7 @@ tags:
 > - Source information not used for socket selection
 > - One socket can receive from multiple senders
 >
-> ![[Pasted image 20251002145216.png]]
+> ![[fe50d0edc21cb6d23e26c01a06d20155.png]]
 
 > [!example]+ UDP Demultiplexing Example
 > **Scenario**:
@@ -100,7 +100,7 @@ tags:
 > - Multiple clients to same server port use different sockets
 > - Server distinguishes by full 4-tuple
 >
-> ![[Pasted image 20251002145915.png]]
+> ![[d24d65d325b33e3108197467a06fe1e6.png]]
 
 > [!example]+ TCP Demultiplexing Example
 > **Scenario**:

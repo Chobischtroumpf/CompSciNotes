@@ -21,7 +21,7 @@ tags:
 > [!info]+ Types of Switching Fabrics
 > There are three main architectures for implementing switching fabrics:
 >
-> ![[Pasted image 20251102152236.png]]
+> ![[ba57d1b103f800b280ab710f3d27c3c0.png]]
 >
 > **1. [[Memory-based Switching]]:**
 > - Uses shared memory for packet switching

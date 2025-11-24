@@ -9,7 +9,7 @@ tags:
 > [!info]+ Definition
 > A **network** is a collection of devices, routers, and links managed by an organization.
 >
-> ![[Pasted image 20250918143524.png]]
+> ![[363ed2e0cd4c1296da8cd620cf94f97c.png]]
 
 ^89dac9
 
@@ -39,7 +39,7 @@ tags:
 > - **Function**: Bit encoding/decoding
 > - **Data unit**: Bits
 
-| ![[Pasted image 20250918154322.png]] | ![[Pasted image 20250918154454.png]] |
+| ![[f7be45923211de0f28f623248ef59792.png]] | ![[7b0ec748f10e6923e0dd9c9325afbd46.png]] |
 | :----------------------------------: | :----------------------------------: |
 
 > [!note]+ Additional OSI Layers
@@ -47,7 +47,7 @@ tags:
 > - **Presentation Layer**: Encryption, compression, machine-specific conventions
 > - **Session Layer**: Synchronization, checkpointing, recovery of data exchanges
 
-![[Pasted image 20250918154713.png]]
+![[a67d1e6ab52cbaef4eff7a97481f5942.png]]
 
 As data moves down the [[Protocol#^4bfd4c|protocol]] stack:
 1. **Application**: Creates message ($M$)

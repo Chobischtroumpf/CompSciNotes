@@ -18,7 +18,7 @@ tags:
 
 ## Advantages
 
-![[Pasted image 20251103134639.png]]
+![[91eb14b86e9d903659f9c406ddf99f62.png]]
 
 > [!tip]+ Usage
 > General-purpose CSP algorithms use the graph structure to speed up search.
@@ -27,5 +27,5 @@ tags:
 
 > [!note]+ Related Concepts
 > - **[[CSP]]**: Problem represented by graph
-> - **[[Constraint]]**: Edges in the graph
+> - **[[ULB - Sciences Informatiques/BA3/INFO-F311 - Intelligence Artificielle/Chapters/3 - Constraint Satisfaction Problems/Constraint]]**: Edges in the graph
 > - **[[Arc Consistency]]**: Algorithm operating on graph structure

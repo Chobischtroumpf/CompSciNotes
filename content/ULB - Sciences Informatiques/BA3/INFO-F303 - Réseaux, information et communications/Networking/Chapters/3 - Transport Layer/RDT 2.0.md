@@ -39,7 +39,7 @@ tags:
 > - Only then sends next packet
 
 ## Protocol in Action
-![[Pasted image 20251030100055.png]]
+![[b7faa65b3e993725f9728e98cf6e3216.png]]
 
 > [!example]+ Error Scenario
 > 1. Sender transmits packet
@@ -52,7 +52,7 @@ tags:
 > 8. Sender proceeds to next packet
 
 ## Finite State Machines
-| ![[Pasted image 20251030100311.png]] | ![[Pasted image 20251030100324.png]] |
+| ![[cb03eb87cecaad6d2c6eaa2630fdd34b.png]] | ![[a4a89beafd5b8d5796cf46b5cff36434.png]] |
 | :----------------------------------: | :----------------------------------: |
 |              Sender FSM              |             Receiver FSM             |
 
@@ -99,7 +99,7 @@ tags:
 >    - Creates duplicates!
 >    - Receiver can't tell if packet is new or duplicate
 
-![[Pasted image 20251030100802.png]]
+![[158406fe5837486c00840a23551be48c.png]]
 
 ## Related Concepts
 

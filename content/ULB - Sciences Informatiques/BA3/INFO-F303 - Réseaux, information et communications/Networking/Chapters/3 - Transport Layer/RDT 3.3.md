@@ -25,7 +25,7 @@ tags:
 > - Receiver always sends ACK (never silence)
 
 ## Sender/Receiver FSM Fragments
-![[Pasted image 20251030114348.png]]
+![[432d0894d2a58c221d79f49cbbfa7043.png]]
 
 > [!note]+ Protocol Behavior
 > **Sender**:
@@ -59,7 +59,7 @@ tags:
 > Incredibly fast! Packet takes only 8 μs to transmit.
 
 ### Stop-and-Wait Performance
-![[Pasted image 20251030120555.png]]
+![[66e4ce344192d1f9302dfb8674d8e19f.png]]
 
 > [!warning]+ Terrible Utilization
 > **Sender must wait for ACK before sending next packet**:
@@ -69,7 +69,7 @@ tags:
 > **For our example**:
 > $$U_{sender} = \frac{0.008 \text{ ms}}{30.008 \text{ ms}} = 0.00027 = 0.027\%$$
 >
-> ![[Pasted image 20251030120903.png]]
+> ![[9a51e190e1036e8ecb520a0317d0beb2.png]]
 >
 > **What this means**:
 > - Sender busy only 0.027% of the time
@@ -92,7 +92,7 @@ tags:
 > - Could send 3,750 packets in the time we wait for one ACK
 
 ## The Reordering Problem
-![[Pasted image 20251030115427.png]]
+![[c23e7d5d56bea399d57ce48143b1c984.png]]
 
 > [!example]+ Timeout Causes Reordering
 > Here, the timeout causes the sender to resend pkt(0) because the ACK(0) response was delayed. The problem arises due to packet reordering:

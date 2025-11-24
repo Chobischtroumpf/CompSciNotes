@@ -49,7 +49,7 @@ tags:
 > - **Inconsistent availability**: Peers may not always be online
 > - **Variable performance**: Depends on peer capabilities
 ## P2P Architecture
-![[Pasted image 20250919144040.png]]
+![[0c2143df5fcc0816231ecdcbbb924ef3.png]]
 ## Hybrid P2P Paradigms
 - Many applications use hybrid approaches that combine P2P communication with centralized coordination.
 

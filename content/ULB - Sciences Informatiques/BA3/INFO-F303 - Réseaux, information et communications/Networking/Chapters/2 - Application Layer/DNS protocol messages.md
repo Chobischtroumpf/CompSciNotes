@@ -9,7 +9,7 @@ tags:
 > [!info]+ Definition
 > **DNS protocol messages** are the standardized format for queries and responses in the Domain Name System. These messages enable the translation of human-readable domain names to IP addresses.
 ## DNS Message Structure
-![[Pasted image 20251027165135.png]]
+![[9de3cc54950bf4e96565fd0d07511b17.png]]
 - DNS messages consist of several sections, each serving a specific purpose in the name resolution process.
 ## Message Header
 > [!note]+ Header Fields

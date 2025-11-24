@@ -9,7 +9,7 @@ tags:
 > [!info]+ Definition
 > The **client-server paradigm** is a distributed application architecture where clients request services from always-on servers.
 
-![[Pasted image 20250919143808.png]]
+![[01d218d0fe8231b6dd34d5089679e6c9.png]]
 ## Characteristics
 > [!note]+ Server
 > - **Always-on host**

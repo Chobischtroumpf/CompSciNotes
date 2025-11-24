@@ -9,7 +9,7 @@ tags:
 > [!info]+ Definition
 > An **HTTP request message** is a message sent by a client to a server to request a resource or perform an action. It consists of a request line, headers, and optionally a message body.
 ## Request Message Structure
-![[Pasted image 20251020130551.png]]
+![[7d49708b48f80f02f9913028dfd39326.png]]
 
 > [!note]+ Request Line
 > **First line of the request**:

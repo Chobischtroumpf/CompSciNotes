@@ -9,7 +9,7 @@ tags:
 > [!info]+ Définition
 >
 > The IP packet format is a standardized structure for transmitting data over the Internet Protocol. Each packet consists of a header (containing control information) and a payload (containing the actual data). The packet format is 32 bits wide.
-> ![[Pasted image 20251102144405.png]]
+> ![[62dbadfe5340104db00cde865550e157.png]]
 
 > [!abstract]- Header Fields
 >

@@ -10,7 +10,7 @@ tags:
 ## Example
 
 > [!example]+ Map Coloring
-> ![[Pasted image 20251103140448.png]]
+> ![[cf6748aebe10be1f24b4280d5ccac301.png]]
 
 ## Properties
 

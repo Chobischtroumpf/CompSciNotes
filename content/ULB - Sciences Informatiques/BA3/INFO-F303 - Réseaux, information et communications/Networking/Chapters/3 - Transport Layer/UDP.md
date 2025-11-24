@@ -22,7 +22,7 @@ tags:
 > - Each UDP segment handled independently
 > - No connection state maintained
 
-| ![[Pasted image 20251002151749.png]] | ![[Pasted image 20251002151758.png]] |
+| ![[2d71d43a6a513a01de38412c4d56d66b.png]] | ![[405646a4ab4eee480b6bfe0a1abc265c.png]] |
 | :----------------------------------: | :----------------------------------: |
 ## Why Use UDP?
 
@@ -69,7 +69,7 @@ tags:
 > - Error detection for segment
 > - Optional in IPv4, mandatory in IPv6
 
-![[Pasted image 20251002151805.png]]
+![[7048762c13cdaf01843ebf27ab8ab989.png]]
 
 ## Related Concepts
 

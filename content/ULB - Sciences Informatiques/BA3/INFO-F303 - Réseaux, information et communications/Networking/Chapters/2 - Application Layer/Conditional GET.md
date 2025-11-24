@@ -62,7 +62,7 @@ tags:
 > - Full object in response body
 > - Client updates cache
 
-![[Pasted image 20251027155202.png]]
+![[c3b3a8a38c8e677dac28363605c52460.png]]
 ## Related Concepts
 > [!note]+ See Also
 > - **[[HTTP]]**: Main protocol framework

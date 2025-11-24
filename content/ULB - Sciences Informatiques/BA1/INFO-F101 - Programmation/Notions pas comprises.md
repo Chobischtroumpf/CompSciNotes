@@ -4,7 +4,6 @@ authors: Alessandro Dorigo
 tags:
   -
 ---
-
 # Notions pas comprises
 
 ### Chapitre 7:

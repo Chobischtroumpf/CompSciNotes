@@ -9,7 +9,7 @@ tags:
 > [!info]+ Definition
 > **RTT (Round-Trip Time)** is the time required for a small [[Packet|packet]] to travel from client to server and back. It's a fundamental metric for measuring network latency and is critical for understanding [[HTTP]] performance.
 
-![[Pasted image 20251020125701.png]]
+![[d778930455842eb4007ebb01de9317e7.png]]
 ## RTT Measurement
 > [!note]+ Components of RTT **RTT includes**:
 >

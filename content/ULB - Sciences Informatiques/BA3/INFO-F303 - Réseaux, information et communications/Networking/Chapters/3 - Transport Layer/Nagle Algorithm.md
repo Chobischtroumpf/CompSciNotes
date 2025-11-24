@@ -29,7 +29,7 @@ tags:
 >    - MSS (Maximum Segment Size) bytes have been buffered, OR
 >    - Previous segment was full size
 >
-> ![[Pasted image 20251102135412.png]]
+> ![[0933c564e65c5fd81fb895592e222a40.png]]
 
 ## Use Cases
 

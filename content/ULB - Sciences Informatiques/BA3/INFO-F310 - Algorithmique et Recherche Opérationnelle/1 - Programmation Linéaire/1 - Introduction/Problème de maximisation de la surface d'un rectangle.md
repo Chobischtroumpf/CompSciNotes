@@ -12,7 +12,7 @@ tags:
 > $$A = \ell \times w$$
 > $$\ell + w = \frac{L}{2}$$
 >
-> ![[Pasted image 20250923161758.png]]
+> ![[37212db4d1e7222790cb3cb106027bab.png]]
 
 ## Solutions
 1) Méthode analytique: $$A = (\frac{L}{2} - w) w = \frac{1}{2} Lw - w^2 = \frac{dA}{dw} = \frac{L}{2} - 2w = 0$$

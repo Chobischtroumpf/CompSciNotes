@@ -4,7 +4,7 @@ authors: Mihai Bors
 tags:
   - Network
 ---
-![[Pasted image 20251106153012.png]]
+![[393610f72a8ea9dcd5632149095b8d33.png]]
 Graph Abstraction
 
 - we keep infinite to say that there is no link

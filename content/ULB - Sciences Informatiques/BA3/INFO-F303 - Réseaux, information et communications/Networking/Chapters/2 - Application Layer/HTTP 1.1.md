@@ -41,7 +41,7 @@ tags:
 > - 1 large object (5 MB)
 > - 3 smaller objects (50 KB each)
 >
-> ![[Pasted image 20251027155514.png]]
+> ![[5b2e2233ce1ceaa32c5f4af5cd7c8b10.png]]
 >
 > **What happens**:
 > 1. Client sends all 4 GET requests immediately (pipelined)

@@ -26,15 +26,15 @@ tags:
 
 > [!example]+ DHCP Client-Server Scenario
 > Consider a network topology with DHCP server at address $223.1.2.5$:
-> ![[Pasted image 20251102121841.png]]
-> ![[Pasted image 20251102122548.png]]
+> ![[89ea71d1dbf36595f4d3ebfbcf96350b.png]]
+> ![[0aad59370cad94a8060ec4f29dcc4f80.png]]
 >
 > - The server is located within the router at $223.1.2.5$
 > - When a DHCP client arrives in the network (e.g., at $223.1.2.2$), it needs to obtain an IP address
 > - The client has no IP address and doesn't know the IP address of the DHCP server(s)
 >
 >**The complete DHCP exchange proceeds as follows:**
->![[Pasted image 20251102122044.png]]
+>![[2014397ee8b055dd012af37e4b49b097.png]]
 > **DHCP discover** (broadcast):
 >
 > - Client broadcasts: "Is there a DHCP server out there?"

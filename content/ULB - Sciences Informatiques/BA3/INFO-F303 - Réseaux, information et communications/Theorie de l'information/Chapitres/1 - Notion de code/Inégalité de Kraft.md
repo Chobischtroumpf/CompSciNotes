@@ -24,7 +24,7 @@ tags:
  3. **Étape inductive**:
      - On a $2^{\ell_q}$ mots possibles de longueur $\ell_q$
      - Chaque mot existant $K(s_i)$ "exclut" $2^{\ell_q - \ell_i}$ mots
-     - ![[Pasted image 20250917122919.png]]
+     - ![[1f788a9a2b3620159144e54c66edef93.png]]
 
 > [!example]+ Exemples d'application
 > **Alphabet binaire** ($r = 2$):

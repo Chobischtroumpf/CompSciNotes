@@ -32,7 +32,7 @@ tags:
 > [!example]+ Redundant Nodes in BFS
 > We shouldn't bother expanding the circled nodes (why?)
 >
-> ![[Pasted image 20251103142840.png]]
+> ![[1ffec7cf549c39284611fae6036d004e.png]]
 >
 > **Diagram explanation:** The search tree shows multiple nodes circled in red (labeled 'a', 'e', 'p', 'q') that appear multiple times at different levels of the tree.
 >

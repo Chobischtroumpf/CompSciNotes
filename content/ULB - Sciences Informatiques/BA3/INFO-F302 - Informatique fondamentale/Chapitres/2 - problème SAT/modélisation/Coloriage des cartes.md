@@ -8,7 +8,7 @@ tags:
 - colorier chq région de telle sorte que deux régions ayant une frontière commune n'aient jamais la même couleur
 	- but : minimiser le nb de couleurs
 **exemple**
-![[Pasted image 20251007163656.png]]
+![[a8b1173e7eee66ad7d078d4a5faf5470.png]]
 - pour cette carte, il faut minimum 3 couleurs
 
 **remarque**

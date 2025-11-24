@@ -19,7 +19,7 @@ tags:
 > Both enter ESTAB state
 > ```
 >
-> ![[Pasted image 20251102141607.png]]
+> ![[ee594e2110f14e0d0de69bc9543e1583.png]]
 >
 > **Process**:
 > - Client sends connection request with initial sequence number x
@@ -29,7 +29,7 @@ tags:
 ## Problems with 2-Way Handshake
 
 > [!fail]+ Half-Open Connection
-> ![[Pasted image 20251102141658.png]]
+> ![[ae474d8d70d89ec68d46f9b1095f6bde.png]]
 >
 > **Scenario**:
 > 1. Client sends `req_conn(x)`
@@ -44,7 +44,7 @@ tags:
 > **Issue**: Half-open connection where server thinks connection exists but client has moved on
 
 > [!fail]+ Duplicate Data Accepted
-> ![[Pasted image 20251102141732.png]]
+> ![[d3c87500e0a01c10c644ec9e9f387631.png]]
 >
 > **Scenario**:
 > - Same problem as above but with data transmission

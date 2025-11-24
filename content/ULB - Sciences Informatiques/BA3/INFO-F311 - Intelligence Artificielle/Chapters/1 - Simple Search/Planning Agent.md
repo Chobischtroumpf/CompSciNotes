@@ -10,7 +10,7 @@ tags:
 > [!tip]+ Key Characteristic
 > Planning agents consider how the world **would be** and must formulate a goal.
 
-![[Pasted image 20250924163721.png]]
+![[05b711a5ad092575ebe60ebd099671fd.png]]
 
 > [!note]+ Related Concepts
 > - **[[Agent]]**: General agent concept

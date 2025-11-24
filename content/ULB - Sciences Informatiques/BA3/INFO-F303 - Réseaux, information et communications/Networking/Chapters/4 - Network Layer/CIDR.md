@@ -14,4 +14,4 @@ tags:
 > 	- a.b.c.d/x, where x is the number of bits in the subnet portion of the address
 
 > [!example]
-> ![[Pasted image 20251102121240.png]]
+> ![[208aba30eb5e10049401846373ad02df.png]]

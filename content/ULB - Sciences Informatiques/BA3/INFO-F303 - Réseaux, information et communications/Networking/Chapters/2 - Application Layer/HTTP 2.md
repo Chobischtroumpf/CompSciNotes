@@ -29,7 +29,7 @@ tags:
 > [!info]+ Multiple Streams Per Connection
 > **Single TCP connection carries multiple parallel streams**:
 >
-> ![[Pasted image 20251027155714.png]]
+> ![[6341e74338991acb25c54bb96945137a.png]]
 >
 > **How it works**:
 >

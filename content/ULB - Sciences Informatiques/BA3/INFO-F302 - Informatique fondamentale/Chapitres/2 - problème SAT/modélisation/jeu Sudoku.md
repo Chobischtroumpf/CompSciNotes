@@ -5,7 +5,7 @@ tags:
   -
 ---
 
-![[Pasted image 20251013153925.png]]
+![[cd12dd69298f888f9de06ebec4b75b98.png]]
 ### choix des variables
 
 - On cherche une fonction $f : \underbrace{\set{1,...,9}^2}_{\text{coordonnées des cases}} \to \underbrace{\set{1,...,9}}_{\text{valeurs}}$

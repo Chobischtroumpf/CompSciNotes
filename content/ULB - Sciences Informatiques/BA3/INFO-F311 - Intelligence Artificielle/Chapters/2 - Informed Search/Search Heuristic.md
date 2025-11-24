@@ -12,7 +12,7 @@ tags:
 > [!example]+ Pathfinding Heuristics
 > **Manhattan distance and Euclidean distance:**
 >
-> ![[Pasted image 20251103103810.png]]
+> ![[6426dc636ebc45dfdc9a5cda68e30f9f.png]]
 >
 > - **Manhattan distance**: Sum of horizontal and vertical distances
 > - **Euclidean distance**: Straight-line distance to goal

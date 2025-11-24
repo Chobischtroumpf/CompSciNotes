@@ -7,7 +7,7 @@ tags:
 > [!info]+ Definition
 > **Systematic search** is a structured approach to exploring a search space using a frontier to separate expanded from unexplored regions.
 
-![[Pasted image 20250925121305.png]]
+![[119f1fc0dc9f384a19afb93cbf9797eb.png]]
 
 ## Process
 

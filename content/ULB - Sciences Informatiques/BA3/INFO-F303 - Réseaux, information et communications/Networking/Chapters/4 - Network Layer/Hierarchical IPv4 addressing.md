@@ -17,7 +17,7 @@ tags:
 
 > [!example]+
 >  Consider multiple organizations with contiguous address blocks:
-> ![[Pasted image 20251102123851.png]]
+> ![[26249f5983d52b814e3baaddc8d5bf72.png]]
 > - **Organization 0:** $200.23.16.0/23$
 > - **Organization 1:** $200.23.18.0/23$
 > - **Organization 2:** $200.23.20.0/23$
@@ -43,7 +43,7 @@ tags:
 
 > [!example]+ Exemple
 >
-> ![[Pasted image 20251102134244.png]]
+> ![[86d303ff4400ee4b3b018df320ebdb34.png]]
 > In this configuration, Organization 8 has the address range $100.56.10.0/23$ and connects to two ISPs:
 >
 > - **Fly-By-Night-ISP** with address range $200.23.16.0/20$
@@ -102,7 +102,7 @@ tags:
 > Hierarchical addressing allows for route aggregation while maintaining the ability to specify more specific routes when needed.
 
 > [!example]+ Exemple
-> ![[Pasted image 20251102135624.png]]
+> ![[96acd1c2e0b4d81e8a0b3bfca08f428f.png]]
 > Scenario:
 >
 > - Assume Fly-By-Night-ISP acquires ISPs-R-Us
@@ -142,14 +142,14 @@ tags:
 >
 > Forwarding table with overlapping entries:
 >
-> ![[Pasted image 20251102140056.png]]
+> ![[751b978ee504f831e8097d1cd5f3aed1.png]]
 
 # Longest prefix matching
 
 > [!info]+
 >
 > When looking for forwarding table entry for given destination address, use longest address prefix that matches destination address.
-> ![[Pasted image 20251102140151.png]]
+> ![[4b0d890022cbd88e2156606b3258e53d.png]]
 >
 > The overlap between the first entry (prefix length unspecified but shorter) and the other more specific entries (longer prefixes) is resolved using longest prefix matching. The default route ($0/0$) matches any address when no more specific route exists.
 

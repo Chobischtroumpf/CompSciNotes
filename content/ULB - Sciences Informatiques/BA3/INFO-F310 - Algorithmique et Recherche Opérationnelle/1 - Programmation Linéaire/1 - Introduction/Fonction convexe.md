@@ -16,7 +16,7 @@ tags:
 > Une fonction $f : \mathbb{R}^n \rightarrow \mathbb{R}$ est convexe ssi sa réflexive $-f$ est concave et concave si $-f$ est convexe.
 
 > [!example]+ Exemple
-> ![[Pasted image 20250923112437.png]]
+> ![[eb1ad75068c3c329ec02f60c198bfc9d.png]]
 
 > [!abstract]- Théorème 1.0.1
 > Toute fonction linéaire $f : \mathbb{R} \rightarrow \mathbb{R} : x \rightarrow ax$ est convexe.

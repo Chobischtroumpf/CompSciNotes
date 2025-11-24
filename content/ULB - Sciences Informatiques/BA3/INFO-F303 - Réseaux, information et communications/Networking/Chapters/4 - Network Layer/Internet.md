@@ -10,7 +10,7 @@ tags:
 > [!tip]+
 > The network layer sits between the transport layer (TCP, UDP) above and the link layer below, with the physical layer at the bottom of the protocol stack.
 >
-> ![[Pasted image 20251102113121.png]]
+> ![[6afca847778e02e6c93d1b8e79bb0d7a.png]]
 
 ## Network Layer Components
 

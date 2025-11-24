@@ -28,7 +28,7 @@ tags:
 > - Source IP address and port number are automatically included
 > - Client and server discover each other's addresses when receiving datagrams
 >
-> ![[Pasted image 20251027165816.png]]
+> ![[2aa62fa9742b333c1fe249262dcfd6dc.png]]
 ## Socket Programming with TCP
 > [!abstract]- TCP Socket Characteristics
 > **Connection-Oriented Communication**:
@@ -50,7 +50,7 @@ tags:
 > 4. HTTP messages (or other protocol data) are exchanged
 > 5. TCP connection is closed when communication is complete
 >
-> ![[Pasted image 20251027170621.png]]
+> ![[5a956529543326b314ee2a0e63b79f9d.png]]
 
 > [!tip]+ Protocol Comparison
 > **When to use UDP**:

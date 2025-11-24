@@ -23,7 +23,7 @@ tags:
 > - **Correspondance bijective**: arbre de code $\Leftrightarrow$ code sans préfixe
 
 > [!example]+ Exemple
-> ![[Pasted image 20250917121501.png]]
+> ![[a13ca9da19b06130fa06103f3757359a.png]]
 
 > [!abstract]- Algorithme de décodage
 > 1. Commencer à la racine

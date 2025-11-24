@@ -7,9 +7,9 @@ tags:
 
 ### intitulé
 étant donnés $\dim \in \mathbb{N}$ et
-![[Pasted image 20251017140412.png]]
+![[05a7bc75506d11eb420d1f6c356278d3.png]]
 peut-on paver le carré de dimension $\dim \times \dim$ ?
-![[Pasted image 20251017140918.png]]
+![[675d07708ece112f91ec9de08fa493f1.png]]
 ### formalisation du problème
 - entrée
 	- un ensemble fini T de "types" d'arêtes

@@ -5,4 +5,4 @@ tags:
   -
 ---
 
-![[Pasted image 20241018083608.png]]
+![[9c50e319c1bf8a48a989433e0ec5b1df.png]]

@@ -15,7 +15,7 @@ tags:
 > - **Mail server aliasing**: MX records for email routing
 > - **Load distribution**: One name maps to multiple IP addresses
 ## DNS Hierarchy
-![[Pasted image 20251027163338.png]]
+![[03dfc252130ae4e754d5aeed69e76032.png]]
 
 > [!note]+ Name Resolution Process
 > Client wants IP for www.amazon.com:
@@ -30,14 +30,14 @@ tags:
 > - Client does the work of contacting each server
 > - Caching happens in local DNS server
 >
-> ![[Pasted image 20251027163921.png]]
+> ![[31941ad33ed73c0a5ed234acc0274135.png]]
 
 > [!info]+ Recursive Query
 > - Puts burden on contacted server to resolve the name
 > - Heavy load at upper hierarchy levels
 > - Less commonly used
 >
-> ![[Pasted image 20251027164013.png]]
+> ![[1fd1eabd4e5ae0e817eaa98ef5ff2b24.png]]
 ## Related Concepts
 > [!note]+ See Also
 > - [[DNS records]]: Detailed record types

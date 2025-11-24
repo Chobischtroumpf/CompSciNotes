@@ -10,7 +10,7 @@ w#Network
 > [!info]+ Definition
 > The **Transport Layer** provides logical communication between application processes running on different hosts, while the network layer provides logical communication between hosts.
 >
-> ![[Pasted image 20251002142908.png]]
+> ![[b83979d98e90aef57209b970ffd590e0.png]]
 
 ## Transport vs Network Layer
 
@@ -34,7 +34,7 @@ w#Network
 > 3. Creates segment
 > 4. Passes segment to IP (network layer)
 >
-> ![[Pasted image 20251002142356.png]]
+> ![[d6b64d3d6eb2a707a68209e270598692.png]]
 
 ## Receiver Responsibilities
 
@@ -45,7 +45,7 @@ w#Network
 > 3. Extracts application-layer message
 > 4. Demultiplexes message up to application via socket
 >
-> ![[Pasted image 20251002142435.png]]
+> ![[5b24aff3cdcac1069977c986398598bb.png]]
 
 ## Related Concepts
 

@@ -12,12 +12,12 @@ tags:
 > - **Children**: Successors
 > - **Nodes**: Show states but correspond to PLANS that achieve those states
 
-![[Pasted image 20250925114847.png]]
+![[f811811627d50150dd5d5e6d53289bce.png]]
 
 > [!tip]+ Key Insight
 > Each **node** in the search tree is an **entire path** in the [[State Space Graph#^e3fa58|state space graph]].
 
-| ![[Pasted image 20250925115357.png]] | ![[Pasted image 20250925115411.png]] |
+| ![[2dc39ebefd6e35f40c51e799e5740bce.png]] | ![[36f8997b70dbabd7cee9deb24e8cef66.png]] |
 | :----------------------------------- | :----------------------------------- |
 > [!note]+ Related Concepts
 > - **[[State Space Graph]]**: Graph being explored

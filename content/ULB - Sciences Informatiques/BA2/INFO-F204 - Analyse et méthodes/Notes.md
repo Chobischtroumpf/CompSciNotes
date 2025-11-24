@@ -4,7 +4,6 @@ authors: Alessandro Dorigo
 tags:
   -
 ---
-
 # 1: Software Engineering
 **Why software engineering?**
 Problem Specification -> Final Program:
@@ -13,12 +12,12 @@ Problem Specification -> Final Program:
 **What is software engineering?**
 The discipline of creating quality software within budget and time constraints while involving teamwork, continuous adaptation to change, and balancing stakeholder needs. Unlike traditional engineering, it's limited more by human and political factors than physical laws.
 ## Software Development Activities
-![[Pasted image 20231116170154.png]]
+![[c04040c310be97c249fbcc3f851fa487.png]]
 **RADIT**M
 ## Software Process Models
 *aka. Abstraction of a process*
 ### Waterfall Model:
-![[Pasted image 20231116170300.png]]
+![[2f7b301735fbc11ee2f5b9edc39ea13e.png]]
 **Pros:**
 + Project documentation between phases
 + Well supported by planning tools / techniques
@@ -28,7 +27,7 @@ The discipline of creating quality software within budget and time constraints w
 	- Requirements must be frozen too early
 	- Requirements are validated too late
 ### Iterative Development:
-![[Pasted image 20231116170557.png]]
+![[be037bc8fceccc0f89f6f56b38bbdfea.png]]
 ### Agile Development:
 - Small iterations (2 - 3 weeks)
 - People oriented
@@ -65,7 +64,7 @@ It requires a lot of implication from both the developer team AND the client
 - **Have an unique identity**
 - **Protect their data**
 
-![[Pasted image 20231116171958.png]]
+![[a3f4fe42599e91bf8866bce39b6fe65c.png]]
 ### 2. Messages vs Methods
 **Messages: What?** (specification-based)
 - Specify what must be performed by objects
@@ -74,12 +73,12 @@ It requires a lot of implication from both the developer team AND the client
 - Specify how to process received messages
 #### 2.1. Method Lookup
 **When sending message m to object o** -> find method with name m and invoke it
-![[Pasted image 20231116172506.png]]
+![[de8a48013004c38aa102bab0a654d605.png]]
 ## 3. Polymorphism
 *Same message can be sent to different objects*
 - Different objects can react in other ways
 
-![[Pasted image 20231116173136.png]]
+![[cd9ad449c4595ff514b058c4070f0e65.png]]
 Makes it so that client code can send a message to an object without knowing its class, also decouples client code from the called object
 ## 4. Classes
 *Sharing methods between objects*
@@ -87,12 +86,12 @@ Makes it so that client code can send a message to an object without knowing its
 Describe structure / behavior common for all the objects within the class
 Also serve as units of reuse, by means of inheritance
 *All objects know their class and are instances of classes*
-![[Pasted image 20231116173552.png]]
+![[5d351d25c0ee8ea80d2fc884c58247fa.png]]
 ## 5. Inheritance (also called Generalization for modeling)
 ***incremental reuse*** (for classes)
 
 Mechanism that allows new subclasses to be derived which themselves inherit all the features of their parent(s) (superclasses) OR override the implementation of the same features
-![[Pasted image 20231116173859.png]]
+![[899d5b6c30476d1e3f5771ca075f7ee4.png]]
 ***Subclass = more specialized version of a superclass***
 ### Inheritance types:
 #### Single (1 parent / superclass)
@@ -104,12 +103,12 @@ Deprecated in new languages, as the method lookup does not work as intended (whi
 - `self / this` when referring to the receiver object
 - `super` when referring to the implementor's parent
 
-![[Pasted image 20231116175006.png]]
+![[1781372f03f454fb741c834ec5ae3e10.png]]
 The method lookup starts from the class of the current receiver object for `self / this` and starts from the superclass of the class where the method doing the super-call is defined for `super`
 ## Visibility
-![[Pasted image 20231116175209.png]]
+![[c65986779477a672c378d534590de08f.png]]
 
-![[Pasted image 20231116175236.png]]
+![[9fb359ed3c0bace9c4e9d530397ab162.png]]
 ### Objects using other objects (also called composition)
 One object can use other objects or be composed of other objects
 *This consitutes a 'has-a' relationship*
@@ -119,7 +118,7 @@ One object can use other objects or be composed of other objects
 Virtual methods allow polymorphism:
 - A virtual method is a method that is overridden by a derived class and will always use the derived implementation
 
-![[Pasted image 20231121142819.png]]
+![[13fbb9a9827f459364987f64f6650602.png]]
 # 3. Less Basic OOP
 - `super` should only be used to access overridden methods, and an overridden method has the same signature than its parent
 ## Abstract Classes (runtime polymorphism)
@@ -146,7 +145,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 - Create a modeling language usable by both humans and machines
 - Model different types of systems (information systems, technical systems, embedded systems, real-time systems, distributed systems, system software, business systems, UML itself, ...)
 ## Views (5)
-![[Pasted image 20231121150520.png]]
+![[848c5aa81d7ce21ce3bce7f262d7fc28.png]]
 ### 1. Use Case View
 *How the client interacts with the application / what the application does*
 - Most abstract, describes the functionality of the system for the end-users
@@ -163,31 +162,31 @@ Allows methods of the same name but different signatures (compiler will decide w
 ### 1. Use Case Diagram
 - Represents the system from the view of the user(s)
 
-![[Pasted image 20231121151403.png]]
+![[0e1921f4d846584a26b0b7790c196cbf.png]]
 ### 2. Class Diagram
 - Represents classes and their **static** relationships
 
-![[Pasted image 20231121151427.png]]
+![[3f9e69ab1f733c5d23addc7e76cff30a.png]]
 ### 3. State Diagram
 - Represents the state of the system
 
-![[Pasted image 20231121151447.png]]
+![[9a767c17f097ca0dc553d0eaf296ab89.png]]
 ### 4. Sequence Diagram
 - Temporal relation between objects (object <- signal, sends it to another)
 
-![[Pasted image 20231121151504.png]]
+![[561560bb26fe6bdd480d5056b96f67f0.png]]
 ### 5. Collaboration Diagram
 - Spatial relation between objects
 
-![[Pasted image 20231121151530.png]]
+![[4b4ac093b717191ddd19fa7f5afe6823.png]]
 ### 6. Object Diagram
 - Represents the **dynamic** relations between objects
 
-![[Pasted image 20231121151544.png]]
+![[ffa80aacd8430c189630b7defd1a1866.png]]
 ### 7. Activity Diagram
 - Represents the behavior of an operation (describe a method through sequence of actions)
 
-![[Pasted image 20231121151559.png]]
+![[f286dafbfb08e4fb5efe10b9daa46f0a.png]]
 ### 8. Component Diagram
 - Represents the relations / dependencies between components (blocks of code)
 ### 9. Deployment Diagram
@@ -199,7 +198,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 
 *All objects are instances of a certain class*
 ## Class in UML:
-![[Pasted image 20231128170615.png]]
+![[993e054fe1a9314d7ff027ee1d5dc452.png]]
 
 | **Category**   | **Description** |
 | -------------- | --------------- |
@@ -207,7 +206,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 | **Attributes** | Start with a lowercase<br>Have types<br>Can have visibility (+ public, - private, # protected)<br>Default values are optional<br>Allowed values ({...})<br>Class scopes also optional (underlined) - static members / methods |
 | **Operations** | Contain the signature of the operation<br>&nbsp;&nbsp;- Return type<br>&nbsp;&nbsp;- Name<br>&nbsp;&nbsp;- Zero or more parameters<br>Can also have visibility |
 
-![[Pasted image 20231128171010.png]]
+![[d6c91244eeb122f5cbcb20a1982a75b2.png]]
 ## Relationships
 - **Association:** connection between classes - *"usage”*
 - **Generalization:** relationship between a more general and a more specific element - *“inheritance”*
@@ -217,8 +216,8 @@ Allows methods of the same name but different signatures (compiler will decide w
 - Specify structural relationships
 - Classes are interconnected (through instance variables, method arguments)
 
-![[Pasted image 20231128171431.png]]
-![[Pasted image 20231128171444.png]]
+![[67afa9ad259d4be510b4fccd024e5097.png]]
+![[421a7eb50eaa407e49ee1f15a632ec64.png]]
 
 | **Multiplicity** | **Notation**      |
 | ---------------- | ----------------- |
@@ -229,15 +228,15 @@ Allows methods of the same name but different signatures (compiler will decide w
 ### Recursive Association
 - Connecting a class to itself
 
-![[Pasted image 20231128171719.png]]
+![[fac9527127ebd4afbb92ae3310dc478c.png]]
 ### Qualified Association
 - Specific `initials` (or set of `initials`) can only be associated to a specific `Employee` by `Company` once
 
-![[Pasted image 20231128171903.png]]
+![[8c6a13455cf4f25a97fc392076be9f2a.png]]
 ### "xor" Association
 - A `contract` belongs to a `Person` or a `Company`
 
-![[Pasted image 20231128172004.png]]
+![[732c2fd499d2404eb7cbb3c692e453ce.png]]
 ### Other constraints
 | **Constraint** | **Description**                                          |
 | -------------- | -------------------------------------------------------- |
@@ -250,15 +249,15 @@ Allows methods of the same name but different signatures (compiler will decide w
 ## Aggregation
 - A whole-part association - *whole owns the part*
 
-![[Pasted image 20231205150849.png]]
+![[8fbd483142e0e381f4e9c1aa7bf42539.png]]
 ### Composition Aggregation
 - Parts can only exist if the whole does - *they're destroyed with the whole*
 
-![[Pasted image 20231205151010.png]]
+![[e70b62c86ecc1df3c11e1d844300f269.png]]
 ### Shared Aggregation
 - Parts belong to >= 1 wholes
 
-![[Pasted image 20231205151049.png]]
+![[8317b0f68d9fd447b43b517755658051.png]]
 ### Association or Aggregation?
 - Depends on context:
 	- **Aggregation:** inseparable part-whole relationships (car and its tires in service center)
@@ -266,7 +265,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 ## Generalization
 - Inheritance - *is-a relationship*
 
-![[Pasted image 20231205151616.png]]
+![[4dee3c631185eb03a2358be3b998eda2.png]]
 ## Refinement
 - Represents a fuller specification of something that has already been specified at less detail
 	- A relation between the analysis version and the design version
@@ -274,9 +273,9 @@ Allows methods of the same name but different signatures (compiler will decide w
 ## Realization
 - Interface - contract between the description and the implementor (contract assures that it provides the implementation)
 
-![[Pasted image 20231205152212.png]]
+![[28f3a6f934edd2cc6f2c9fec0c61fa33.png]]
 ## TL;DR
-![[Pasted image 20231205152315.png]]
+![[e3a0ec136820a0b2cd0011608a4a54e7.png]]
 # 6. Requirements Engineering
 - Process of analyzing what a system should do (not how)
 
@@ -287,7 +286,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 2. **Non-functional Requirements:** other aspects like performance or security, not specific system functions
 3. **Domain Requirements:** requirements derived from the application's domain, from the standards present in the domain of the application
 ### Metrics for Non-functional Requirements
-![[Pasted image 20231205154733.png]]
+![[d4ab0b348feb3ec8671cf51fbdcc60d3.png]]
 ### Writing User Requirements
 - Use simple language, diagrams
 - Avoid software jargon / formal notations
@@ -321,7 +320,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 - Specifies behavior - not how
 - Carries out some tangible amount of work
 
-![[Pasted image 20231205161139.png]]
+![[a9c331bc4df62a60b459c8120a4a8c4c.png]]
 ### Use Case Description
 - How and when the use case starts and ends
 - When it interacts with actors and what objects are exchanged
@@ -335,7 +334,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 6. Special Requirements
 7. Use case relationships
 
-![[Pasted image 20231205161513.png]]
+![[e9a7a03a44a0d60d825afb3c06dbf292.png]]
 ## Relationships
 - Between actors
 	- Generalization
@@ -344,19 +343,19 @@ Allows methods of the same name but different signatures (compiler will decide w
 	- Inclusion
 	- Extension
 ### Actor Generalization
-![[Pasted image 20231205161710.png]]
+![[f66298c3eee4f9e5c5990a09a60a7cee.png]]
 ### Use Case Generalization
 - Still an *is-a* relationship
 
-![[Pasted image 20231205161830.png]]
+![[f42f44a9ab931202b5edcc476a6ab7a1.png]]
 ### Use Case Inclusion
 - Pulling behavior from a supplier case - *base use case incorporates another use case*
 
-![[Pasted image 20231205161956.png]]
+![[68d3f19d322c4d58e5457ca7a505a0ab.png]]
 ### Use Case Extension
 - Show different possible variants - *provides alternative or additional behavior that can be triggered under specific conditions*
 
-![[Pasted image 20231205162306.png]]
+![[38ac9d95cb51efab891c105c7c605975.png]]
 # 7. Dynamic Modelling
 - Describes the system's behavior during runtime
 - How to do things described by static models
@@ -368,7 +367,7 @@ Allows methods of the same name but different signatures (compiler will decide w
 	- Change their state
 	- Provide functionality
 ## Types
-![[Pasted image 20231205164116.png]]
+![[e9220d7c6915617512911088bc97892e.png]]
 ### Interaction Diagrams
 1) **Sequence Diagrams:** emphasize time
 2) **Collaboration Diagrams:** emphasize structure
@@ -376,58 +375,58 @@ Allows methods of the same name but different signatures (compiler will decide w
 1) **Generic form:** documents all possible scenarios
 2) **Instance form:** documents one possible interaction
 ### Message Types
-![[Pasted image 20231205164420.png]]
+![[db25899c2502533aea373972363e29fd.png]]
 ## Sequence Diagram Notation
-![[Pasted image 20231205164554.png]]
+![[3b380c25c7cb16fb721b6182f14d62c6.png]]
 ### Overlaid Activations
-![[Pasted image 20231205164712.png]]
+![[74c05e576d30c8a91841161a3437d730.png]]
 ### Iteration
-![[Pasted image 20231205165314.png]]
+![[02eba129c09571f0d5a32de36a1ed95d.png]]
 ### Labels and Constraints
-![[Pasted image 20231205165333.png]]
+![[fd6fbdefa73ecae478bb656930bda8b9.png]]
 ### Object creation / destruction
-![[Pasted image 20231205165355.png]]
+![[4b33da135dfde0058f3e7822574a381d.png]]
 ### Latency
-![[Pasted image 20231205165411.png]]
+![[aab115f8b3b882dedbeb35cf2d98d569.png]]
 ## Collaboration Diagrams
 Focus on:
 - Interaction / communication between objects
 - Shows the static / dynamic relationships - context aspect
 - Space aspect
 
-![[Pasted image 20240102093726.png]]
+![[e2258c53c896f0923cb242d33436143e.png]]
 ## Message Descriptions
-![[Pasted image 20240102101122.png]]
+![[9cb2b39424dcbb3d2954013ee8dfe878.png]]
 - Can have a guard condition
 	- Condition has to be true
 	- Expressed in (pseudo) code
 ### Predecessor
-![[Pasted image 20240102101133.png]]
+![[8c3bd0c94f573d9afa29f248928970e7.png]]
 - Lists sequence numbers of other messages that need to be sent before this message can be sent (only specify if not implicitly available)
 - Useful for expressing synchronization
 - Example: message can only be sent when 1, 2.3 and 5 are finished: `1, 2.3 , 5 /`
 ### Sequence Expression
-![[Pasted image 20240102101315.png]]
+![[bb38001e9bd25278df855028ebace481.png]]
 - Indicates that a message is a part of the actions undertaken in response to another message
 - If messages are sent within an operation, they are given a new sub-sequence number separated by a dot
 - Return value can be explicitly named
 #### Numbering
-![[Pasted image 20240102101448.png]]
+![[c53d2d772b40c6bcdbee71aa51c41359.png]]
 #### Recurrence
 - Asterix (`*`) is used to specify recurrence
 	- Optionally can be followed by an iteration-clause that gives more detail in (pseudo) code: `[x > 0] / [i := 1..n]`
 
-![[Pasted image 20240102101506.png]]
+![[713a1b7fd9e373a1d1479df28d5abcab.png]]
 ## Visibility Stereotypes
 - Indicate how the objects know about each other
 
-![[Pasted image 20240102101921.png]]
-![[Pasted image 20240102102029.png]]
+![[c39ba2125444b9726ee2eef494c8841b.png]]
+![[ccb420d27ff025ab9e2aa23cd27bf3a3.png]]
 ## Existence Stereotypes
 - Stereotypes or constraints can be used to indicate the objects’ existence during interaction
 
-![[Pasted image 20240102104508.png]]
-![[Pasted image 20240102104550.png]]
+![[1670075178c1794531e5847e5d9d0bb2.png]]
+![[0a429d7e47478de99852309967b2e4e2.png]]
 # 8. UML Meta Model (not required for the exam)
 - UML is based on a meta model - therefore each different diagram shares common elements with the other diagrams
 - Each diagram is an instance of an UML meta model (each diagram shows a simplified view of the meta model)
@@ -437,7 +436,7 @@ Focus on:
 	- **Model element**: represents system abstraction while modelling
 	- **Visual element**: textual / graphical representation of a model element that allows the user to interact
 
-![[Pasted image 20240102105418.png]]
+![[7898876fc18eddc92d900a6b74207d0d.png]]
 ## Common UML: Mechanisms
 - Stereotypes
 - Tagged Values
@@ -446,7 +445,7 @@ Focus on:
 - Dependency Relationships
 - (type, class) / (type, instance) dichotomies (?)
 
-![[Pasted image 20240102105600.png]]
+![[780510106bae14c1407e60856ca30f0c.png]]
 ## Common UML: Primitive Types
 - **Boolean**: enumerated type {true, false}
 - **Expression**: string with some semantics
@@ -469,7 +468,7 @@ Syntax:
 - Enforce namespace
 	- Two elements in different packages can have the same name
 
-![[Pasted image 20240102110901.png]]
+![[2d0e0fcf20328800f53d0bf4260bb10f.png]]
 - Elements can be shared between packages
 - The **import** relation between packages is modeled using a dependency relationship stereotyped with `<<import>>`
 
@@ -481,7 +480,7 @@ Elements contained in a package are not visible to the outside
 - Add extra semantics
 - *There are predefined stereotypes*
 
-![[Pasted image 20240102105743.png]]
+![[cfe693484424fa7b44b28a11940982cd.png]]
 ### Tagged Values
 - Pairs of information (name, value)
 - Hold additional information about elements
@@ -490,7 +489,7 @@ Elements contained in a package are not visible to the outside
 - Hold **no semantic** information
 	- *Use stereotypes for semantic information*
 
-![[Pasted image 20240102105954.png]]
+![[7531d9abfb034d5bf45fc4c2052ea7ef.png]]
 ## Constraints
 - Restrictions that limit the usage of an element or the semantics of an element
 - Constraints expressed between `{...}`
@@ -499,7 +498,7 @@ Elements contained in a package are not visible to the outside
 - One-directional usage relationships between two model elements (called source and target)
 - Notes or constraints are valid sources for dependency relationships
 
-![[Pasted image 20240102110211.png]]
+![[363f53370b43387509545a84be58dba7.png]]
 # 9. Testing
 ## Invariants
 A class invariant is any condition that expresses the valid states for objects of that class:
@@ -518,7 +517,7 @@ Post-conditions, in return, **bind the supplier**:
 - Define the conditions that the ADT ensures on return.
 - May only involve the initial and final states, the arguments and the result.
 
-![[Pasted image 20240102112318.png]]
+![[80e097fb0e7db099f3f2748bf537c490.png]]
 ## Assertions
 - An assertion is any boolean expression we expect to be true at some point.
 
@@ -694,7 +693,7 @@ The right balance between coupling and cohesion needs to be found:
 - Making a subclass increases coupling (bad), but increases cohesion (good, when done right)
 ## Law of Demeter
 The core of the problem:
-![[Pasted image 20240102123034.png]]
+![[6ac95034c561105185f19ff2470dfecd.png]]
 - `Client` knows how `Provider` is implemented:
 	- It knows that it uses an `IndirectProvider`
 	- `Client` and `IndirectProvider` are strongly coupled
@@ -707,7 +706,7 @@ Therefore;
 2. You must avoid global variables
 3. You must avoid using objects returned from message sends other than `self`
 
-![[Pasted image 20240102123340.png]]
+![[012d5bfdd5b75026483c3bf29e482a32.png]]
 ## About Methods
 - Methods take time to look up and call
 - Flow of control can be difficult to follow when there are many methods
@@ -754,11 +753,11 @@ We need to make sure that each class has the right behavior:
 To get rid of duplicated code, we can extract duplicated statements into a method that gets used within all the places that duplicated the code.
 # 11. Distribution & Synchronization in UML
 ## State Diagram
-![[Pasted image 20240102125417.png]]
+![[90aad316c38683b2c5d58da2cc806112.png]]
 - Used to model the behavior of a system by describing the different states an object can be in, and how the state can change as a result of certain events.
 - Used for a single object.
 
-![[Pasted image 20240102125524.png]]
+![[0953044294e9a19eb32e27a2f05417d3.png]]
 ### Transition Label Syntax
 - Event / `[Guard]` / Action
 	- All three parts are optional
@@ -783,7 +782,7 @@ Can model:
 - A join from multiple concurrent states
 - A fork to multiple concurrent states
 
-![[Pasted image 20240102125941.png]]
+![[d0aabe7b32b72402bf2f9a2ef2d2b952.png]]
 #### Action / Activity
 States can have an activity, transitions can have an action
 - Activities take longer
@@ -792,20 +791,20 @@ States can have an activity, transitions can have an action
 ***Strongly related to state diagrams***
 - Corresponds to a state diagram where most (or all) of the states are activity states
 
-![[Pasted image 20240102130154.png]]
+![[25f94d1a3df84f86378d3bc976cefecb.png]]
 *Guards can be used as in state charts*
 
-![[Pasted image 20240102130323.png]]
+![[b5fbc746201646d13c39860e0aa3a05d.png]]
 ### Subactivities
 - Show either only the superstate
 - Or the superstate with contained substates
 
-![[Pasted image 20240102130503.png]]
+![[4fa3307c7c5f4afc8b57f5e66138c54e.png]]
 ## Swimlanes
 - They improve upon activity diagrams (when there's more than just one method's behavior being modeled / activity does not span across multiple classes)
 - Arrange an activity diagram into vertical zones separated by lines, where each zone represents the responsibility of a class
 
-![[Pasted image 20240103134117.png]]
+![[336b8d39c3e8d4419ae12f121c4ca393.png]]
 ## Active Objects
 - An object that owns a process / thread and can initiate control activity
 
@@ -813,7 +812,7 @@ States can have an activity, transitions can have an action
 - Use stereotypes `<<thread>>` or `<<process>>`
 - Appear as sequences in interaction diagrams
 ### Active Class
-![[Pasted image 20240103134514.png]]
+![[826660dfa50294c688eef2cca6e6dbaa.png]]
 - Class with thick lines
 - Can contain an extra compartment for signals
 ### Communication
@@ -831,13 +830,13 @@ States can have an activity, transitions can have an action
 	2. **Guarded**: only one operation execute at a time on an object
 	3. **Concurrent**: these operations ensure integrity in case of concurrent execution
 
-![[Pasted image 20240103135134.png]]
+![[cc5cbccfc56d8728a9669e3888099b21.png]]
 - Critical region in UML - constraints attached to operations
 ### Modeling multiple flows of control
 - Use all the diagrams we have seen throughout the course
 - Use active objects to represent the threads or processes as needed
 
-![[Pasted image 20240103135311.png]]
+![[32614c9549ad38c272b29862091ec8a6.png]]
 ### Modeling interprocess communication
 - Threads typically communicate using signals or call events (that can be synchronous or asynchronous)
 - Processes typically communicate using different mechanisms
@@ -847,7 +846,7 @@ States can have an activity, transitions can have an action
 - Model remote procedure calls using synchronous communication
 - Specify underlying mechanism for communication by notes (informally) or by collaborations (formally)
 
-![[Pasted image 20240103135352.png]]
+![[44bac3ea2a0a8e6418c5b6cd110b1bf1.png]]
 ## TL;DR
 - Use ***asynchronous*** messages in sequence diagrams
 - Use ***predecessors*** in collaboration diagrams

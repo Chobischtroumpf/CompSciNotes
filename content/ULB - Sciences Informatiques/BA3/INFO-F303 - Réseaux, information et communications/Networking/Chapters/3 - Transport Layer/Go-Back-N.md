@@ -17,7 +17,7 @@ tags:
 > - Window slides forward as ACKs are received
 > - Can send multiple packets without waiting for individual ACKs
 >
-> ![[Pasted image 20251030142624.png]]
+> ![[606ce61871818d5526c551d5e95b40ea.png]]
 >
 > **Window positions**:
 > - `base`: Sequence number of oldest unACKed packet
@@ -55,7 +55,7 @@ tags:
 ## Sender Behavior
 
 > [!note]+ Sender Extended FSM
-> ![[Pasted image 20251030142904.png]]
+> ![[5165594c82ca3d4ae704caed08604b7a.png]]
 >
 > **Single state**: Wait
 >
@@ -116,7 +116,7 @@ tags:
 ## Receiver Behavior
 
 > [!note]+ Receiver Extended FSM
-> ![[Pasted image 20251030145133.png]]
+> ![[e4b4fe22c79e24af75e16fee361ffcd4.png]]
 >
 > **Single state**: Wait
 >
@@ -156,7 +156,7 @@ tags:
 ## Go-Back-N in Action
 
 > [!example]+ Protocol Operation
-> ![[Pasted image 20251030150644.png]]
+> ![[224d16a1a632f51355f3991c80af2308.png]]
 >
 > **Scenario walkthrough**:
 >
@@ -203,7 +203,7 @@ tags:
 ### Why $N$ Cannot Equal $K$
 
 > [!example]+ Example: $K = 4, N = 4$ (Incorrect)
-> ![[Pasted image 20251030151935.png]]
+> ![[0c92e5f53e2a36f7bdae5d0ae5e8821c.png]]
 >
 > **Scenario**:
 > 1. Sender sends `pkt0`, `pkt1`, `pkt2`, `pkt3` (window full)
@@ -218,7 +218,7 @@ tags:
 ### Correct Window Size
 
 > [!example]+ Example: $K = 4, N = 3$ (Correct)
-> ![[Pasted image 20251030152139.png]]
+> ![[6d669389adac4f5f98fe9ec3a0f0d50c.png]]
 >
 > **Scenario**:
 > 1. Sender sends `pkt0`, `pkt1`, `pkt2` (window size N=3)

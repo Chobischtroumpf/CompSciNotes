@@ -5,4 +5,4 @@ tags:
   - Network
 ---
 
-![[Pasted image 20251102121326.png]]
+![[02068b758560ea32d81c44c0b3b98864.png]]

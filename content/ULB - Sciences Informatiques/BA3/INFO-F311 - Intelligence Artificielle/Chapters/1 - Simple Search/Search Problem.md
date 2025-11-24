@@ -20,7 +20,7 @@ tags:
 ## Example: Traveling in Romania
 
 > [!example]+ Problem Setup
-> ![[Pasted image 20250925100954.png]]
+> ![[3504284c7667fe08608fbe4053a3aa88.png]]
 >
 > **State space**: Cities
 >

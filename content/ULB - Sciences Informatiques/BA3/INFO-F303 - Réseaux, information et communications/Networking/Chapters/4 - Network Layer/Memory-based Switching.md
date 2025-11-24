@@ -8,7 +8,7 @@ tags:
 > Switching via memory is a technique used in first generation [[Switch#^97dbe2|routers]] where [[Packet#^150f99|packets]] are switched through the router's main memory under CPU control.
 
 > [!abstract]+ First Generation Routers
-> ![[Pasted image 20251102152414.png]]
+> ![[47ea001e77a7769c7f347213e949ff16.png]]
 >
 > **Architecture:**
 >
