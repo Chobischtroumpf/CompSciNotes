@@ -15,4 +15,4 @@ tags:
 > [!note]+ Related Concepts
 > - **[[Probabilités|Probability]]**: Recap about probabilities
 > - **[[Supervised Learning]]**: Learning from data
-> - **[[Reinforcement Learning]]**: Decision making under uncertainty
+> - **[[Reinforcement Learning (Intro)]]**: Decision making under uncertainty

@@ -16,4 +16,4 @@ tags:
 > - **[[Planning Agent]]**: Agent using search and planning
 > - **[[Search Problem]]**: Formulation for planning
 > - **[[Search Tree]]**: Structure for exploring plans
-> - **[[Reinforcement Learning]]**: Learning policies through computation
+> - **[[Reinforcement Learning (Intro)]]**: Learning policies through computation

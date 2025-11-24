@@ -27,6 +27,19 @@ tags:
 - [[Code de Shannon]]
 	- [[Code de Shannon-Fano-Elias]]
 
+## Chapitre 3: Entropie et codage efficace
+- [[Quantité d'information d'un symbole]]
+- [[Entropie]]
+- [[Propriétés de l'Entropie]]
+- [[Unité de l'information]]
+- [[Théorème de Gibbs]]
+- [[Noiseless Coding Theorem]]
+## Chapitre 4: Compression sans perte
+- [[Codage par dictionnaire]]
+	- [[Algorithme de Lempel-Ziv-Welch]]
+- [[Invariant de Gallager]]
+- [[Invariant de Vitter]]
+- [[Algorithme de Vitter]]
 # Réseaux
 
 ## Chapter 1: Computer Networks and the Internet

@@ -17,7 +17,7 @@ tags:
 - [[Actuator]]
 - [[Sensor]]
 - [[Search and Planning]]
-- [[Reinforcement Learning]]
+- [[Reinforcement Learning (Intro)]]
 - [[Supervised Learning]]
 - [[Probability & Inference]]
 
@@ -39,7 +39,7 @@ tags:
 - [[Greedy Search]]
 	- [[Search Heuristic]]
 - [[Graph Search]]
-- [[A*]]
+- [[A Star]]
 - [[Admissibility]]
 - [[8 Puzzle Problem]]
 
@@ -85,7 +85,9 @@ tags:
 - [[Discount Factor]]
 - [[Value Iteration]]
 	- [[Time-Limited Values]]
-- [[Q-Value Iteration]]
 - [[Policy Extraction]]
 
 ## Chapter 11: Reinforcement Learning
+- [[Reinforcement Learning]]
+- [[Model-Free Learning]]
+- [[Model-Based Learning]]

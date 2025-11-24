@@ -13,5 +13,5 @@ tags:
 > **Intelligence from Data/Experience**
 
 > [!note]+ Related Concepts
-> - **[[Reinforcement Learning]]**: Learning through interaction
+> - **[[Reinforcement Learning (Intro)]]**: Learning through interaction
 > - **[[Probability & Inference]]**: Handling uncertainty in learning

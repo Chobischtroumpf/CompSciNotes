@@ -11,7 +11,7 @@ tags:
 
 > [!abstract]+ Value Iteration Update
 > **Core update equation:**
-> $$V_{k+1}(s) \leftarrow \max_a \sum_{s'} T(s, a, s') [R(s, a, s') + \gamma V_k(s')]$$
+> $$V_{k+1}(s) \leftarrow \max_a \sum_{s'} T(s, a, s') \left[ R(s, a, s') + \gamma V_k(s') \right]$$
 >
 > **Procedure:**
 > 1. Start with $V_0(s) = 0$ for all states
@@ -46,6 +46,24 @@ tags:
 > 5. Therefore: $V_k$ and $V_{k+1}$ differ by at most $\gamma^k \max|R|$
 > 6. As $k \to \infty$, $\gamma^k \to 0$, so values converge
 
+## Q-Value Iteration
+
+> [!abstract]+ Alternative Formulation
+> In solving for an optimal policy using value iteration, we first find all the optimal values, then extract the policy using policy extraction. However, we can also iterate directly on Q-values.
+>
+> **Q-value iteration** is a dynamic programming algorithm that computes time-limited Q-values:
+>
+> $$Q_{k + 1}(s, a) \leftarrow \sum_{s'} T(s, a, s') \left[ R(s, a, s') + \gamma \max_{a'} Q_k(s', a') \right]$$
+>
+> **Key difference from value iteration:**
+> - The max operator over actions appears after the transition
+> - In states: select action before transitioning
+> - In Q-states: transition before selecting new action
+>
+> **Policy extraction:**
+> Once we have optimal Q-values, simply choose the action with highest Q-value:
+> $$\pi^*(s) = \arg\max_a Q^*(s,a)$$
+
 ## Example: Racecar
 
 > [!example]+ Value Iteration Steps
@@ -53,7 +71,7 @@ tags:
 >
 > **Initialization:**
 >
-> |     | **cool** | **warm** | **overheated** |
+> |     | cool | warm | overheated |
 > | --- | -------- | -------- | -------------- |
 > | $V_0$  | 0        | 0        | 0              |
 >
@@ -66,7 +84,7 @@ tags:
 >
 > $$V_1(\text{overheated}) = 0$$ (terminal state)
 >
-> |     | **cool** | **warm** | **overheated** |
+> |     | cool | warm | overheated |
 > | --- | -------- | -------- | -------------- |
 > | $V_0$  | 0        | 0        | 0              |
 > | $V_1$  | 2        | 1        | 0              |
@@ -78,7 +96,7 @@ tags:
 > $$V_2(\text{warm}) = \max\{0.5 \cdot [1 + 0.5 \cdot 2] + 0.5 \cdot [1 + 0.5 \cdot 1], 1 \cdot [-10 + 0.5 \cdot 0]\}$$
 > $$= \max\{1.75, -10\} = 1.75$$
 >
-> |     | **cool** | **warm** | **overheated** |
+> |     | cool | warm | overheated |
 > | --- | -------- | -------- | -------------- |
 > | $V_0$  | 0        | 0        | 0              |
 > | $V_1$  | 2        | 1        | 0              |

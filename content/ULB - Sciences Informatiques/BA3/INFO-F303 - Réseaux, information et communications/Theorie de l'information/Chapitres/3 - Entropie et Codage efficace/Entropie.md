@@ -13,6 +13,10 @@ tags:
 >
 > Par continuité, on pose $0 \cdot \log 0 = 0$
 
+> [!abstract]+ Formule : Fonction d'Entropie généralisée
+>
+> $$ \mathcal{H}_q(p) = -p \log_q \frac{p}{q-1} - (1-p) \log_q(1-p) $$
+
 > [!abstract]+ Entropie d'une source binaire
 >
 > Pour une source binaire $p_1 = p$ et $p_2 = 1 - p$, on a :
