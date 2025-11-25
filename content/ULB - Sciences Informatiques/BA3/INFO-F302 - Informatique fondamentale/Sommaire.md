@@ -110,3 +110,32 @@ tags:
 	-  [[graphcolor est np-complet]]
 		- [[graphcolor est np-complet#réduction de 3SATvers GRAPHCOLOR|réduction 3SAT vers GRAPHCOLOR]]
 	-  [[démonstration problème indécidable]]
+
+# Chap4 : automates finis 
+- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/4 - automates finis/introduction|introduction]]
+	- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/4 - automates finis/introduction#exemples|exemples]]
+	- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/4 - automates finis/introduction#applications possibles|applications possibles]]
+	- [[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/4 - automates finis/introduction#avantages/inconvénients des automates|avantages / inconvénients]]
+- définitions 
+	-  [[language]]
+		- [[language#langage accepté ou reconnu|language accepté ou reconnu]]
+	- [[facteur]]
+	-  [[automate fini]]
+	-  [[exécution]]
+	- [[état atteignable]]
+- résultats 
+	- [[complétion d'un automate]]
+		- [[complétion d'un automate#lemme|lemme]]
+	-  [[problème du VIDE]]
+	- [[état atteignable#théorème|théorème des états atteignables]]
+- opérations booléennes sur les langages
+	- [[complément]]
+	- [[union, intersection]]
+		-  [[union, intersection#théorème|théorème]]
+	- [[produit d'automates]]
+		-  [[produit d'automates#cloture par union et intersection|clotûre par union et intersection]]
+	-  [[inclusion et équivalence]]
+		-  [[inclusion et équivalence#théorème|théorème]]
+		- algorithmes
+			- [[inclusion et équivalence#algorithme|méthode 1]]
+			- [[inclusion et équivalence#autre méthode|méthode 2]]

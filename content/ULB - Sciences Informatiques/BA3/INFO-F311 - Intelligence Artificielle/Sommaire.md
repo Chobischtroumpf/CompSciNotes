@@ -96,3 +96,4 @@ tags:
 	- [[Temporal Difference Learning]]
 - [[Active Reinforcement Learning]]
 	- [[Q-Learning]]
+		- [[Approximate Q-Learning]]
