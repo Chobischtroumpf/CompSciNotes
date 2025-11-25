@@ -8,7 +8,7 @@ tags: []
 
 Tasks with progress counters:
 
-- [ ] AI: Theory [494/847]
+- [ ] AI: Theory [514/847]
 - [ ] AI: TP [0/78]
 - [ ] Info Fond: Theory [254/580]
 - [ ] Info Fond: TP [13/41]
@@ -22,4 +22,4 @@ Tasks with progress counters:
 - [ ] Mod Sim: TP [0/7]
 
 ---
-*Last updated: 11/24/2025, 2:52:59 PM*
+*Last updated: 11/25/2025, 3:55:41 PM*
