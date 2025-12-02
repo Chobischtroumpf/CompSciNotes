@@ -1,11 +1,9 @@
 ---
 title: RDT 1.0
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **RDT 1.0** is the simplest [[Reliable Data Transfer]] protocol, designed for a perfectly reliable underlying channel with no bit errors, no packet loss, and no reordering.
 

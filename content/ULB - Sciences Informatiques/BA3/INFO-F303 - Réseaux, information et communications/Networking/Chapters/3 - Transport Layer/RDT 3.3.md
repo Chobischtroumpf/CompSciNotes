@@ -1,11 +1,9 @@
 ---
 title: RDT 3.3
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **RDT 3.3** introduces an optimization where receivers send ACK for the last properly received packet instead of sending NAK. Receiving duplicate ACKs at the sender triggers the same action as receiving NAK: retransmission.
 

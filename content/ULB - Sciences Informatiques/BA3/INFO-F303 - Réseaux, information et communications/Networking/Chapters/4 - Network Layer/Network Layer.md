@@ -1,54 +1,90 @@
 ---
 title: Network Layer
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
+> [!info]+ Definition
+> The **Network Layer** transports segments from sending to receiving hosts, while the [[Transport Layer]] provides logical communication between processes.
 
-# Network-layer services and protocols
+## Sender and Receiver Responsibilities
 
-> [!info]+ Définition
-> The **network layer** is responsible for moving packets from a sending host to a receiving host through the network infrastructure.
+> [!note]+ Sender Operations
+> The network layer at the sender:
+> 1. Receives segments from [[TCP]]/[[UDP]] (transport layer)
+> 2. Encapsulates segments into packets
+> 3. Passes packets to the link layer for transmission
 
-## Transport Segment Handling
+> [!note]+ Receiver Operations
+> The network layer at the receiver:
+> 1. Receives packets from the link layer
+> 2. Extracts the segment from the packet
+> 3. Delivers TCP/UDP segments to the transport layer protocol
 
-> [!tip]+ Remarque The network layer handles transport segments differently on the sending and receiving sides:
+> [!note]+ Router Operations
+> Routers in the network:
+> - Examine header fields in all IP packets
+> - Move packets from input to output ports
+> - Transfer packets along end-to-end path
+
+![[977921fb2d431f5451c1210887311019.png]]
+
+## Network Layer Architecture
+
+> [!abstract]+ Two Planes
+> The network layer is divided into two distinct functional planes:
 >
-> **Sender side:**
+> **[[Data Plane]]:**
+> - Local, per-router function
+> - Determines how packets are forwarded from input to output port
+> - Hardware-based, operates in nanosecond time frame
 >
-> - Encapsulates TCP/UDP segments into packets
-> - Passes these packets to the link layer for transmission
+> **[[Control Plane]]:**
+> - Network-wide logic
+> - Determines how packets are routed among routers
+> - Software-based, operates in millisecond time frame
+
+> [!tip]+ Protocol Stack Position
+> The network layer sits between the transport layer (TCP, UDP) above and the link layer below, with the physical layer at the bottom of the protocol stack.
 >
-> **Receiver side:**
+> ![[6afca847778e02e6c93d1b8e79bb0d7a.png]]
+
+## Service Model
+
+> [!abstract]+ Best-Effort Service
 >
-> - Delivers TCP/UDP segments to the transport layer protocol
-> - Extracts the segment from the packet for upper-layer processing
-
-## Network Layer Protocols
-
-> [!abstract]+ Universal Network Layer Protocol
-> Network layer protocols exist in _every Internet device_, including:
+> | Network Architecture | Service Model | Bandwidth | Loss | Order | Timing |
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> | Internet | best effort | none | no | no | no |
 >
-> - Hosts (end systems)
-> - Routers (intermediate systems)
+> **No guarantees on:**
+> 1. Successful packet delivery to destination
+> 2. Timing or order of delivery
+> 3. Bandwidth available to end-to-end flow
 
-## Router Functionality
+## Network Layer Components
 
-> [!info]+ Définition
->  **Routers** are network devices that:
+> [!info]+ Core Components
+> **IP Protocol:**
+> - Defines packet format and addressing
+> - Specifies packet handling conventions
 >
-> - Examine header fields in all IP packets passing through them
-> - Move packets from input ports to output ports to transfer packets along their end-to-end path
-
-> [!tip]+ Remarque
-> ![[977921fb2d431f5451c1210887311019.png]]
-> The diagram illustrates a typical network topology showing:
+> **ICMP Protocol:**
+> - Handles error reporting
+> - Provides router signaling
 >
-> - Mobile networks connecting to national or global ISPs
-> - Enterprise networks with multiple hosts
-> - Home networks with local devices
-> - Routers at various layers (network, link, physical) facilitating packet forwarding across the Internet infrastructure
+> **Routing Protocols:**
+> - Path-selection algorithms (OSPF, BGP)
+> - [[Forwarding]] done via tables
+> - SDN controllers for software-defined networking
 
- Key functions:
-- forwarding: move packets from a router's input link to appropriate router's output link
-- routing: determine the route taken by packets from source to destination (routing algorithms)
+## Related Concepts
+
+> [!note]+ See Also
+> - **[[Data Plane]]**: Per-router forwarding function
+> - **[[Control Plane]]**: Network-wide routing logic
+> - **[[IPv4]]**: Current Internet Protocol version
+> - **[[IPv6]]**: Next generation Internet Protocol
+> - **[[Router Architecture]]**: Internal router structure
+> - **[[Forwarding]]**: Moving packets through routers
+> - **[[Transport Layer]]**: Layer above network layer

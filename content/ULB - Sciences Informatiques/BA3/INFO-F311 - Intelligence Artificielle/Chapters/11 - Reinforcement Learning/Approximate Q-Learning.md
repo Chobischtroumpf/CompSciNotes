@@ -17,7 +17,7 @@ tags:
 
 > [!example] Pacman
 >
-| ![[Pasted image 20251125154323.png]] | ![[Pasted image 20251125154333.png]] | ![[Pasted image 20251125154340.png]] |
+| ![[ed5c5bae3560694de6bbbff5d134ff58.png]] | ![[339cca10c5fad37f0810766dd7c71e50.png]] | ![[efdba3d25171c45a4e642dad2606fddf.png]] |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: |
 >
 > If Pacman learned that Figure 1 is unfavorable after running vanilla Q-learning, it would still have no idea that Figure 2 or even Figure 3 are unfavorable as well.

@@ -1,11 +1,9 @@
 ---
 title: RDT 2.0
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **RDT 2.0** extends [[RDT 1.0]] to handle bit errors in the channel using error detection ([[Checksum]]) and acknowledgment messages (ACK/NAK).
 

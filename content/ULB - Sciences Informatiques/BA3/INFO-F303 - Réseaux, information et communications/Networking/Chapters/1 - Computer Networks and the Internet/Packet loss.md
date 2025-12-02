@@ -1,10 +1,9 @@
 ---
 title: Packet loss
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
-  -
+  - Network
 ---
-
 > [!info]+ Définition
 > Une **queue** (aussi appelée buffer) précédant un lien dans un buffer a une capacité finie.
 >

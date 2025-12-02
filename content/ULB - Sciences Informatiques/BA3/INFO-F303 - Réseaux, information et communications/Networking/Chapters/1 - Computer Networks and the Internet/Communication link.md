@@ -1,11 +1,9 @@
 ---
 title: Communication link
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > Physical medium with transmission rate, delay, error characteristics.
 >

@@ -1,6 +1,6 @@
 ---
 title: INFO-F303 - Réseaux, information et communications
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - ULB
   - BA3
@@ -111,29 +111,22 @@ tags:
 
 ## Chapter 4: The Network Layer
 - [[Network Layer]]
-	- [[Network Layer Functions]]
 	- [[Data Plane]]
-	- [[Control plane]]
-		- [[SDN]]
-	- [[ULB - Sciences Informatiques/BA3/INFO-F303 - Réseaux, information et communications/Networking/Chapters/4 - Network Layer/Internet|Internet]]
-		- [[Path-Selection Algorithms]]
-		- [[Forwarding Table]]
-		- [[IP Protocol]]
-		- [[ICMP Protocol]]
-- [[IPv4 Addressing]]
-	- [[Subnets]]
-	- [[Classful addresses|Classful addresses (Deprecated)]]
-	- [[CIDR]]
-	- [[Special IP addresses]]
-	- [[DHCP]]
-	- [[Hierarchical IPv4 addressing]]
+	- [[Control Plane]]
+- [[IPv4]]
+	- [[IPv4 Structure]]
+- [[Subnet]]
+- [[CIDR]]
+- [[DHCP]]
+- [[Hierarchical Addressing]]
+	- [[Longest Prefix Matching]]
 - [[NAT]]
-	- [[NAT Traversal Problem]]
-- [[IP Packet Format]]
 - [[IP Fragmentation and Reassembly]]
-- [[IPv6 Addressing]]
-	- [[Hierarchical IPv6 Addressing]]
-	- [[Transition from IPv4 to IPv6]]
+- [[IPv6]]
+	- [[IPv6 Structure]]
+
+**TODO:**
+
 - [[Router Architecture]]
 	- [[Router Input Ports]]
 	- [[Switching Fabric]]

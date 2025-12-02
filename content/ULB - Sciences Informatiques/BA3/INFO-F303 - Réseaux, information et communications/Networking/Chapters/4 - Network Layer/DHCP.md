@@ -1,101 +1,161 @@
 ---
 title: DHCP
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
-> **DHCP (Dynamic Host Configuration Protocol)** allows a host to _dynamically_ obtain an IP address from a network server when it "joins" a network.
+> **DHCP (Dynamic Host Configuration Protocol)** allows a host to *dynamically* obtain an IP address from a network server when it joins a network, eliminating the need for manual configuration.
 
-> [!tip]+ Advantages:
+## Why Use DHCP?
+
+> [!success]+ Advantages
+> **Dynamic allocation:**
+> - Hosts can renew their lease on addresses in use
+> - Allows reuse of addresses (only holds address while connected)
+> - Supports mobile users who join/leave networks
 >
-> - Hosts can renew their lease on an address currently in use
-> - Allows reuse of addresses (only holds address while connected/"on")
-> - Provides support for mobile users who join/leave networks
+> **Compared to static configuration:**
+> - No need to manually configure each device
+> - Reduces administrative overhead
+> - Prevents address conflicts
 
-## DHCP Protocol Overview
+## DHCP Message Exchange
 
-> [!abstract]+ Message exchange steps:
+> [!abstract]+ Four-Step Process (DORA)
+> 1. **Discover:** Host broadcasts "Is there a DHCP server out there?"
+> 2. **Offer:** DHCP server responds "Here's an IP address you can use"
+> 3. **Request:** Host broadcasts "OK, I'll take that IP address!"
+> 4. **ACK:** DHCP server confirms "OK, you've got that IP address!"
 >
-> 1. **DHCP discover**: Host broadcasts a DHCP discover message [optional]
-> 2. **DHCP offer**: DHCP server responds with a DHCP offer message [optional]
-> 3. **DHCP request**: Host requests an IP address with a DHCP request message
-> 4. **DHCP ack**: DHCP server sends the address with a DHCP ack message
+> ![[2014397ee8b055dd012af37e4b49b097.png]]
 
-> [!example]+ DHCP Client-Server Scenario
-> Consider a network topology with DHCP server at address $223.1.2.5$:
+> [!tip]+ Optional Steps
+> The first two steps (Discover and Offer) can be skipped if a client remembers and wishes to reuse a previously allocated network address (RFC 2131).
+
+## Detailed Example
+
+> [!example]+ DHCP in Action
 > ![[89ea71d1dbf36595f4d3ebfbcf96350b.png]]
-> ![[0aad59370cad94a8060ec4f29dcc4f80.png]]
 >
-> - The server is located within the router at $223.1.2.5$
-> - When a DHCP client arrives in the network (e.g., at $223.1.2.2$), it needs to obtain an IP address
-> - The client has no IP address and doesn't know the IP address of the DHCP server(s)
->
->**The complete DHCP exchange proceeds as follows:**
->![[2014397ee8b055dd012af37e4b49b097.png]]
-> **DHCP discover** (broadcast):
->
-> - Client broadcasts: "Is there a DHCP server out there?"
-> - Source: $0.0.0.0$ (client has no IP yet)
-> - Destination: $255.255.255.255$ (broadcast)
-> - Message includes transaction ID
->
-> **DHCP offer** (broadcast):
->
-> - Server broadcasts: "I'm a DHCP server! Here's an IP address you can use"
-> - Source: $223.1.2.5$ (DHCP server)
-> - Destination: $255.255.255.255$ (broadcast on subnet)
-> - Offered address: $223.1.2.4$
-> - Lifetime: $3600$ seconds
->
-> **DHCP request** (broadcast):
->
-> - Client broadcasts: "OK, I'll take that IP address!"
-> - Requested address: $223.1.2.4$
-> - Transaction ID matches the offer
->
-> **DHCP ACK** (broadcast):
->
-> - Server broadcasts: "OK, You've got that IP address!"
-> - Confirms address: $223.1.2.4$
-> - Provides additional configuration information
+> **Network setup:**
+> - DHCP server at `223.1.2.5` (within router)
+> - New client arrives needing an IP address
+> - Client has no IP and doesn't know server's address
 
-> [!tip]+
-> The first two steps (discover and offer) can be skipped if a client remembers and wishes to reuse a previously allocated network address (RFC 2131).
->
-> DHCP uses UDP because it needs to work before the client has an IP address, and broadcasting ensures all devices on the subnet receive the messages.
+### Message Details
 
-## DHCP: More Than IP Addresses
+> [!note]+ DHCP Discover
+> ```
+> src:    0.0.0.0, port 68
+> dest:   255.255.255.255, port 67
+> yiaddr: 0.0.0.0
+> transaction ID: 654
+> ```
+> *Client broadcasts from `0.0.0.0` (no address yet) to `255.255.255.255` (broadcast)*
 
-> [!note]+
-> DHCP can return more than just an allocated IP address on a subnet:
->
-> - Address of first-hop router for client
-> - Name and IP address of local DNS server
-> - Network mask (indicating network versus host portion of address)
-> - Additional configuration parameters
+> [!note]+ DHCP Offer
+> ```
+> src:    223.1.2.5, port 67
+> dest:   255.255.255.255, port 68
+> yiaddr: 223.1.2.4
+> transaction ID: 654
+> lifetime: 3600 secs
+> ```
+> *Server offers address `223.1.2.4` with 1-hour lease*
 
-## DHCP Protocol Stack Example
+> [!note]+ DHCP Request
+> ```
+> src:    0.0.0.0, port 68
+> dest:   255.255.255.255, port 67
+> yiaddr: 223.1.2.4
+> transaction ID: 655
+> lifetime: 3600 secs
+> ```
+> *Client requests the offered address*
 
-> [!example]+ Exemple **Client side (connecting laptop):**
->
-> - Connecting laptop will use DHCP to get IP address, address of first-hop router, and address of DNS server
-> - DHCP REQUEST message is encapsulated in UDP, encapsulated in IP, encapsulated in Ethernet
-> - Ethernet frame is broadcast on LAN, received at router running DHCP server
-> - Ethernet frame is demux'ed to IP, then demux'ed to UDP, then to DHCP
->
-> **Server side (router with DHCP server):**
->
-> - DCP server formulates DHCP ACK containing client's IP address, IP address of first-hop router for client, and name & IP address of DNS server
-> - Encapsulated DHCP server reply is forwarded to client, demuxing up to DHCP at client
-> - Client now knows its IP address, name and IP address of DNS server, and IP address of its first-hop router
+> [!note]+ DHCP ACK
+> ```
+> src:    223.1.2.5, port 67
+> dest:   255.255.255.255, port 68
+> yiaddr: 223.1.2.4
+> transaction ID: 655
+> lifetime: 3600 secs
+> ```
+> *Server confirms the address assignment*
 
-> [!tip]+ Remarque The protocol stack for DHCP messages follows the standard layered architecture:
+![[0aad59370cad94a8060ec4f29dcc4f80.png]]
+
+## Why Broadcast?
+
+> [!warning]+ Protocol Design
+> **All messages are broadcast because:**
+> - Client doesn't have an IP address initially
+> - Client doesn't know DHCP server's address
+> - Multiple DHCP servers may exist on the network
 >
-> - Application layer: DHCP
-> - Transport layer: UDP
-> - Network layer: IP
-> - Link layer: Ethernet (Eth)
-> - Physical layer: Physical medium (Phy)
+> **DHCP uses [[UDP]]:**
+> - Must work before client has an IP address
+> - Broadcasting ensures all devices on subnet receive messages
+
+## Additional Information Provided
+
+> [!info]+ Beyond IP Address
+> DHCP can return more than just an IP address:
+> - **First-hop router address:** Default gateway for the client
+> - **DNS server:** Name and IP address of local DNS server
+> - **Network mask:** Indicating network vs host portion of address
+
+## Protocol Stack Example
+
+> [!example]+ Complete DHCP Flow
+> ![[92a33993ec2396ead997e12e83b7585c.png]]
+>
+> **Client request path:**
+> 1. DHCP REQUEST message created
+> 2. Encapsulated in [[UDP]]
+> 3. Encapsulated in IP
+> 4. Encapsulated in Ethernet frame
+> 5. Broadcast on LAN
+> 6. Received at router running DHCP server
+> 7. Demultiplexed: Ethernet → IP → UDP → DHCP
+>
+> ![[e66987dfe5c234fbec98fd519f1ede77.png]]
+>
+> **Server response:**
+> 8. DHCP ACK formulated containing:
+>    - Client's IP address
+>    - First-hop router IP address
+>    - DNS server name and IP address
+> 9. Encapsulated and forwarded to client
+> 10. Client now knows: its IP, DNS server, and first-hop router
+
+## Subnet Address Allocation
+
+> [!abstract]+ How Networks Get Address Blocks
+> **Provider Assigned (PA) addresses:**
+> - Networks get allocated portion of ISP's address space
+>
+> **Example - ISP's block:** `200.23.16.0/20`
+>
+> ISP allocates to organizations:
+>
+> | Organization | Address Block |
+> |:---:|:---:|
+> | 0 | `200.23.16.0/23` |
+> | 1 | `200.23.18.0/23` |
+> | 2 | `200.23.20.0/23` |
+> | ... | ... |
+> | 7 | `200.23.30.0/23` |
+
+^bc1a5d
+
+## Related Concepts
+
+> [!note]+ See Also
+> - **[[IPv4]]**: IP addressing fundamentals
+> - **[[Subnet]]**: Network subdivision
+> - **[[CIDR]]**: Address block notation
+> - **[[UDP]]**: Transport protocol used by DHCP
+> - **[[NAT]]**: Often used with DHCP for private networks
+> - **[[Network Layer]]**: Layer where DHCP operates

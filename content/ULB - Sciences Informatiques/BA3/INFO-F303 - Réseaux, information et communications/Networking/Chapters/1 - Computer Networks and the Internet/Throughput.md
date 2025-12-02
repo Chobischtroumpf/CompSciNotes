@@ -1,11 +1,9 @@
 ---
 title: Throughput
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Throughput** is the rate (bits per time unit) at which bits are being sent from sender to receiver.
 

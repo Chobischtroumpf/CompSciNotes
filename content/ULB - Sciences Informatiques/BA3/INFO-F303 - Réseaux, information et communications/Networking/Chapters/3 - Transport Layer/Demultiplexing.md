@@ -1,11 +1,9 @@
 ---
 title: Demultiplexing
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Demultiplexing** is the process used by the receiver to deliver received segments to the correct socket using header information. It's the complementary operation to [[Multiplexing]].
 

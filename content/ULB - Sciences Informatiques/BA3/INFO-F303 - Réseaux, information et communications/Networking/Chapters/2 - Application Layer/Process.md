@@ -1,11 +1,9 @@
 ---
 title: Process
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > A **process** is a program running within a [[Host|host]]. Processes are the entities that communicate over the network to provide distributed application functionality.
 
@@ -21,7 +19,9 @@ tags:
 > - Processes communicate by exchanging [[Packet#^150f99|messages]] over the [[Network#^89dac9|network]]
 > - Uses [[Socket#^d7aa97|sockets]] as the interface to the transport layer
 > - Requires network [[Protocol#^4bfd4c|protocols]] for reliable communication
+
 ## Process Roles
+
 > [!note]+ Client Process
 > **Definition**: The process that initiates communication
 >
@@ -38,7 +38,9 @@ tags:
 > - Responds to client requests
 > - Often runs continuously
 > - Examples: web server, mail server, database server
+
 ## Process Identification
+
 > [!abstract]- Process Identifiers
 > To receive messages, processes must have a unique identifier consisting of:
 >
@@ -72,7 +74,9 @@ tags:
 > ```
 >
 > Example: `192.168.1.100:8080`
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - Processes use [[Socket#^d7aa97|sockets]] to send/receive messages
 > - Communication follows [[Application layer protocol|application layer protocols]]

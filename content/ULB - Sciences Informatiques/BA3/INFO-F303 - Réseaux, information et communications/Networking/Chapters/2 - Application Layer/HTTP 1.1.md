@@ -1,14 +1,14 @@
 ---
 title: HTTP 1.1
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **HTTP/1.1** is a major revision of the [[HTTP]] protocol that introduced [[Persistent HTTP|persistent connections]] as the default behavior and added request pipelining to improve performance over HTTP/1.0.
+
 ## Key Features
+
 > [!success]+ Persistent Connections by Default
 > - Multiple objects sent over single [[TCP]] connection
 > - Connection remains open between requests
@@ -35,7 +35,9 @@ tags:
 > - Required `Host:` header in all requests
 > - Enables virtual hosting (multiple domains per IP)
 > - Example: `Host: www.example.com`
+
 ## The HOL Blocking Problem
+
 > [!example]+ HOL Blocking Scenario
 > **Client requests**:
 > - 1 large object (5 MB)
@@ -60,7 +62,9 @@ tags:
 > - All subsequent data is held up
 > - Entire pipeline stalls waiting for retransmission
 > - Even objects not affected by loss are delayed
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - **[[HTTP]]**: Main protocol overview
 > - **[[Persistent HTTP]]**: Connection model introduced as default

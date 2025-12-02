@@ -1,11 +1,9 @@
 ---
 title: Checksum
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > A **checksum** is an error-detection mechanism used by transport protocols ([[UDP]], [[TCP]]) to detect bit errors in transmitted segments. It uses one's complement arithmetic to create a checksum value that's verified at the receiver.
 

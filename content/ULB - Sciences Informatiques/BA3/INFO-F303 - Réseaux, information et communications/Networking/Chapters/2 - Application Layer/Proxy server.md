@@ -1,11 +1,9 @@
 ---
 title: Proxy server
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > A **proxy server** (or web cache) is an intermediary server that satisfies client HTTP requests without involving the origin server. It acts as both a client (to origin servers) and a server (to requesting clients).
 
@@ -15,7 +13,9 @@ tags:
 > - Reduce traffic on access links
 > - Reduce load on origin servers
 > - Improve overall network performance
+
 ## How Proxy Servers Work
+
 > [!note]+ Basic Operation
 > **Setup**:
 > 1. User configures browser to point to the proxy server
@@ -38,7 +38,9 @@ tags:
 > - **Client** to the origin server
 >
 > This dual nature allows it to intercept and optimize communication.
+
 ## Performance Analysis
+
 > [!example]+ Scenario Without Proxy
 > **Network Configuration**:
 > - Access link rate: 1.54 Mbps
@@ -61,7 +63,9 @@ tags:
 > - Speed improvement is minimal
 > - Access link upgrade costs a lot more
 > - Not a cost-effective solution
+
 ## Solution: Web Cache (Proxy)
+
 > [!example]+ Scenario With Proxy
 > **Assumptions**:
 > - Cache hit rate: 0.4 (40% of requests satisfied from cache)
@@ -83,7 +87,9 @@ tags:
 > - **Link utilization**: Reduced from 97% to 58%
 > - **Cost**: No expensive link upgrade needed
 > - **Origin server load**: Reduced by 40%
+
 ## Proxy Types
+
 > [!info]+ Forward Proxy
 > - Client-side proxy
 > - Configured by client/network
@@ -101,7 +107,9 @@ tags:
 > - Client unaware of proxy
 > - Often used by ISPs
 > - Example: ISP caching proxy
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - Uses [[HTTP#^d88595|HTTP]] protocol for web communication
 > - Improves performance of [[Client-server paradigm]]

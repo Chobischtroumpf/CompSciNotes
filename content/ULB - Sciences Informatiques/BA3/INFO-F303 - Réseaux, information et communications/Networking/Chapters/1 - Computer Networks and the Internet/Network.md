@@ -1,11 +1,9 @@
 ---
 title: Network
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > A **network** is a collection of devices, routers, and links managed by an organization.
 >
@@ -14,6 +12,7 @@ tags:
 ^89dac9
 
 ## [[ULB - Sciences Informatiques/BA3/INFO-F303 - Réseaux, information et communications/Networking/Chapters/1 - Computer Networks and the Internet/Internet#^c8a6b5|Internet]] [[Protocol#^4bfd4c|Protocol]] Stack
+
 > [!abstract]- Five-Layer Architecture
 > **Application Layer**:
 > - **Function**: Support network applications

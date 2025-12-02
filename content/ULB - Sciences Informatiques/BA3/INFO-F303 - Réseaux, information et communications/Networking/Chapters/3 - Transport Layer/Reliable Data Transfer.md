@@ -1,11 +1,9 @@
 ---
 title: Reliable Data Transfer
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Reliable Data Transfer (RDT)** is the problem of ensuring data sent by a sender is received correctly and completely by a receiver, even when the underlying channel is unreliable. This is a fundamental challenge in network protocols, particularly for [[TCP]].
 

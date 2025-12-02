@@ -1,11 +1,9 @@
 ---
 title: AIMD
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **AIMD (Additive Increase Multiplicative Decrease)** is a congestion control algorithm used by [[TCP]] where senders gradually increase their sending rate until packet loss occurs, then sharply decrease it. This approach efficiently finds and utilizes available network capacity.
 

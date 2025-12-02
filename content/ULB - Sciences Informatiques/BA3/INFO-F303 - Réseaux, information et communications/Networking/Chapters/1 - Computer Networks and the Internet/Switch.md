@@ -1,11 +1,9 @@
 ---
 title: Switch
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > [[Forwarding#^bbdee6|Forward]] [[Packet#^150f99|packets]] (chunks of data) between devices.
 >

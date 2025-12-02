@@ -1,11 +1,9 @@
 ---
 title: Protocol
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > A **protocol** is a set of rules and standards that governs how devices communicate over a [[Network#^89dac9|network]], defining the format, timing, sequencing, and error handling for sending/receiving messages.
 

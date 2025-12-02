@@ -1,14 +1,14 @@
 ---
 title: Persistent HTTP
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Persistent HTTP** is an [[HTTP#^d88595|HTTP]] connection model where multiple objects can be sent over a single [[TCP]] connection, which remains open until explicitly closed. This approach significantly reduces latency and overhead compared to [[Non-persistent HTTP#^cf8bb7|non-persistent HTTP]].
+
 ## How It Works
+
 > [!abstract]- Connection Lifecycle
 > **Connection Reuse**:
 > 1. TCP connection is opened once
@@ -19,7 +19,9 @@ tags:
 > - Server leaves connection open after sending response
 > - Subsequent messages between same client/server use the same connection
 > - Client sends requests as soon as it encounters referenced objects
+
 ## Performance Advantages
+
 > [!success]+ Reduced Latency
 > **As little as one [[RTT]] for all referenced objects when requests are pipelined**
 >
@@ -27,7 +29,9 @@ tags:
 > - [[Non-persistent HTTP]]: 2 RTT per object
 > - Persistent HTTP: 2 RTT for first object, then ~1 RTT per additional object
 > - With pipelining: Can send multiple requests without waiting for responses
+
 ## Request Pipelining
+
 > [!info]+ How Pipelining Works
 > **Client sends requests back-to-back without waiting for responses**:
 > ```
@@ -50,7 +54,9 @@ tags:
 >
 > **Persistent HTTP (with pipelining)**:
 > - Total: ~3 RTT (2 RTT for first, then overlapped requests)
+
 ## Connection Management
+
 > [!note]+ Connection Headers
 > **HTTP/1.1 Headers**:
 > ```
@@ -75,7 +81,9 @@ tags:
 > - Responses must be sent in order
 > - Large response can block smaller ones
 > - Solved in [[HTTP 2]] with multiplexing
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - **[[Non-persistent HTTP]]**: The older approach this improves upon
 > - **[[HTTP 1.1]]**: Protocol version that made this the default

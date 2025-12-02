@@ -1,11 +1,9 @@
 ---
 title: RDT 3.1
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **RDT 3.1** simplifies [[RDT 3.0]] by eliminating NAK messages entirely. Instead of using NAK for errors, the sender's timeout mechanism handles both packet loss AND bit errors.
 

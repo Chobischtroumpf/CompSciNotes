@@ -1,11 +1,9 @@
 ---
 title: TCP Congestion Control
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **TCP Congestion Control** is a mechanism to prevent too many sources from sending too much data too fast for the network to handle. [[TCP]] uses end-to-end congestion control without explicit feedback from the network.
 

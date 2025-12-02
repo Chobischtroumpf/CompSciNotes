@@ -1,12 +1,9 @@
 ---
 title: Transport Layer
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
-  -
+  - Network
 ---
-
-w#Network
-
 > [!info]+ Definition
 > The **Transport Layer** provides logical communication between application processes running on different hosts, while the network layer provides logical communication between hosts.
 >

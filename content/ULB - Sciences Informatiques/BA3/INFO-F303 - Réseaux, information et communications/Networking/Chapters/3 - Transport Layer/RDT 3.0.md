@@ -1,11 +1,9 @@
 ---
 title: RDT 3.0
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **RDT 3.0** extends [[RDT 2.1]] to handle packet loss by introducing a timeout mechanism. The sender waits a "reasonable" amount of time for an ACK; if no ACK arrives, it retransmits the packet.
 

@@ -1,11 +1,9 @@
 ---
 title: RDT 3.2
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **RDT 3.2** fixes the race condition in [[RDT 3.1]] by adding sequence numbers to ACK messages. The receiver must specify which packet sequence number is being acknowledged, eliminating ambiguity.
 

@@ -1,11 +1,9 @@
 ---
 title: UDP
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **UDP (User Datagram Protocol)** is a connectionless, unreliable transport protocol that provides a "no-frills" extension of best-effort IP service. It offers minimal overhead for applications that don't need reliability guarantees.
 

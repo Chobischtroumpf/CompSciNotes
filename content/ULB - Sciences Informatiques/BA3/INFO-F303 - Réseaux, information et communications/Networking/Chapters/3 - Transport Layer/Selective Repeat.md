@@ -1,11 +1,9 @@
 ---
 title: Selective Repeat
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Selective Repeat (SR)** is a pipelined [[Reliable Data Transfer]] protocol where the receiver individually acknowledges all correctly received packets and buffers out-of-order packets for eventual in-order delivery. The sender maintains a timer for each unACKed packet and only retransmits individual lost packets.
 

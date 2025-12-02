@@ -1,11 +1,9 @@
 ---
 title: IoT
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 (worst thing on Earth)
 
 > [!info]+ Definition

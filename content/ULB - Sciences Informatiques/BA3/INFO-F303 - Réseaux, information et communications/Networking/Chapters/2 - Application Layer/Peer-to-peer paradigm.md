@@ -1,11 +1,9 @@
 ---
 title: Peer-to-peer paradigm
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > The **peer-to-peer (P2P) paradigm** is a distributed application architecture where peers (end systems) communicate directly with each other without relying on a centralized always-on server.
 
@@ -48,8 +46,10 @@ tags:
 > - **Security**: Harder to implement security measures
 > - **Inconsistent availability**: Peers may not always be online
 > - **Variable performance**: Depends on peer capabilities
+
 ## P2P Architecture
 ![[0c2143df5fcc0816231ecdcbbb924ef3.png]]
+
 ## Hybrid P2P Paradigms
 - Many applications use hybrid approaches that combine P2P communication with centralized coordination.
 
@@ -80,7 +80,9 @@ tags:
 > - Tracker coordinates which peers have which pieces
 > - Actual data transfer distributed across all peers
 > - Incredibly efficient for large file distribution
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - Compare with [[Client-server paradigm]]
 > - Uses [[Process#^6a45eb|processes]] and [[Socket#^d7aa97|sockets]] for communication

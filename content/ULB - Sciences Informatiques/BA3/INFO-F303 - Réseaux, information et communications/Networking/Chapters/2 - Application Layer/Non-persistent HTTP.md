@@ -1,17 +1,16 @@
 ---
 title: Non-persistent HTTP
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Non-persistent HTTP** is an [[HTTP]] connection model where at most one object is sent over a single [[TCP]] connection, after which the connection is closed. Multiple objects require multiple separate connections.
 
 ^cf8bb7
 
 ## How It Works
+
 > [!abstract]- Connection Lifecycle
 > **For Each Object**:
 > 1. TCP connection is opened
@@ -21,7 +20,9 @@ tags:
 > **Multiple Objects**:
 > - Require multiple sequential or parallel connections
 > - Each connection has its own setup and teardown overhead
+
 ## Performance Analysis
+
 > [!example]+ Loading a Web Page
 > User enters URL: `www.someSchool.edu/someDepartment/home.index`
 >
@@ -40,7 +41,9 @@ tags:
 > ```
 >
 > Where: `file transmission time = file size / average TCP throughput`
+
 ## Issues with Non-Persistent HTTP
+
 > [!fail]+ High Latency
 > - **Requires 2 [[RTT|RTTs]] per object**
 > - First RTT: TCP handshake
@@ -64,7 +67,9 @@ tags:
 > - TCP slow start for each object
 > - Wasted bandwidth on repeated handshakes
 > - Poor utilization of available bandwidth
+
 ## Mitigation Strategy
+
 > [!tip]+ Parallel Connections
 > **Browsers' Solution**:
 > - Open multiple parallel TCP connections simultaneously

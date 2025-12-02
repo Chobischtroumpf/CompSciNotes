@@ -1,11 +1,9 @@
 ---
 title: 3-way-handshake
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **3-way-handshake** is the standard [[TCP]] connection establishment protocol that uses three message exchanges to ensure both client and server are ready to communicate and agree on initial sequence numbers. It solves the problems inherent in [[2-way-handshake]].
 

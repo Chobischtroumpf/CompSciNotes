@@ -1,14 +1,14 @@
 ---
 title: HTTP 2
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **HTTP/2** is a major revision of the [[HTTP]] protocol that introduces multiplexing, header compression, and server push capabilities to dramatically improve web performance over [[HTTP 1.1]].
+
 ## Key Features
+
 > [!success]+ Decreased Delay
 > **Reduced latency for multi-object HTTP requests**:
 > - Parallel requests over single connection
@@ -25,7 +25,9 @@ tags:
 > - Schedule frames to mitigate Head-of-Line (HOL) blocking
 > - Interleave multiple object transmissions
 > - Better handling of varying object sizes
+
 ## Multiplexing
+
 > [!info]+ Multiple Streams Per Connection
 > **Single TCP connection carries multiple parallel streams**:
 >
@@ -44,14 +46,18 @@ tags:
 > - Small responses don't wait behind large ones
 > - Efficient use of single TCP connection
 > - No need for domain sharding
+
 ## Stream Prioritization
+
 > [!note]+ Priority Mechanism
 > **Transmission order depends on client priority**:
 > - Client assigns priority to each stream
 > - Server uses priorities to schedule frame transmission
 > - Critical resources (HTML, CSS) sent first
 > - Images and other assets sent after
+
 ## Server Push
+
 > [!info]+ Push Unrequested Objects
 > **Server can send resources before client requests them**:
 >
@@ -70,7 +76,9 @@ tags:
 > Server → Client: Pushed /style.css
 > Server → Client: Pushed /script.js
 > ```
+
 ## Binary Framing Layer
+
 > [!info]+ Binary vs Text
 > **HTTP/2 uses binary encoding** (unlike [[HTTP 1.1]]'s text):
 >
@@ -91,7 +99,9 @@ tags:
 > - **GOAWAY**: Connection closure
 > - **WINDOW_UPDATE**: Flow control
 > - **CONTINUATION**: Header continuation
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - **[[HTTP 1.1]]**: Previous version this improves upon
 > - **[[HTTP]]**: Main protocol overview

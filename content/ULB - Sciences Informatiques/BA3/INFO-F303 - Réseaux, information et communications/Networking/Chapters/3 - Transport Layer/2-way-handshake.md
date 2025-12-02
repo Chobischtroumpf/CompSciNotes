@@ -1,11 +1,9 @@
 ---
 title: 2-way-handshake
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **2-way-handshake** is a flawed connection establishment protocol where the client sends a connection request and the server responds with acceptance. This simple approach has critical vulnerabilities that make it unsuitable for [[TCP]].
 

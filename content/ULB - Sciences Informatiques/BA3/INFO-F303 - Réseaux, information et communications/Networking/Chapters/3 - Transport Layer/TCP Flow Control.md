@@ -1,11 +1,9 @@
 ---
 title: TCP Flow Control
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **TCP Flow Control** is a mechanism where the receiver controls the sender's transmission rate to prevent the sender from overwhelming the receiver's buffer by transmitting too much data too quickly.
 

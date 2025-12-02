@@ -1,14 +1,14 @@
 ---
 title: Socket programming
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Socket programming** is the practice of building client/server applications that communicate using [[Socket#^d7aa97|sockets]]. Applications can use either UDP or TCP protocols for communication.
+
 ## Socket Programming with UDP
+
 > [!abstract]- UDP Socket Characteristics
 > **Connectionless Communication**:
 > - No connection established between client and server

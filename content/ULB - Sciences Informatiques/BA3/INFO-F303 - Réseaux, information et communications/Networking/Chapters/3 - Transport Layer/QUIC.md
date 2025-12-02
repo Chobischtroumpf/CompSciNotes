@@ -1,11 +1,9 @@
 ---
 title: QUIC
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **QUIC (Quick UDP Internet Connections)** is an application-layer protocol built on top of [[UDP]] designed to increase performance of [[HTTP]]. QUIC combines connection establishment, reliability, congestion control, authentication, and encryption in a single handshake.
 

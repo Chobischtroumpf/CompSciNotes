@@ -1,11 +1,9 @@
 ---
 title: Conditional GET
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Conditional GET** is an [[HTTP]] mechanism that allows a client to request a resource only if it has been modified since a specific date or version, preventing unnecessary data transfer when the client's cached copy is still valid.
 
@@ -16,7 +14,9 @@ tags:
 > - Faster response for user
 > - Lower latency
 > - Reduced network congestion
+
 ## How Conditional GET Works
+
 > [!note]+ Client Side (Cache)
 > **Cache specifies date of cached copy in [[HTTP request message|HTTP request]]**:
 >
@@ -63,7 +63,9 @@ tags:
 > - Client updates cache
 
 ![[c3b3a8a38c8e677dac28363605c52460.png]]
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - **[[HTTP]]**: Main protocol framework
 > - **[[HTTP response message]]**: 304 status code details

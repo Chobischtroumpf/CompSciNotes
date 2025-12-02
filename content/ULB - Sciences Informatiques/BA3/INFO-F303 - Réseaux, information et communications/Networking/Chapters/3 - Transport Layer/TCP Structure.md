@@ -1,11 +1,9 @@
 ---
 title: TCP Structure
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > The **TCP segment structure** defines the format of [[TCP]] packets, including header fields that enable reliable, ordered, connection-oriented communication. The header contains critical information for connection management, flow control, and error detection.
 

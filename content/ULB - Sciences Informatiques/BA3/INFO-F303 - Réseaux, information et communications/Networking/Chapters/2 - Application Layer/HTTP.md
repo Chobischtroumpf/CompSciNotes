@@ -1,17 +1,16 @@
 ---
 title: HTTP
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **HTTP (HyperText Transfer Protocol)** is the Web's [[Application layer protocol|application layer protocol]]. Clients (browsers) request, receive, and display web objects. Servers respond with objects in return.
 
 ^d88595
 
 ![[b8788fa0fdee1813b07a0563b4ede41a.png]]
+
 > [!note]+ HTTP and TCP
 > HTTP uses [[TCP]] as its transport protocol:
 > **Connection Process**:
@@ -56,7 +55,9 @@ tags:
 > - HTTP communication consists of two types of messages:
 > 	- **[[HTTP request message]]**: Client asks for resources
 > 	- **[[HTTP response message]]**: Server provides requested content
+
 ## HTTP Features
+
 > [!note]+ Performance Concepts
 >
 > - **[[RTT]]**: Round-Trip Time measurement
@@ -68,7 +69,9 @@ tags:
 > - **[[Proxy server]]**: Web caches for improved performance
 > - Content validation
 > - Cache control headers
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - Works at the [[Application layer protocol|application layer]]
 > - Uses [[TCP]] for reliable transport

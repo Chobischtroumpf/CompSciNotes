@@ -1,18 +1,18 @@
 ---
 title: Application layer protocol
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > An **application layer protocol** defines the rules and conventions for communication between application [[Process#^6a45eb|processes]] running on different [[Host#^019621|hosts]]. It specifies the structure, meaning, and timing of messages exchanged.
 
 ^0376fb
 
 - Application layer protocols define the following elements:
+
 ### Message Types
+
 > [!note]+ Types of Messages Exchanged
 > - **Request messages**: Client asks for service or data
 > - **Response messages**: Server provides requested information
@@ -22,7 +22,9 @@ tags:
 > Examples:
 > - HTTP: `GET`, `POST`, `PUT`, `DELETE` (requests); 200 OK, 404 Not Found (responses)
 > - SMTP: `MAIL FROM`, `RCPT TO`, `DATA` (commands); 250 OK, 550 Rejected (responses)
+
 ### Message Syntax
+
 > [!note]+ Message Format and Structure
 > - **Field organization**: How message fields are arranged
 > - **Field delimiters**: Separators between fields (e.g., newlines, spaces)
@@ -36,20 +38,26 @@ tags:
 > User-Agent: Mozilla/5.0
 > [blank line]
 > ```
+
 ### Message Semantics
+
 > [!note]+ Meaning of Messages and Fields
 > - **Field interpretation**: What each field means
 > - **Message purpose**: What each message type accomplishes
 > - **Status codes**: Meaning of different response codes
 > - **Error handling**: How to interpret error conditions
 > Example: HTTP status code 404 means "requested resource not found"
+
 ### Message Timing
+
 > [!note]+ Rules for When and How
 > - **When to send**: Conditions triggering message transmission
 > - **How to respond**: Required actions upon receiving messages
 > - **Timeouts**: Maximum waiting times before retry or failure
 > - **Message ordering**: Sequence requirements for messages
+
 ## Protocol Types
+
 > [!success]+ Open Protocols
 > **Definition**: Publicly available protocols with specifications defined in RFCs (Request for Comments)
 >
@@ -100,7 +108,9 @@ tags:
 > - Error handling and recovery
 > - Security considerations
 > - Backward compatibility
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - Application protocols run on top of [[Transport Layer]] protocols
 > - Use [[Socket#^d7aa97|sockets]] to communicate with transport layer

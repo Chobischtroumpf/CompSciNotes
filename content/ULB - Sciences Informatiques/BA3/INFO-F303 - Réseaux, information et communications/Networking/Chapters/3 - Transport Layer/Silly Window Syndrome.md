@@ -1,11 +1,9 @@
 ---
 title: Silly Window Syndrome
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Silly Window Syndrome** is a [[TCP]] performance problem that occurs when applications read data one byte at a time from the receive buffer, causing the receiver to advertise tiny window updates and the sender to transmit small segments with disproportionate header overhead.
 

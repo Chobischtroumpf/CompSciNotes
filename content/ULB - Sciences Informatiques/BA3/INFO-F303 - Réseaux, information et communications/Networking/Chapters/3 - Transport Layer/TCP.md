@@ -1,11 +1,9 @@
 ---
 title: TCP
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **TCP (Transmission Control Protocol)** is a connection-oriented, reliable transport protocol that provides ordered, error-checked delivery of data between applications running on hosts. TCP guarantees all data arrives correctly and in the order it was sent.
 

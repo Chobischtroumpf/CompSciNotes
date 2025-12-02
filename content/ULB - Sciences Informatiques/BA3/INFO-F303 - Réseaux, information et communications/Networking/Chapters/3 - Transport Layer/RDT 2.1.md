@@ -1,11 +1,9 @@
 ---
 title: RDT 2.1
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **RDT 2.1** fixes the fatal flaw in [[RDT 2.0]] by adding sequence numbers to packets, allowing the receiver to detect and discard duplicate packets when ACK/NAK messages are corrupted.
 

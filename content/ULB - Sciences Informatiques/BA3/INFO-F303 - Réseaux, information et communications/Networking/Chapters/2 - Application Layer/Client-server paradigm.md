@@ -1,16 +1,16 @@
 ---
 title: Client-server paradigm
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > The **client-server paradigm** is a distributed application architecture where clients request services from always-on servers.
 
 ![[01d218d0fe8231b6dd34d5089679e6c9.png]]
+
 ## Characteristics
+
 > [!note]+ Server
 > - **Always-on host**
 > - **Permanent IP address**
@@ -31,7 +31,9 @@ tags:
 > - **Email**: Mail client ↔ Mail server (SMTP, IMAP, POP3)
 > - **DNS**: Resolver (client) ↔ DNS server
 > - **File transfer**: FTP client ↔ FTP server
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - [[Peer-to-peer paradigm]]: Alternative architecture
 > - [[Process]]: Clients and servers are processes

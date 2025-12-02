@@ -1,11 +1,9 @@
 ---
 title: Internet
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > The **Internet** is a [[Network#^89dac9|network]] of networks - interconnected ISPs (Internet Service Providers) that must be interconnected so that any two [[Host#^019621|hosts]] can send [[Packet#^150f99|packets]] to one another.
 
@@ -43,6 +41,7 @@ Given millions of access ISPs, how to connect them together?
 |               ![[92be16105b6c64e920b17ae9e3251c1f.png]]               |              ![[8e766c16ba2d0f215b15eea115e14b59.png]]               |                                  ![[161dcc81fdc6e7871239f593161bbac9.png]]                                   |
 | **Internet Exchange Points (IXPs)**: Peering points between ISPs |    **Regional ISPs**: Connect access networks to global ISPs    | **Content provider networks**: Private networks (Google, Microsoft) bypassing traditional ISP hierarchy |
 ## Current Internet Structure
+
 > [!abstract]- Hierarchical Structure
 >
 > ![[7f0e834b6955054e508d96d94fde16e3.png]]

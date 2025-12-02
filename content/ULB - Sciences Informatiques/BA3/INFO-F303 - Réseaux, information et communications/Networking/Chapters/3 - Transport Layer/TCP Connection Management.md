@@ -1,11 +1,9 @@
 ---
 title: TCP Connection Management
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **TCP Connection Management** is the process by which [[TCP]] establishes and terminates connections between sender and receiver through a handshaking procedure. Before exchanging data, endpoints agree to establish a connection and negotiate connection parameters.
 

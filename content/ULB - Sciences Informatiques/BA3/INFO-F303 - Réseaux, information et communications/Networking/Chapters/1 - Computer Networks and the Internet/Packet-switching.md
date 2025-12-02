@@ -1,11 +1,9 @@
 ---
 title: Packet-switching
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Packet-switching** is a method where hosts break application-layer messages into [[Packet|packets]], which are forwarded from one router to the next across links on the path from source to destination. Each packet is transmitted at full link capacity.
 

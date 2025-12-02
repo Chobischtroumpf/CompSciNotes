@@ -1,11 +1,9 @@
 ---
 title: Multiplexing
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Multiplexing** is the process used by the sender to handle data from multiple sockets, adding transport headers (including information used for [[Demultiplexing]]) before passing segments to the network layer.
 

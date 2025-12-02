@@ -1,60 +1,90 @@
 ---
 title: NAT
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
-> **NAT (Network Address Translation)** is a technique that allows all devices in a local network to share a single public IP address. All devices in the local network have 32-bit addresses in a "private" IP address space ($10/8$, $172.16/12$, $192.168/16$ prefixes) that can only be used in the local network.
+> **NAT (Network Address Translation)** is a technique that allows all devices in a local network to share a single public IP address. All outgoing packets have the same source NAT IP address (but different source port numbers), while incoming packets are translated back to private `10.0.0.0/24` addresses.
 
-> [!tip]+
+## Why Use NAT?
+
+> [!success]+ Advantages
+> **Address conservation:**
+> - Only one IP address needed from ISP for all devices
+> - Addresses private network exhaustion problem
 >
-> Advantages of NAT:
->
-> - Just one IP address needed from provider ISP for all devices
-> - Can change addresses of host in local network without notifying outside world
+> **Flexibility:**
+> - Can change addresses of hosts in local network without notifying outside world
 > - Can change ISP without changing addresses of devices in local network
-> - Security: devices inside local net not directly addressable, visible by outside world
+>
+> **Security:**
+> - Devices inside local network not directly addressable
+> - Not visible by outside world
 
-## Implementation
+## How NAT Works
 
-> [!abstract]+
+> [!abstract]+ Translation Process
+> ![[49dd31fc6943592c75dcee49141e0537.png]]
 >
-> NAT router must (transparently):
+> **Outgoing packets:**
+> - Replace source IP address and port # with NAT IP address and new port #
+> - Remote clients/servers respond using NAT IP address as destination
 >
-> **Outgoing packets:** replace (source IP address, port #) of every outgoing packet to (NAT IP address, new port #)
+> **NAT translation table:**
+> - Remembers every (source IP, port #) → (NAT IP, new port #) mapping
 >
-> - Remote clients/servers will respond using (NAT IP address, new port #) as destination address
->
-> **Remember** (in NAT translation table) every (source IP address, port #) to (NAT IP address, new port #) translation pair
->
-> **Incoming packets:** replace (NAT IP address, new port #) in destination fields of every incoming packet with corresponding (source IP address, port #) stored in NAT table
+> **Incoming packets:**
+> - Replace NAT IP address and new port # in destination fields
+> - Use corresponding source IP and port # from NAT table
 
-> [!example]+ Example
+> [!example]+ NAT Translation Example
 > ![[c2fdd32a619581ef58ff163644cb7e4d.png]]
-> 1. Host $10.0.0.1$ sends packet to $128.119.40.186$, port $80$
-> 2. NAT router changes packet source address from $10.0.0.1$, $3345$ to $138.76.29.7$, $5001$, updates table
-> 3. Reply arrives, destination address: $138.76.29.7$, $5001$
-> 4. NAT router changes packet dest addr from $138.76.29.7$, $5001$ to $10.0.0.1$, $3345$
+>
+> **Step-by-step process:**
+> 1. Host `10.0.0.1` sends packet to `128.119.40.186:80`
+> 2. NAT router changes source from `10.0.0.1:3345` to `138.76.29.7:5001`, updates table
+> 3. Reply arrives with destination `138.76.29.7:5001`
+> 4. NAT router changes destination from `138.76.29.7:5001` to `10.0.0.1:3345`
 
-## Additional Properties
+## NAT Traversal Problem
 
-> [!tip]+
+> [!warning]+ The Problem
+> **Scenario:** A client wants to connect to a server with address `10.0.0.1`
 >
-> - Possible to restrict incoming traffic even more (e.g., only from contacted outside host, by adding fields in WAN side of table)
-> - 16-bit port-number field: $60,000$ simultaneous connections with a single LAN-side address!
+> **Issues:**
+> - Server address `10.0.0.1` is local to LAN
+> - Client can't use it as destination address
+> - Only one externally visible NATed address exists: `138.76.29.7`
 
-> [!tip]+
+### Solutions
+
+> [!info]+ Solution 1: Static Configuration
+> Statically configure NAT to forward incoming connection requests at given port to server.
 >
-> NAT has been controversial:
+> **Example:** `138.76.29.7:2500` always forwarded to `10.0.0.1:25000`
+
+> [!info]+ Solution 2: Universal Plug and Play (UPnP)
+> ![[5b4ef4f4464009b4ae63610520c0e9f4.png]]
 >
-> - Routers "should" only process up to layer 3
-> - Address "shortage" should be solved by IPv6
-> - Violates end-to-end argument (port # manipulation by network-layer device)
-> - NAT traversal: what if client wants to connect to server behind NAT?
+> **Allows NATed host to:**
+> - Learn public IP address (`138.76.29.7`)
+> - Add/remove port mappings (with lease times)
 >
-> But NAT is here to stay:
+> Automates static NAT port map configuration.
+
+> [!info]+ Solution 3: Relaying
+> ![[bfe4fd0b845ee26e4ba603113884b16e.png]]
 >
-> - Extensively used in home and institutional nets, 4G/5G cellular nets
+> **Process:**
+> 1. NATed server establishes connection to relay
+> 2. External client connects to relay
+> 3. Relay bridges packets between two connections
+
+## Related Concepts
+
+> [!note]+ See Also
+> - **[[IPv4]]**: IP addressing fundamentals
+> - **[[Subnet]]**: Private network addressing
+> - **[[DHCP]]**: Often used with NAT for private networks
+> - **[[Network Layer]]**: Layer where NAT operates

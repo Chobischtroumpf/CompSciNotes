@@ -1,14 +1,14 @@
 ---
 title: HTTP response message
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > An **HTTP response message** is a message sent by a server to a client in response to an [[HTTP request message|HTTP request]]. It consists of a status line, headers, and optionally a message body containing the requested resource.
+
 ## Response Message Structure
+
 > [!note]+ Status Line
 > **First line of the response**:
 >
@@ -41,7 +41,9 @@ tags:
 > - Separated from headers by blank line
 > - Length specified by `Content-Length` header
 > - May be compressed (gzip, deflate)
+
 ## HTTP Response Example
+
 > [!example]+ Complete Response
 >
 > ```
@@ -63,6 +65,7 @@ tags:
 > - `\r\n` represents CRLF (Carriage Return + Line Feed)
 > - Empty line (`\r\n\r\n`) separates headers from body
 > - Body contains the actual HTML, JSON, or other content
+
 ## HTTP Status Codes
 The status code appears in the first line in the server-client response message.
 
@@ -124,7 +127,9 @@ The status code appears in the first line in the server-client response message.
 > |503|Service Unavailable|Server temporarily unavailable|
 > |504|Gateway Timeout|Upstream server timeout|
 > |505|HTTP Version Not Supported|HTTP version not supported by server|
+
 ## Common Response Headers
+
 > [!note]+ Server Information
 >
 > ```
@@ -203,7 +208,9 @@ The status code appears in the first line in the server-client response message.
 >
 > - **WWW-Authenticate**: Authentication method required
 > - **Set-Cookie**: Set cookies on client
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - **[[HTTP request message]]**: Client's request to server
 > - **[[HTTP]]**: Main protocol overview

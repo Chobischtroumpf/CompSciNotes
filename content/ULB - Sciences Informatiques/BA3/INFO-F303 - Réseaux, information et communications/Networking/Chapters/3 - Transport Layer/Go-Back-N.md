@@ -1,11 +1,9 @@
 ---
 title: Go-Back-N
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Go-Back-N (GBN)** is a pipelined [[Reliable Data Transfer]] protocol where the sender can have up to $N$ unacknowledged packets in the pipeline. It uses cumulative acknowledgments and retransmits all packets from the first unacknowledged packet onward when a timeout occurs.
 

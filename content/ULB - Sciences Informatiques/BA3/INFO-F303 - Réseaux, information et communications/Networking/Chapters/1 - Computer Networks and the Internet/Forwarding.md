@@ -1,11 +1,9 @@
 ---
 title: Forwarding
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Forwarding** is the local action of moving arriving [[Packet#^150f99|packets]] from a router's input link to the appropriate router output link.
 
@@ -18,6 +16,8 @@ tags:
 > - **Next hop information**: Where to send the packet next
 >
 > ![[1a1db336fbfa96c00d3e461a30e5d972.png]]
+
+^bb5745
 
 > [!abstract]- Forwarding vs [[Routing#^02e221|Routing]]
 >

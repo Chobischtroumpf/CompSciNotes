@@ -1,14 +1,14 @@
 ---
 title: HTTP request message
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > An **HTTP request message** is a message sent by a client to a server to request a resource or perform an action. It consists of a request line, headers, and optionally a message body.
+
 ## Request Message Structure
+
 ![[7d49708b48f80f02f9913028dfd39326.png]]
 
 > [!note]+ Request Line
@@ -42,7 +42,9 @@ tags:
 > - Contains form data, file uploads, JSON, etc.
 > - Separated from headers by blank line
 > - Length specified by `Content-Length` header
+
 ## HTTP Request Example
+
 > [!example]+ Complete GET Request
 >
 > ```
@@ -62,7 +64,9 @@ tags:
 > - `\r\n` represents CRLF (Carriage Return + Line Feed)
 > - Empty line (`\r\n\r\n`) separates headers from body
 > - No body in GET request (this example)
+
 ## HTTP Request Methods
+
 > [!info]+ GET
 > **Request data from a specified resource**
 >
@@ -230,7 +234,9 @@ tags:
 > - Authentication credentials
 > - Session tokens
 > - Cookies for state management
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - **[[HTTP response message]]**: Server's reply to requests
 > - **[[HTTP]]**: Main protocol overview

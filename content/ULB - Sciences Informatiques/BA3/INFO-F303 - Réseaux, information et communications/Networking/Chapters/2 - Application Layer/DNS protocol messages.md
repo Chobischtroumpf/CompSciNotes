@@ -1,17 +1,19 @@
 ---
 title: DNS protocol messages
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **DNS protocol messages** are the standardized format for queries and responses in the Domain Name System. These messages enable the translation of human-readable domain names to IP addresses.
+
 ## DNS Message Structure
+
 ![[9de3cc54950bf4e96565fd0d07511b17.png]]
 - DNS messages consist of several sections, each serving a specific purpose in the name resolution process.
+
 ## Message Header
+
 > [!note]+ Header Fields
 > **Identification**:
 > - **Size**: 16-bit number
@@ -24,7 +26,9 @@ tags:
 > - **Recursion Available**: Server indicates it can perform recursive queries
 > - **Authoritative Answer**: Server is authoritative for the domain
 > - **Additional flags**: Truncation, error codes, etc.
+
 ## Message Sections
+
 > [!note]+  Questions Section
 > **Purpose**: Contains the queries being asked
 >
@@ -72,7 +76,9 @@ tags:
 > - Improves efficiency
 >
 > **Example**: IP addresses of name servers listed in Authority section
+
 ## DNS Message Types
+
 > [!tip]+ DNS Query Message
 > **Characteristics**:
 > - Questions section contains the query
@@ -115,7 +121,9 @@ tags:
 >   ns1.example.com A 192.168.1.1
 >   ns2.example.com A 192.168.1.2
 > ```
+
 ## Message Flags in Detail
+
 > [!info]+ Query/Response Flag (QR)
 > - **0**: Message is a query
 > - **1**: Message is a response
@@ -134,7 +142,9 @@ tags:
 > - Set in responses
 > - Indicates server supports recursive queries
 > - Tells client if recursion is possible
+
 ## DNS Resource Records (RRs)
+
 > [!note]+ Resource Record Format
 > Each RR in the message contains:
 > - **Name**: Domain name
@@ -162,7 +172,9 @@ tags:
 > - Additional section provides related records
 > - TTL enables caching to reduce queries
 > - Multiple answers in one response when possible
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - DNS uses [[UDP]] (port 53) for most queries
 > - Uses [[TCP]] (port 53) for zone transfers or large responses

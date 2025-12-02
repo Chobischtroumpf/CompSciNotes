@@ -1,11 +1,9 @@
 ---
 title: Access network
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **Access networks** are physical media with wired/wireless [[Communication link#^b83bd9|communication links]] that connect end systems to edge routers.
 

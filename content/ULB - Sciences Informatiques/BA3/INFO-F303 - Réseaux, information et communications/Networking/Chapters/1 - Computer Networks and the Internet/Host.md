@@ -1,11 +1,9 @@
 ---
 title: Host
-authors: Alessandro Dorigo
+authors: Alessandro Dorigo, Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > End systems that run [[Network#^89dac9|network]] applications at Internet's "edge".
 >

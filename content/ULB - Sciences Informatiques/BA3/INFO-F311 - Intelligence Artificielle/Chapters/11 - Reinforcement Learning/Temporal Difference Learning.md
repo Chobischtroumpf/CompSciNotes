@@ -12,7 +12,7 @@ tags:
 > [!abstract]+ Learning from Every Experience
 > **Key principle:** Learn from every experience, not just at episode end
 >
-> ![[Pasted image 20251124142910.png]]
+> ![[d4918eebbe68ce18e01e22e22b89e85c.png]]
 >
 > **Contrast with [[Direct Evaluation]]:**
 > - Direct evaluation: Accumulates rewards, updates at episode end
@@ -83,7 +83,7 @@ tags:
 ## Example
 
 > [!example]+ TD Learning Walkthrough
-> ![[Pasted image 20251124143101.png]]
+> ![[818897ba0976207b4c25f68f170caabe.png]]
 >
 > **Setup:** Agent observes transitions $B \to C \to D$ with learning rate $\alpha = 0.5$, $\gamma = 1$
 >

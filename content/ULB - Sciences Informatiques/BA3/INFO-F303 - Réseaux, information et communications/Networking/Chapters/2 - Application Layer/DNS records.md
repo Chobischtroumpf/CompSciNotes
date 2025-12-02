@@ -1,14 +1,14 @@
 ---
 title: DNS records
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > **DNS Resource Records (RRs)** are entries in the [[DNS]] database that map domain names to various types of information. Each record has a specific format and purpose.
+
 ## Resource Record Format
+
 > [!note]+ RR Structure
 >
 > ```
@@ -19,7 +19,9 @@ tags:
 > - **value**: Data associated with the name (depends on type)
 > - **type**: Record type (A, NS, CNAME, MX, etc.)
 > - **ttl**: Time To Live (how long to cache the record)
+
 ## Record Types
+
 > [!info]+ A Record (Address)
 > **IPv4 address mapping**
 > - **name**: Hostname (e.g., `www.example.com`)
@@ -88,7 +90,9 @@ tags:
 > - **name**: Domain
 > - **value**: Text string
 > - **Purpose**: Store text information (SPF, DKIM, verification, etc.)
+
 ## Example DNS Zone
+
 > [!example]+ Complete Zone Example
 >
 > ```
@@ -101,7 +105,9 @@ tags:
 > ns2.example.com.     86400  IN  A      192.0.2.2
 > mail.example.com.    3600   IN  A      198.51.100.1
 > ```
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - [[DNS]]: Main DNS system overview
 > - [[DNS protocol messages]]: How records are queried and returned

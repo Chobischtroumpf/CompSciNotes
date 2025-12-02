@@ -27,7 +27,7 @@ tags:
 > [!example]+ Direct Evaluation Walkthrough
 > Consider the following MDP with $\gamma = 1$:
 >
-> ![[Pasted image 20251124140809.png]]
+> ![[649ee8e7486591fe105347793412da64.png]]
 >
 > **Episode analysis:**
 >
@@ -51,7 +51,7 @@ tags:
 > [!fail]+ Major Weakness: Information Waste
 > **Problem:** Direct evaluation wastes information about state transitions.
 >
-> ![[Pasted image 20251124141043.png]]
+> ![[7d6723d462f77d96687b9094fd30229d.png]]
 >
 > **Example issue:**
 > - States $B$ and $E$ both transition only to $C$ under $\pi$

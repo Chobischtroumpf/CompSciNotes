@@ -1,11 +1,9 @@
 ---
 title: Socket
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > A **socket** is the interface between the application layer and the transport layer within a host. Processes use sockets to send and receive messages to/from other processes.
 
@@ -32,7 +30,9 @@ tags:
 > Example port numbers:
 > - HTTP server: port 80
 > - SMTP mail server: port 25
+
 ## Related Concepts
+
 > [!note]+ See Also
 > - See [[Socket programming]] for implementation details
 > - Sockets are used in both [[Client-server paradigm]] and [[Peer-to-peer paradigm]]

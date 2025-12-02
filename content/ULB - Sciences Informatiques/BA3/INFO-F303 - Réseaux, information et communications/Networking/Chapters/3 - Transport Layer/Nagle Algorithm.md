@@ -1,11 +1,9 @@
 ---
 title: Nagle Algorithm
-authors: Alessandro Dorigo
+authors: Mihai Bors
 tags:
   - Network
 ---
-
-
 > [!info]+ Definition
 > The **Nagle Algorithm** is a [[TCP]] optimization that prevents sending many small segments when the application provides data in small units (e.g., one byte at a time). It reduces network overhead by buffering small amounts of data until conditions are met for efficient transmission.
 
