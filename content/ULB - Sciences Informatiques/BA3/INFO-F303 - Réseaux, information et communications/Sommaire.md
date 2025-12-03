@@ -124,15 +124,17 @@ tags:
 - [[IP Fragmentation and Reassembly]]
 - [[IPv6]]
 	- [[IPv6 Structure]]
-
-**TODO:**
-
 - [[Router Architecture]]
-	- [[Router Input Ports]]
 	- [[Switching Fabric]]
-		- [[Memory-based Switching]]
-		- [[Bus-based Switching]]
-		- [[Interconnection Network]]
-	- [[Port Queuing]]
+	- [[Port Queueing]]
 
 ## Chapter 5: Network Layer Control Plane
+- [[ICMP]]
+- [[Per-router Control Plane]]
+- [[Link Cost]]
+	- [[Optimality Principle]]
+- [[Link-State Routing]]
+	- [[OSPF]]
+- [[Distance Vector Algorithm]]
+	- [[RIP]]
+- [[Autonomous Systems]]

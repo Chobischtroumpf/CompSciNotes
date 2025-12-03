@@ -5,34 +5,61 @@ tags:
   - Network
 ---
 > [!info]+ Definition
-> The [[Switch#^97dbe2|router]] architecture consists of two main planes: the control plane and the data plane.
+> **Router architecture** describes the internal structure of a router, consisting of two main functional planes: the [[Control Plane]] (routing processor) operating in software, and the [[Data Plane]] (high-speed switching fabric) operating in hardware.
 
-> [!abstract]+ High-Level View
+## High-Level Architecture
+
+> [!abstract]+ Router Components
 > ![[001c5c38d94e16fee83abac4a864291b.png]]
 >
-> **Routing processor (control plane):**
-> - Software-based component
-> - Handles routing, management
-> - Operates in millisecond time frame
->
-> **[[Switching Fabric|High-speed switching fabric]] (data plane):**
-> - Hardware-based component
-> - Handles forwarding
-> - Operates in nanosecond time frame
->
-> **[[Router Input Ports]]:**
-> - Receive incoming packets
-> - Connected to switching fabric
->
-> **[[Router output ports]]:**
-> - Send outgoing packets
-> - Connected to switching fabric
+> | Component | Plane | Implementation | Time Frame |
+> |-----------|-------|----------------|------------|
+> | Routing processor | [[Control Plane]] | Software | Milliseconds |
+> | [[Switching Fabric]] | [[Data Plane]] | Hardware | Nanoseconds |
+> | Input/Output ports | [[Data Plane]] | Hardware | Nanoseconds |
 
-> [!tip]+ Architecture division
+## Input Port Processing
+
+> [!note]+ Input Port Pipeline
+> ![[ec8c2d996dc5b0f4a8cb47316c0701f3.png]]
 >
-> The architecture is divided into two distinct planes:
+> **Three-stage processing:**
 >
-> - **Routing, management control plane** (software): operates in millisecond time frame
-> - **Forwarding data plane** (hardware): operates in nanosecond time frame
+> | Stage | Function |
+> |-------|----------|
+> | Physical layer | Bit-level reception (line termination) |
+> | Link layer | Protocol processing (e.g., Ethernet) |
+> | Lookup/Forwarding | Destination lookup and queueing |
+
+> [!success]+ Decentralized Switching
+> **Goal:** Complete input port processing at "line speed"
 >
-> The routing processor communicates with the high-speed switching fabric, which connects multiple input ports to multiple output ports.
+> **Operations performed:**
+> - Use IP header fields to lookup output port via forwarding table
+> - Decrement TTL
+> - Update packet count statistics
+> - Queue packets if they arrive faster than fabric can switch
+>
+> **Forwarding approaches:**
+> - **Destination-based:** Forward based only on destination IP (traditional)
+> - **Generalized:** Forward based on any set of header field values
+
+## Output Port Processing
+
+> [!note]+ Output Port Functions
+> **Transmit-side operations:**
+> - Receive packets from [[Switching Fabric|switching fabric]]
+> - Buffer packets in output queue
+> - Schedule packets for transmission
+> - Perform link-layer encapsulation
+> - Transmit on outgoing link
+
+## Related Concepts
+
+> [!note]+ See Also
+> - **[[Control Plane]]**: Network-wide routing logic
+> - **[[Data Plane]]**: Per-router forwarding function
+> - **[[Switching Fabric]]**: Transfers packets between ports
+> - **[[Port Queueing]]**: Input and output buffering
+> - **[[Longest Prefix Matching]]**: Lookup algorithm used in input ports
+> - **[[Network Layer]]**: Layer where routers operate
