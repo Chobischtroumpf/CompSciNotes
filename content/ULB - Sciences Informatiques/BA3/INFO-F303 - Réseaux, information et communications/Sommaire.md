@@ -136,5 +136,6 @@ tags:
 - [[Link-State Routing]]
 	- [[OSPF]]
 - [[Distance Vector Algorithm]]
-	- [[RIP]]
+	- [[Routing Information Protocol]]
 - [[Autonomous Systems]]
+- [[BGP]]

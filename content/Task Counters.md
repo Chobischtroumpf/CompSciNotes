@@ -14,7 +14,7 @@ Tasks with progress counters:
 - [ ] Info Fond: TP [13/41]
 - [ ] ThInfo: Theory [81/250]
 - [ ] ThInfo: TP [0/120]
-- [ ] Networking: Theory [344/491]
+- [ ] Networking: Theory [402/491]
 - [ ] Networking: Exams [0/6]
 - [ ] Algo Ro: Theory [79/461]
 - [ ] Algo Ro: TP [6/43]
@@ -22,4 +22,4 @@ Tasks with progress counters:
 - [ ] Mod Sim: TP [0/7]
 
 ---
-*Last updated: 11/25/2025, 3:55:41 PM*
+*Last updated: 12/3/2025, 4:29:39 PM*

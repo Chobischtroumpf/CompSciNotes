@@ -159,7 +159,7 @@ tags:
 > **Solutions:**
 > - Split horizon: Don't advertise routes back to where you learned them
 > - Poison reverse: Advertise infinity for routes learned from a neighbor back to that neighbor
-> - Define infinity as a small number (e.g., 16 in [[RIP]])
+> - Define infinity as a small number (e.g., 16 in [[Routing Information Protocol]])
 
 ## Poisoned Reverse
 

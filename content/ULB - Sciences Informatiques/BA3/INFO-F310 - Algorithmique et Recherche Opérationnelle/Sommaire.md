@@ -56,14 +56,14 @@ En partant d'un énoncé/problème donné, on va:
 		-  [[exemple théorème d'équivalence|jsp frr, il le sort de son cul]]
 		- [[fast food]]
 
-# 3 - Résolution 
-- résolution 
+# 3 - Résolution
+- résolution
 	- [[méthode graphique]]
 		- [[production de peinture#méthode graphique avec programme linéaire|exemple]]
 	- [[méthode du simplexe]]
 		- [[production de peinture#méthode du simplexe|exemple]]
 	- [[méthode des deux phases]]
-- à savoir 
+- à savoir
 	- [[règles de standardization]]
 		- [[exemples règles de standardization]]
 	- cas particuliers
@@ -76,3 +76,42 @@ En partant d'un énoncé/problème donné, on va:
 		- [[problèmes impossibles]]
 - ahahahahahah c'est trop marrant
 	- [[interprétation économique]]
+
+# 4 - jsp frr
+- problèmes
+	- [[problème de maximisation]]
+	- [[problème de minimisation]]
+- [[dualité]]
+	- [[problème dual]]
+		- [[problème dual#propriétés du dual|propriétés]]
+		- [[problème dual#construction|construction]]
+			- [[problème dual#construction sous forme matriciel|sous forme matricielle]]
+			- [[problème dual#construction en tableau indiciel|en tableau indiciel]]
+	- relation primal dual
+		- [[dualité faible]]
+			- [[dualité faible#preuve|preuve]]
+			- [[dualité faible#conséquence du théorème|conséquence]]
+		- [[dualité forte]]
+			-  [[dualité forte#interprétation|interprétation]]
+			-  [[dualité forte#démonstration|preuve 1]]
+			- [[dualité forte#autre démonstration (plus courte car why not)|preuve 2]]
+		- [[corollaire de la dualité forte]]
+		- [[synthèse relation primal-dual]]
+- complémentarité
+	-  [[1er théorème des écarts complémentaires]]
+	- [[2e théorème des écarts complémentaires]]
+		- [[2e théorème des écarts complémentaires#exemple|exemple]]
+- interprétation économique
+	-  [[interprétation économique dualité faible et forte]]
+		- [[interprétation économique dualité faible et forte#exemple|exemple]]
+	- [[corollaire du théorème de la dualité forte]]
+		- [[corollaire du théorème de la dualité forte#interprétation économique| interprétation eco]]
+	-  [[méthode simplexe duale]]
+		-  [[méthode simplexe duale#théorème 1|théorème 1]]
+		-  [[méthode simplexe duale#motivation|motivation]]
+		- [[méthode simplexe duale#relations|relation]]
+		- [[méthode simplexe duale#théorème 2|théorème 2]]
+		-  [[méthode simplexe duale#principe|principe]]
+- exemples
+	- [[exemple primal dual 1]]
+	- [[exemple primal-dual 2]]

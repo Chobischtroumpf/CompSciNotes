@@ -6,7 +6,7 @@ tags:
   - BA1
 ---
 ### Notes:
-[[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - problème SAT/littéraux et clauses/définitions]]
+[[ULB - Sciences Informatiques/BA3/INFO-F302 - Informatique fondamentale/Chapitres/2 - Problème SAT/littéraux et clauses/définitions]]
 
 # Syllabus:
 

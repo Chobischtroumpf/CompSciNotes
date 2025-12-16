@@ -27,7 +27,7 @@ tags:
 >
 > | Level | Name | Scope | Protocol Examples |
 > |-------|------|-------|-------------------|
-> | **Intra-AS** | Intradomain | Within same AS | [[OSPF]], [[RIP]], IS-IS, EIGRP |
+> | **Intra-AS** | Intradomain | Within same AS | [[OSPF]], [[Routing Information Protocol]], IS-IS, EIGRP |
 > | **Inter-AS** | Interdomain | Among ASes | [[BGP]] |
 >
 > **Key principle:**
@@ -55,7 +55,7 @@ tags:
 > |----------|------|----------|-------|
 > | **[[OSPF]]** | Link-state | RFC 2328 | Most widely used |
 > | **IS-IS** | Link-state | ISO standard | Similar to OSPF, older |
-> | **[[RIP]]** | Distance vector | RFC 1723 | No longer widely used |
+> | **[[Routing Information Protocol]]** | Distance vector | RFC 1723 | No longer widely used |
 > | **EIGRP** | Distance vector | RFC 7868 | Formerly Cisco-proprietary |
 
 ## Inter-AS Routing
@@ -90,7 +90,7 @@ tags:
 
 > [!note]+ See Also
 > - **[[OSPF]]**: Link-state intra-AS protocol
-> - **[[RIP]]**: Distance vector intra-AS protocol
+> - **[[Routing Information Protocol]]**: Distance vector intra-AS protocol
 > - **[[Link-State Routing]]**: Algorithm used by OSPF
 > - **[[Distance Vector Algorithm]]**: Algorithm used by RIP
 > - **[[Hierarchical Addressing]]**: Route aggregation
