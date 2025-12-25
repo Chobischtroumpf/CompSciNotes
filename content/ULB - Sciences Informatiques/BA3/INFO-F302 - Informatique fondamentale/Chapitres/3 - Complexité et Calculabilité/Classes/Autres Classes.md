@@ -84,4 +84,3 @@ tags:
 > - **[[Classe P]]** : Base de la hiérarchie
 > - **[[Classe NP]]** : Classe centrale
 > - **[[Problème de Décision]]** : Cadre formel
-> - **[[Théorème de Hiérarchie]]** : Sépare certaines classes

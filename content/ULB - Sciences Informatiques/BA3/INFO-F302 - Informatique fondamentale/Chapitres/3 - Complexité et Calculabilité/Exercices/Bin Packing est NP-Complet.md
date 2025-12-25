@@ -111,18 +111,6 @@ tags:
 >
 > **Conséquence** : Sauf si P = NP, il n'existe pas d'algorithme polynomial pour Bin Packing.
 
-## Remarques
-
-> [!tip]+ Observations
-> **Généralisation** :
-> - Cette preuve montre que Bin Packing est difficile même pour $k = 2$ sacs
-> - Le problème reste NP-complet pour tout $k$ fixé $\geq 2$
->
-> **Approches pratiques** :
-> - Algorithmes d'approximation (First Fit, Best Fit)
-> - Heuristiques
-> - Programmation linéaire en nombres entiers
-
 ## Concepts Associés
 
 > [!note]+ Voir Aussi

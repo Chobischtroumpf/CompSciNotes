@@ -115,3 +115,69 @@ En partant d'un énoncé/problème donné, on va:
 - exemples
 	- [[exemple primal dual 1]]
 	- [[exemple primal-dual 2]]
+
+# 6 - problème de transport 
+(oui y a pas chap 5 car ils ont décidé de fusionner 4 et 5 ensemble car why not)
+- problème de transport 
+	- exemple
+	- variantes
+		- modèle de production 
+			- correspondances avec le modèle de tranport 
+	- algorithme 
+		- etape 1 : base admissible 
+			- méthode : coin nord-ouest
+			- méthode : moindes coûts 
+		- exemple
+	- formulation 
+		- problème primal 
+		- problème dual 
+	- adaptation du simplexe 
+		- méthode 
+		- étape 1 : détermination variables duales 
+		- étape 2 : critère d'optimalité 
+		- étapes ...
+		- exemple
+- problème de transbordement
+
+# 7 - flot maximum
+- définitions
+	- flot maximum 
+	- _st_-flot
+	- coupe 
+		- capacité d'une coupe 
+	- _st_-coupe
+		- exemples
+		- propriétés
+		- asymétrie
+		- lemme
+	- dualité 
+		- dualité faible
+		- dualité forte
+	- formulation problème de flot maximal
+- formulation du PL dual 
+	- variables duales 
+	- problème dual 
+	- formulation indicielle → matricielle 
+	- formulation matricielle 
+		- exemple 
+- théorème de Ford-Fulkerson
+	- théorème flot-max/coupe-min 
+		- conséquence 
+	- théorème de Menger 
+- algorithme de Ford-Fulkerson 
+	- arcs en avant/en arrière 
+	- chemin augmentant 
+	- critère d'optimalité
+	- graphe résiduel 
+	- méthode 
+		- idée 
+		- phase de marquage 
+		- phase d'augmentation 
+	- complexité
+	- exemple
+- algorithme d'Edmonds Karp
+	- lemme 
+	- méthode 
+	- propriétés
+	- exemple
+- théorème du flot entier 

@@ -97,23 +97,6 @@ tags:
 > - **Certificat** : Non trivial !
 > - **Note** : Démontré dans P en 2002 (AKS)
 
-## NP-Dur et NP-Complet
-
-> [!info]+ Définition NP-Dur
-> Un problème $P$ est **NP-dur** si :
->
-> Tout problème $P'$ de NP se réduit à $P$ en temps polynomial
->
-> C'est-à-dire, il existe un algorithme $T$ de complexité polynomiale tel que :
-> - Pour tout mot $u'$, on a $u' \in P'$ si et seulement si $T(u') \in P$
-
-> [!info]+ Définition NP-Complet
-> Un problème est **NP-complet** s'il est :
-> 1. Dans NP
-> 2. NP-dur
->
-> Ce sont les problèmes "les plus difficiles" de NP.
-
 ### Exemples de Problèmes NP-Complets
 
 > [!example]+ Problèmes Complets
@@ -125,18 +108,6 @@ tags:
 > - **2-Partition**
 > - **Couverture de Sommets** : Étant donné un graphe et un entier $k$, peut-on trouver un sous-ensemble $S$ de sommets tel que chaque arête a au moins une extrémité dans $S$ ?
 
-## Propriété de Transitivité
-
-> [!abstract]+ Propagation de la Dureté
-> Si $A$ est NP-dur et $A$ se réduit à $B$ en temps polynomial, alors $B$ est NP-dur.
->
-> **Preuve** :
-> - Soit $X \in$ NP quelconque
-> - $X$ se réduit à $A$ (car $A$ est NP-dur)
-> - $A$ se réduit à $B$ (hypothèse)
-> - Par transitivité des réductions : $X$ se réduit à $B$
-> - Donc $B$ est NP-dur
-
 ## Concepts Associés
 
 > [!note]+ Voir Aussi
@@ -144,4 +115,3 @@ tags:
 > - **[[Algorithme de Vérification]]** : Définit l'appartenance à NP
 > - **[[Conjecture P ≠ NP]]** : Question fondamentale
 > - **[[Réduction Polynomiale]]** : Pour montrer la NP-dureté
-> - **[[Théorème de Cook-Levin]]** : Premier problème NP-complet

@@ -50,20 +50,6 @@ tags:
 > 11. Comme $Y$ était arbitraire : $NP \subseteq P$
 > 12. Conclusion : **P = NP**
 
-## Conséquences Pratiques
-
-> [!warning]+ Implications pour la Recherche
-> **Si vous ne trouvez pas d'algorithme polynomial pour un problème NP-complet** :
-> - Ce n'est probablement pas de votre faute !
-> - Soit votre algorithme est incorrect
-> - Soit vous venez de prouver que P = NP (et gagner 1 million de dollars)
->
-> **Recommandations** :
-> - Chercher des algorithmes d'approximation
-> - Développer des heuristiques
-> - Résoudre des cas particuliers
-> - Utiliser des algorithmes exponentiels efficaces en pratique
-
 ## Stratégies Alternatives
 
 > [!tip]+ Approches face à la NP-Complétude
@@ -113,38 +99,6 @@ tags:
 > - Premier problème NP-complet (Cook-Levin, 1971)
 > - Solveurs modernes très efficaces en pratique
 > - Techniques : DPLL, clause learning, CDCL
-
-## Hiérarchie de Difficulté
-
-> [!abstract]+ Classification
-> **Si P ≠ NP** (ce qui est probable) :
->
-> ```
-> P (facile)
->   |
->   ├─ Tri : O(n log n)
->   ├─ Plus court chemin : O(n²)
->   ├─ Primalité : O(log⁶ n)
->   └─ ...
->
-> NP \ P (difficile)
->   |
->   ├─ SAT (NP-complet)
->   ├─ 3-SAT (NP-complet)
->   ├─ TSP (NP-complet)
->   ├─ Graphe k-coloriable (k≥3) (NP-complet)
->   └─ ...
-> ```
-
-## Conséquence Psychologique
-
-> [!tip]+ Pour le Chercheur
-> **Message important** :
-> - Si vous cherchez depuis longtemps un algorithme polynomial pour un problème NP-complet
-> - Et que vous ne trouvez pas
-> - Ce n'est pas forcément un échec personnel
-> - C'est probablement qu'il n'existe pas (sous l'hypothèse P ≠ NP)
-> - Changez d'approche : approximation, heuristiques, cas particuliers
 
 ## Concepts Associés
 

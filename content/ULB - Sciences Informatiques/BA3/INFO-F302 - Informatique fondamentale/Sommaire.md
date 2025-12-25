@@ -7,6 +7,8 @@ tags:
   - InfoFond
   - Maths
 ---
+[[Définitions à mémoriser]]
+
 # Chapitre 0: Introduction
 - [[Théorème d'Incomplétude de Gödel]]
 - [[Informatique Fondamentale]]

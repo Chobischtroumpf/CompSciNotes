@@ -32,17 +32,6 @@ tags:
 > **Préservation de NP** :
 > - Si $A \leq_p B$ et $B \in NP$, alors $A \in NP$
 
-## Utilisation pour la NP-Dureté
-
-> [!abstract]+ Montrer la NP-Dureté
-> Pour montrer qu'un problème $B$ est NP-dur :
->
-> 1. Choisir un problème $A$ connu NP-complet
-> 2. Construire une réduction $f : A \leq_p B$
-> 3. Prouver que $f$ est correcte (préserve la réponse)
-> 4. Prouver que $f$ est calculable en temps polynomial
-> 5. Conclure : $B$ est NP-dur
-
 ## Exemple : 2-Partition vers Bin Packing
 
 > [!example]+ Réduction Concrète
@@ -67,52 +56,6 @@ tags:
 > - Si rangement valide : objets du sac 1 forment une partition
 >
 > **Complexité** : $O(n)$ (calcul de $S$ et construction de l'instance)
-
-## Composition de Réductions
-
-> [!abstract]+ Lemme de Composition
-> **Énoncé** : Si $A \leq_p B$ via $f$ en temps $O(n^c)$ et $B \leq_p C$ via $g$ en temps $O(n^d)$, alors $A \leq_p C$ via $g \circ f$ en temps $O(n^{cd})$.
->
-> **Preuve** :
-> 1. **Correction** :
->    - $x \in A \Leftrightarrow f(x) \in B$ (car $f$ est une réduction)
->    - $f(x) \in B \Leftrightarrow g(f(x)) \in C$ (car $g$ est une réduction)
->    - Donc $x \in A \Leftrightarrow (g \circ f)(x) \in C$
->
-> 2. **Complexité** :
->    - Taille de $f(x)$ : $O(n^c)$
->    - Temps pour calculer $g(f(x))$ : $O((n^c)^d) = O(n^{cd})$
->    - Polynomial car $cd$ est une constante
-
-## Propagation de la Dureté
-
-> [!abstract]+ Théorème
-> **Si $A$ est NP-dur et $A \leq_p B$, alors $B$ est NP-dur.**
->
-> **Preuve** :
-> - Soit $X \in NP$ quelconque
-> - $X \leq_p A$ (car $A$ est NP-dur, par définition)
-> - $A \leq_p B$ (hypothèse)
-> - Par transitivité : $X \leq_p B$
-> - Comme $X$ était arbitraire : tout problème de NP se réduit à $B$
-> - Donc $B$ est NP-dur
-
-## Template de Preuve
-
-> [!tip]+ Modèle de Démonstration
-> Pour montrer qu'un problème $B$ est NP-complet :
->
-> **Étape 1** : Montrer que $B \in NP$
-> - Décrire un certificat
-> - Donner un algorithme de vérification polynomial
->
-> **Étape 2** : Montrer que $B$ est NP-dur
-> - Choisir $A$ NP-complet (souvent 3-SAT)
-> - Construire $f : A \leq_p B$
-> - Prouver : $x \in A \Leftrightarrow f(x) \in B$
-> - Prouver : $f$ calculable en temps polynomial
->
-> **Conclusion** : $B$ est NP-complet
 
 ## Concepts Associés
 

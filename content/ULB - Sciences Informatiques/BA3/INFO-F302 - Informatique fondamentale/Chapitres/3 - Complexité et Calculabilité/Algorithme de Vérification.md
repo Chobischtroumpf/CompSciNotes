@@ -16,15 +16,6 @@ tags:
 >
 > Quand $A(u, v) = 1$, on dit que $v$ est un **certificat** pour $u$.
 
-## Interprétation
-
-> [!tip]+ Signification Intuitive
-> Un algorithme de vérification permet de vérifier qu'une **solution candidate** à un problème est valide.
->
-> **Différence avec algorithme de décision** :
-> - **Algorithme de décision** : Trouve la solution
-> - **Algorithme de vérification** : Vérifie une solution proposée
-
 ## Exemples
 
 > [!example]+ Coloriage de Graphes
@@ -78,4 +69,3 @@ tags:
 > - **[[Algorithme de Décision]]** : Variante sans certificat
 > - **[[Classe NP]]** : Définie via les algorithmes de vérification
 > - **[[Problème de Décision]]** : Type de problème vérifié
-> - **[[Certificat]]** : Témoin de la solution
